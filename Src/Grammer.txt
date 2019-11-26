@@ -1,6 +1,0 @@
-ROOT : GLOBAL_STATEMENTS { g_root = $1; }
-
-GLOBAL_STATEMENTS : "function" fucntion_name "(" argument_list ")" { FUNCTION_DEC }
-    |   STATEMENT_LISTS
-
-STATEMENT_LISTS : 
