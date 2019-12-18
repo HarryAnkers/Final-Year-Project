@@ -3,7 +3,7 @@
 #include <string>
 #include <map>
 
-Variable::Variable(bool new_flag, std::string &type, State &state) {
+Variable::Variable(bool new_flag, std::string type, State &state) {
     if (new_flag) {
         int curVarId = state.varId;
         state.varId++;

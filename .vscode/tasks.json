@@ -13,6 +13,14 @@
             "options": {
                 "cwd": "/usr/bin"
             }
+        },
+        {
+            "type": "julia",
+            "command": "juliasysimagebuild",
+            "problemMatcher": [
+                ""
+            ],
+            "group": "build"
         }
     ],
     "version": "2.0.0"

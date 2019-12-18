@@ -8,7 +8,7 @@ class Variable : public ASTNode
 public:
     std::string var_name;
 
-    Variable(bool new_flag, std::string &type, State &state);
+    Variable(bool new_flag, std::string type, State &state);
 
     //output_text
     void output_text(std::ostream &dst);
