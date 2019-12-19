@@ -6,7 +6,6 @@ mutable struct AssignStatement <: Node
 end
 
 function init(self::AssignStatement)
-    println("AssignStatement")
     # self.variable = Primatives(self.state)
     # init(self.variable)
     # self.expr = Expression(self.state)
@@ -15,8 +14,7 @@ function init(self::AssignStatement)
 end
 
 function create_text(self::AssignStatement)
-    write(self.state.file, "--AssignStatement--")
-    write(self.state.file, string(self.variable, " = "))
+    write_pretty(self.indent, self.state, string(self.variable, " = "))
     create_text(self.expr)
     write(self.state.file, "\n")
 end

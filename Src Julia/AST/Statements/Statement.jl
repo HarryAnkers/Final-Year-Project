@@ -9,15 +9,14 @@ function init(self::Statement)
     if self.state.scopeRecursion > 5
         rand_n = 101
     end
-    if rand_n < 10
-        sub_statement = IfStatement(self.state)
-        init(sub_statement)
+    if rand_n < 8
+        self.sub_statement = IfStatement(self.state)
+        init(self.sub_statement)
     end
 end
 
 function create_text(self::Statement)
     if self.sub_statement !== nothing
-        write(self.state.file,"--statement--")
         create_text(self.sub_statement)
     end
 end

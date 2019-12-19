@@ -4,7 +4,7 @@ mutable struct Expression <: Node
 end
 
 function init(self::Expression)
-    println("Expression")
+    # println("Expression")
     # rand_n = rand(1:100)
     # if rand_n < 90
     #     self.statement = Statement(self.state,nothing)
