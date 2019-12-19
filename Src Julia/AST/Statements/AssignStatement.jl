@@ -1,20 +1,24 @@
 mutable struct AssignStatement <: Node
     state :: State
-    variable :: String
+    indent :: Int
+    variable
     expr
-    AssignStatement(state_in) = new(state_in,nothing,nothing)
+    AssignStatement(state_in) = new(state_in,0,nothing,nothing)
 end
 
 function init(self::AssignStatement)
-    # self.variable = Primatives(self.state)
-    # init(self.variable)
-    # self.expr = Expression(self.state)
-    # init(self.expr)
-    self.variable = "variable"
+    self.indent = self.state.scope
+    self.variable = Variable(self.state,true)
+    init(self.variable)
+    self.expr = Expression(self.state)
+    init(self.expr)
 end
 
 function create_text(self::AssignStatement)
-    write_pretty(self.indent, self.state, string(self.variable, " = "))
+    
+    write_pretty(self.indent, self.state, "")
+    create_text(self.variable)
+    write(self.state.file, " = ")
     create_text(self.expr)
     write(self.state.file, "\n")
 end

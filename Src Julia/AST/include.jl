@@ -16,3 +16,8 @@ include("./Statements/AssignStatement.jl")
 
 #needs Primatives
 include("./Expressions/Expression.jl")
+
+#needs Expression
+include("./Expressions/Op.jl")
+
+include("./Expressions/Primatives.jl")

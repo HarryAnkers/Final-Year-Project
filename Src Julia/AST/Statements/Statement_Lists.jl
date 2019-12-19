@@ -6,8 +6,8 @@ mutable struct Statement_Lists <: Node
 end
 
 function init(self::Statement_Lists)
-    rand_n = rand(1:100)
-    if rand_n < 90
+    rand_n = rand(0:100)
+    if rand_n < 95
         self.statement = Statement(self.state)
         init(self.statement)
 

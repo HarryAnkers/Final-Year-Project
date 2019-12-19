@@ -11,16 +11,16 @@ mutable struct IfStatement <: Node
 end
 
 function init(self::IfStatement)
-    self.indent = self.state.scopeRecursion
-    self.state.scopeRecursion += 1
+    self.indent = self.state.scope
+    self.state.scope += 1
     self.expr = Expression(self.state)
     init(self.expr)
     
     self.statement = Statement_Lists(self.state)
     init(self.statement)
 
-    rand_n = rand(1:100)
-    if self.state.scopeRecursion > 3
+    rand_n = rand(0:100)
+    if self.state.scope > 3
         rand_n = 101
     end
     if rand_n < 20
@@ -30,7 +30,7 @@ function init(self::IfStatement)
         self.else_statement = Statement_Lists(self.state)
         init(self.else_statement)
     end
-    self.state.scopeRecursion -= 1
+    self.state.scope -= 1
 end
 
 function create_text(self::IfStatement)

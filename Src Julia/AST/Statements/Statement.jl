@@ -5,12 +5,15 @@ mutable struct Statement <: Node
 end
 
 function init(self::Statement)
-    rand_n = rand(1:100)
-    if self.state.scopeRecursion > 5
+    rand_n = rand(0:100)
+    if self.state.scope > 5
         rand_n = 101
     end
     if rand_n < 8
         self.sub_statement = IfStatement(self.state)
+        init(self.sub_statement)
+    elseif rand_n < 100
+        self.sub_statement = AssignStatement(self.state)
         init(self.sub_statement)
     end
 end
