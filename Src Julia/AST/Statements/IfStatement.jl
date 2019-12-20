@@ -19,7 +19,7 @@ function init(self::IfStatement)
     self.statement = Statement_Lists(self.state)
     init(self.statement)
 
-    rand_n = rand(0:100)
+    rand_n = rand(0:99)
     if self.state.scope > 3
         rand_n = 101
     end
@@ -30,6 +30,7 @@ function init(self::IfStatement)
         self.else_statement = Statement_Lists(self.state)
         init(self.else_statement)
     end
+    pop!(self.state.variables,self.state.scope,0)
     self.state.scope -= 1
 end
 

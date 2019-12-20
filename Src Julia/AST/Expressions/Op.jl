@@ -1,7 +1,7 @@
 mutable struct DualOp <: Node
     state :: State
     op1
-    operator :: Char
+    operator :: String
     op2
     DualOp(state_in, operator) = new(state_in,nothing,operator,nothing)
 end
@@ -23,7 +23,7 @@ end
 
 mutable struct UnaryOp <: Node
     state :: State
-    operator :: Char
+    operator :: String
     op
     UnaryOp(state_in, operator) = new(state_in,operator,nothing)
 end

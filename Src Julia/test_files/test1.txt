@@ -1,9 +1,5 @@
-var_0 = (-162-(+-1954))
-var_1 = 5854
-var_2 = 440
-var_3 = 2994
-var_4 = -7590
-var_5 = var_2
-var_6 = 
-var_7 = var_5
-var_8 = -2237
+var_0 = var_0
+var_1 = var_1
+var_2 = ((var_0+((!var_1)-9073))>var_2)
+var_3 = -7878
+var_4 = var_3

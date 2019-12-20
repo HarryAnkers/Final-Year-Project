@@ -5,7 +5,7 @@ mutable struct Statement <: Node
 end
 
 function init(self::Statement)
-    rand_n = rand(0:100)
+    rand_n = rand(0:99)
     if self.state.scope > 5
         rand_n = 101
     end
