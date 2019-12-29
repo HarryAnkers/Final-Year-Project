@@ -1,0 +1,8 @@
+var_0 =  -4943
+var_1 = var_0
+if true 
+	var_0 =  7660
+	var_1 = (var_0*var_1)
+end
+var_2 = (( -9313<var_1)- -9792)
+var_3 = var_2
