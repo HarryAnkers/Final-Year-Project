@@ -1,518 +1,70 @@
-var_0 =  -2157
-var_1 =  -166
-var_2 = var_0
-if true 
-	var_0 =  55
-	var_1 = ( -2230>( 7359÷ -1319))
-	var_2 =  9709
-	if true 
-		var_0 = var_0
-		var_1 = ( -8042>= -781)
-		var_2 = (( 1911÷var_0)*var_1)
-		var_3 = (((var_1!= 5838)>=var_1)<var_2)
-		if true 
-			var_0 = var_2
-			var_1 = var_2
-			var_2 = var_0
-			if true 
-				var_0 = (var_2>var_1)
-				var_1 = (var_1>= -8575)
-				var_2 =  8425
-			end
-			var_3 = var_0
-			var_4 = (( 4142>=var_2)/var_3)
-			var_5 = var_2
-			var_6 = ( -7445÷var_3)
-			var_7 =  4195
-			var_8 =  7651
-			var_9 =  571
-			var_10 = var_1
-			var_11 =  -9250
-			var_12 = ((-((-var_5)<= -7007))>(var_2>=( -5937- 6687)))
-			var_13 =  7321
-		end
-		if true 
-			var_0 =  -8662
-			var_1 = var_0
-			var_2 = var_1
-			var_3 =  -5439
-			var_4 = var_1
-			var_5 =  -1152
-			var_6 = ((+(-var_2))>var_1)
-			var_7 =  8944
-			var_8 =  722
-			var_9 = ( 5310-var_7)
-			var_10 = ( 2575==( -9007==((var_0>=var_1)>=var_0)))
-			var_11 = var_1
-			var_12 = ((var_5>(var_0+var_1))==( 43==var_0))
-			var_13 = (-var_10)
-			var_14 = var_13
-			var_15 = ((var_2>=var_13)- 7549)
-			var_16 = var_11
-			var_17 =  8503
-			var_18 =  -1220
-			var_19 = var_13
-			var_20 = var_12
-			var_21 = var_13
-			var_22 = (( 5040== -6465)^ 5537)
-			var_23 = ( -4762>= 7859)
-			var_24 = ( 2423\(( -8731÷var_16)* -4952))
-			var_25 =  -6132
-			var_26 = (var_14<=var_16)
-			var_27 = var_22
-			var_28 = var_13
-			var_29 = ((! -9944)!=( -6589÷var_1))
-			var_30 = var_1
-			var_31 = (var_27<=var_11)
-			var_32 = var_15
-			var_33 = (var_2\(+ -5969))
-			var_34 =  -1791
-			if true 
-				var_0 = ( 8490÷(var_18* -667))
-				var_1 = (var_17- -2176)
-				var_2 =  903
-				var_3 =  7590
-				var_4 = (var_18<=(var_2+var_0))
-				var_5 = var_2
-				var_6 = (( 4053<=(var_10>= 7062))>(var_25-var_0))
-				var_7 =  -9715
-				var_8 = (( 6834!= 4243)\ -254)
-				var_9 = var_0
-				var_10 = var_31
-				var_11 = ( 6460-var_20)
-				var_12 =  8157
-				var_13 =  -910
-				var_14 = ((var_0\(var_9<(((var_10^(var_2<=var_28))÷ -7320)-( 3252+var_1))))>=var_1)
-				var_15 = var_5
-				var_16 = ((+((+ 8919)^var_6))!=var_6)
-				var_17 = var_13
-				var_18 = var_21
-				var_19 = var_3
-				var_20 = (var_2<var_12)
-				var_21 = var_7
-				var_22 =  9522
-				var_23 = var_3
-				var_24 = (var_18-var_14)
-				var_25 =  3744
-				var_26 = ( 2719%var_6)
-				if true 
-					var_0 =  3342
-					var_1 =  9645
-					var_2 = var_22
-					var_3 = (var_12>=var_1)
-					var_4 = var_25
-					var_5 = (+var_33)
-					var_6 =  8247
-					var_7 = (var_11>=(- 1532))
-					var_8 = var_12
-					var_9 =  -3249
-					var_10 = var_1
-					var_11 = ( -5673== -1175)
-					var_12 =  7079
-					var_13 = (var_1!=(((( -4614/((var_11/var_15)>= -5029))÷ -9746)* -9683)^(var_1^var_2)))
-					var_14 =  6667
-					var_15 = (( -2576<(((+ 8028)/var_2)\ 9727))< -2225)
-					var_16 = var_24
-					var_17 = var_3
-					var_18 = ( 5486==var_21)
-					var_19 = (var_18<(- -9218))
-					var_20 =  -9079
-					var_21 = ((((var_31-var_8)<=(var_3* -867))*var_7)>=( 5263%( -8896/ 3599)))
-					var_22 = var_11
-					var_23 =  -6967
-					var_24 =  -2584
-					var_25 = ( 2657>=var_4)
-					var_26 =  2608
-					var_27 = var_15
-					var_28 = var_2
-					var_29 = ( 8255^var_11)
-					var_30 = var_23
-					var_31 =  -5547
-					var_32 = var_0
-					var_33 =  4828
-					var_34 = (-var_10)
-					var_35 =  2720
-					var_36 = ( -673< 9541)
-					var_37 = (var_1!= -4012)
-					if true 
-					end
-					var_38 =  1988
-					var_39 =  -1276
-					if true 
-					end
-					var_40 = var_16
-					var_41 = (( -5795+ -9821)>=var_31)
-					var_42 =  602
-					var_43 =  4265
-					var_44 = (-(var_13== -775))
-					if true 
-					end
-					var_45 = var_7
-					var_46 =  5442
-				end
-				var_27 =  7876
-				var_28 = ( 5068<=var_2)
-				if true 
-					var_0 = ((!(var_3%(var_21<var_21)))<=var_13)
-					var_1 = var_19
-					var_2 =  3496
-					var_3 = (var_1<= 5985)
-					var_4 =  4310
-					var_5 =  -8049
-					if true 
-					end
-					var_6 = (( -7414<( -9125+( -9729!=((( -6663>=var_11)- -7706)÷(var_13* -8783)))))>=var_2)
-					var_7 = var_2
-					var_8 = (var_27\(-(-(var_11<var_27))))
-					var_9 = var_1
-					var_10 =  -1115
-					var_11 = var_19
-					var_12 =  6324
-					var_13 = (var_21>= 6551)
-					var_14 = ( 5270/var_4)
-					var_15 = (! -2139)
-					var_16 =  2698
-					var_17 =  978
-					var_18 =  -555
-					var_19 = ( -4314/ 116)
-					var_20 = ( 6856\ -7143)
-					var_21 = var_28
-					var_22 = (var_8>= 6627)
-					var_23 = ((var_4>= 7118)+var_10)
-					var_24 = var_3
-				end
-				var_29 = var_5
-				var_30 =  -561
-				var_31 = var_23
-				var_32 =  -5788
-				var_33 = var_0
-				var_34 = ( -7194<=var_1)
-				var_35 = var_34
-				var_36 =  -1073
-				if true 
-					var_0 = ( -6380<(var_18!=((- -600)> 4158)))
-					var_1 = var_32
-					var_2 = (+ -7905)
-					var_3 =  949
-				end
-				if true 
-					var_0 =  7116
-					var_1 =  -9747
-					var_2 = var_36
-					var_3 =  8481
-					var_4 =  -3040
-					var_5 = ( -7147÷ 2361)
-					var_6 = ( -4313%var_16)
-					var_7 = var_22
-					if true 
-					end
-					var_8 = ( -83\ -8063)
-					var_9 = var_17
-					var_10 =  8508
-					var_11 = var_20
-					var_12 =  -7623
-					var_13 = (( -2208==( -9096*((var_12%((+((var_35-( 4587< -7174))< -9649))+ -4520))\var_30)))+var_2)
-					var_14 = var_8
-				end
-				if true 
-					var_0 = (var_12>=(+(( -3325>=((var_33> 3182)%var_19))/var_31)))
-					var_1 = var_35
-					var_2 = ( -796*var_6)
-					var_3 =  8507
-					var_4 = (var_1<(-var_18))
-					var_5 = ( 7822>= 7504)
-					var_6 = ( 2932/var_3)
-					var_7 = ((+((var_13>(- -5079))<((var_29/var_26)÷ -3595)))!= -106)
-					var_8 = var_13
-					var_9 = (var_32!=(((-((- -1349)/(var_31*var_25)))>var_20)+ 4936))
-					var_10 =  6822
-					var_11 =  9473
-					var_12 = (-(var_11÷var_2))
-					var_13 =  -7453
-					var_14 =  9470
-					var_15 = var_3
-					var_16 = ( -3298<= -759)
-					var_17 = ((-var_1)* 729)
-					var_18 =  -3492
-					var_19 =  8042
-					var_20 =  6702
-					var_21 = var_2
-					var_22 =  -3849
-					if true 
-					end
-					var_23 = var_20
-					var_24 = var_2
-					var_25 = var_0
-					var_26 = var_16
-					var_27 =  9555
-					var_28 = var_20
-					var_29 = var_16
-					if true 
-					end
-					var_30 = var_19
-					var_31 =  -2610
-					var_32 =  -2249
-					var_33 =  -8319
-					var_34 = var_3
-					var_35 = (! -1299)
-					var_36 = (var_1<= -1355)
-					var_37 = (-var_33)
-					var_38 =  -6938
-					var_39 = (( -754>=(var_2>=(var_18>=(( -8853/var_34)÷( 4755<=var_12)))))- 2372)
-					var_40 =  2728
-					var_41 = ((var_22\(- -81))<= -8966)
-					var_42 = ( 2737== -2830)
-				end
-				var_37 = (-(( 9607>=var_10)>var_9))
-				var_38 =  -1257
-				var_39 =  -1150
-				var_40 = var_2
-				if true 
-					var_0 =  -1473
-					var_1 = ( 4598!=var_18)
-					var_2 = var_34
-					var_3 =  6887
-					var_4 = var_11
-					var_5 = (!var_12)
-					var_6 =  8745
-					var_7 = var_2
-					var_8 = (var_0<= -7157)
-					var_9 = ( 6144!=(var_19<= 6193))
-					var_10 = ((( 9309% 9820)^( -9663^ -2355))* -6921)
-					var_11 =  8389
-					var_12 = var_11
-					var_13 = ((var_17==var_35)<( -7050>var_16))
-					var_14 = var_34
-					if true 
-					end
-					var_15 = var_19
-					var_16 =  8578
-					var_17 =  2797
-					var_18 = (+var_10)
-					var_19 =  -3567
-					var_20 =  5977
-					var_21 = ( 9962>var_12)
-					var_22 = ( 2002<var_30)
-					var_23 =  -742
-					var_24 = (var_15>=(-var_16))
-					var_25 = var_20
-				end
-				var_41 = var_33
-				var_42 = (( 171% -1420)+((var_7*var_1)* -5686))
-				var_43 =  3152
-				var_44 = ( 810==var_24)
-				var_45 =  6301
-				var_46 = var_41
-				var_47 =  -2316
-				var_48 = var_3
-				var_49 =  -9206
-				var_50 =  -3129
-				var_51 = ((var_19+ -8064)== 1314)
-				var_52 =  7270
-				var_53 = var_2
-				var_54 = var_0
-				var_55 = (! 7575)
-				var_56 = var_23
-				var_57 = (var_26÷((var_9>=var_33)<=var_52))
-				var_58 = (var_19>=( -8379>=var_0))
-				var_59 = ( 2644<=var_31)
-				var_60 = ( 4167+var_7)
-				var_61 = (var_8%(!( 8429< -9917)))
-				var_62 =  1869
-				var_63 = (var_27/ -9106)
-				var_64 = var_32
-				var_65 =  4792
-				var_66 =  -9087
-			end
-			var_35 = (((+(var_10>=(( -6614\ -7266)%var_31)))== 3783)%( -9177+var_24))
-			var_36 = var_16
-			var_37 = ( 3605÷var_24)
-			var_38 = (-var_3)
-			var_39 =  3225
-			var_40 =  4756
-			var_41 =  -6505
-			var_42 =  1100
-			var_43 =  -3727
-			var_44 = (var_15!= 6770)
-			var_45 =  -2129
-			var_46 =  -8770
-			var_47 = var_3
-			var_48 = var_33
-			if true 
-			end
-			var_49 =  -9518
-			var_50 = ( 7136==(!var_36))
-			var_51 = ( 5207÷ 926)
-			var_52 = var_30
-			var_53 = ((var_9>=var_16)- 1053)
-			var_54 = (( -1134!=(var_45%(var_38÷var_16)))>=(( -9889!=( -6072>= 7934))>=( 2121>(( -9729/var_21)!= -7427))))
-			if true 
-			end
-			var_55 =  1938
-			var_56 =  -2041
-			var_57 =  -679
-			var_58 = (var_51< 2652)
-			var_59 = var_38
-			var_60 =  7077
-			var_61 = var_21
-			var_62 = var_31
-			if true 
-				var_0 = ( 9886<=(var_49-var_37))
-				if true 
-					var_0 = (! 8591)
-					var_1 =  -5591
-					var_2 = (var_27<(var_1>=var_5))
-					var_3 =  8223
-				end
-				var_1 = (var_2%var_41)
-				var_2 = var_19
-				var_3 = (var_16!= 5146)
-			end
-			var_63 =  1821
-			var_64 = (var_60\( 3967== -2045))
-			var_65 = (+ 3264)
-			var_66 = var_46
-			var_67 = ((+var_47)-( 9880*var_13))
-			var_68 =  8650
-			var_69 = var_66
-			var_70 = (+ -2787)
-			var_71 = (( 227/var_67)!=var_11)
-			var_72 = var_3
-			var_73 =  -9405
-		end
-		var_4 =  -2218
-		var_5 =  -5600
-		if true 
-			var_0 =  9672
-			var_1 =  -2784
-			var_2 = (-var_1)
-			if true 
-				var_0 =  693
-				var_1 = var_1
-				var_2 = var_0
-				var_3 = (+var_2)
-				var_4 = (( 1555% 4149)\((var_1>var_4)^(var_2>= 7427)))
-				var_5 =  -7383
-				if true 
-					var_0 = (var_2<var_2)
-					var_1 = var_4
-					var_2 = var_1
-					var_3 =  3280
-				end
-				var_6 =  -4544
-				var_7 = var_4
-				var_8 = (var_2<=var_4)
-				var_9 = ( -3659>=(+(var_2÷var_8)))
-				var_10 = var_1
-				var_11 = var_1
-				if true 
-					var_0 = var_1
-					var_1 = ((var_2* -6768)<= 6773)
-				end
-				var_12 = ((- -2519)<=( 9701* 4554))
-				var_13 = (var_1<( -3614>var_4))
-				var_14 =  -9896
-				var_15 = var_10
-				var_16 = ( -4892<=(-( -256<= -3290)))
-				var_17 = (var_10*( 832<( -694+ 879)))
-				var_18 = var_13
-				if true 
-					if true 
-					end
-					var_0 =  5439
-					var_1 = (var_4> 5653)
-					var_2 = var_1
-					var_3 = ( 765>=var_1)
-					var_4 = (-var_3)
-					var_5 = var_11
-					var_6 = var_2
-					var_7 = (var_0<(var_4<= 2421))
-				end
-				var_19 =  -1401
-				var_20 = (-var_3)
-				var_21 = var_5
-				var_22 = ( -4285^ -1853)
-				var_23 = var_2
-				if true 
-					var_0 = ((( -3345>= -2589)/ -4278)<((var_4÷( 3250/var_18))>=var_0))
-					if true 
-					end
-					var_1 = ((var_0!= -4863)<( 1605>( -2930>=(var_1÷ 2941))))
-					if true 
-					end
-					var_2 = var_0
-					var_3 = var_11
-					var_4 = var_6
-					var_5 =  4093
-					var_6 = var_5
-					var_7 =  -167
-					var_8 = (+var_21)
-					var_9 = (+var_6)
-				end
-				var_24 = var_10
-				var_25 =  -8907
-			end
-			var_3 = (var_2> 7503)
-			var_4 =  2722
-			var_5 =  4265
-			var_6 = (var_1>( -7831>=(var_2<= 5592)))
-			var_7 = var_0
-			var_8 =  -4806
-			var_9 = (var_7>var_2)
-			var_10 = var_5
-			var_11 = var_0
-			var_12 = var_2
-			var_13 = var_1
-			if true 
-				var_0 =  325
-				var_1 =  2200
-				var_2 =  6844
-			end
-			if true 
-				var_0 =  -3124
-				var_1 = var_12
-				var_2 =  -8918
-				var_3 =  3847
-				var_4 = var_0
-				var_5 = ( 3423<var_4)
-				var_6 = var_2
-				var_7 = (var_4!=(! -3507))
-				var_8 = ( -1600- -364)
-				var_9 = ((!(var_0+(var_6+ -968)))^var_1)
-			end
-			var_14 =  2639
-			var_15 =  6531
-			var_16 = var_9
-			var_17 =  -2856
-			var_18 = var_11
-			var_19 = var_4
-			var_20 = var_3
-			var_21 = var_1
-			var_22 = ((var_12÷ -9242)>=( -8424!=( 2291>var_2)))
-			var_23 =  -3123
-			var_24 = (var_4!=((((( 1789==(+ 1904))<=(+ -9803))÷ -4193)< 9872)<( 125^var_13)))
-			var_25 =  9604
-			var_26 = ( 5425< 9236)
-			var_27 = var_3
-		end
-		var_6 = var_2
-		var_7 = (- 6014)
-		var_8 = var_1
-		var_9 = ((var_2==(var_2+ -8838))\ 8407)
-		var_10 = (var_0+(( -6649- -4816)!=var_2))
-		var_11 = ( 5579+var_2)
-		var_12 = (-( -2772==(var_2\ -2739)))
-		var_13 = var_0
-		var_14 = ( -9447<(+ 2918))
-		var_15 = var_12
-	end
-	var_3 =  822
-	var_4 = var_1
-	var_5 =  7991
-	var_6 = ( 4655==(-( -9637!= -2902)))
-	var_7 = var_4
+var_0 =  0.19036838573243653
+var_1 = ((((( false>=var_0)< false)⊻(-var_0))\ -14383 - 17im)* 21624040087869741281582468125824592352)
+var_2 =  1458975690
+var_3 =  -56
+var_4 = (+var_1)
+if var_1true 
+	var_0 =  true
+	var_1 = var_3
+	var_2 = ( 100/(+var_3))
+	var_3 = var_3
+	var_4 = (-var_2)
+	var_5 =  0.4453392
+	var_6 = (+( 1.0\ 12//23))
+	var_7 = (var_4^var_2)
+	var_8 =  13//64
+	var_9 = (var_5/ false)
+	var_10 =  π
+	var_11 = ((+(var_2!=(var_1*var_1)))!=var_5)
+	var_12 = (var_2< 63062857294785717603438863406464890192)
+	var_13 = (var_2%var_3)
+	var_14 = ( 2247÷(var_7\ -36180785607404040398126534964137871347))
+	var_15 =  107
+	var_16 =  9
+	var_17 = var_1
+	var_18 = ((var_2&(- 5))>>>var_10)
+	var_19 =  1899853318
+	var_20 =  -8898 + 3615im
+	var_21 =  -5722823912375989848
 end
-var_3 =  -4946
-var_4 = var_0
-var_5 = (+var_4)
-var_6 = (- -7996)
+var_5 =  75627923950145217129735805223082184549
+var_6 = var_4
+var_7 = var_4
+var_8 =  true
+var_9 = var_4
+var_10 =  π
+var_11 = var_8
+var_12 = var_7
+var_13 =  0.14599395
+var_14 =  333815560
+var_15 = var_5
+if  falsetrue 
+	var_0 =  0.891203623175411
+	var_1 =  1161541712
+	var_2 = ( 202967391866783663341152197595423298001^var_13)
+	var_3 = (((+var_10)-( false*var_12))% 26//75)
+	var_4 = ( 3722151655⊻(((+ Float16(0.8154) + Float16(0.832)im)* 24472)+var_9))
+	var_5 = var_10
+end
+var_16 = var_13
+var_17 = var_6
+var_18 = var_12
+if  truetrue 
+	var_0 = ( 226÷( false- 17600 + 22022im))
+	var_1 = (+((var_14* Float16(0.5176) + Float16(0.5156)im)-var_10))
+	var_2 = (var_5<( -7566 + 17421im/ 317054326991749557190796338821802292427))
+	var_3 =  3.0
+	var_4 = (+var_15)
+	var_5 = var_2
+	var_6 =  false
+	var_7 = ( 0.4181123921652736\(( -5494246476806239016528697725138939220>= 2377969345)>var_3))
+	var_8 = (((!(var_15==var_9))⊻var_5)+(( false-(!(~var_16)))÷ 0.0801))
+	var_9 = (var_0-var_5)
+	var_10 = ( true+(var_11-var_11))
+	var_11 =  π
+elseif var_18true 
+		var_0 = var_3
+end
+var_19 = ( false/ 112374395067025381961619623312070727598)
+var_20 = ( 0.2966502094846968⊻ false)
+var_21 = ( 89//99\ 35//71)

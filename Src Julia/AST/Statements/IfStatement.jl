@@ -13,8 +13,8 @@ end
 function init(self::IfStatement)
     self.indent = self.state.scope
     self.state.scope += 1
-    # self.expr = Expression(self.state)
-    # init(self.expr)
+    self.expr = Expression(self.state, "Bool")
+    init(self.expr)
     
     self.statement = Statement_Lists(self.state)
     init(self.statement)
@@ -40,7 +40,7 @@ function create_text(self::IfStatement)
     else
         write(self.state.file, "if ")
     end
-    # create_text(self.expr)
+    create_text(self.expr)
     write(self.state.file, "true \n")
     create_text(self.statement)
     if self.else_statement !== nothing

@@ -12,4 +12,13 @@ for i in 1:files_n
     end
 end
 
-println("FInished")
+# function doStuff()
+#     var1::Real = 0
+#     var2::Float16 = pi
+#     var3 = var1 + var2
+#     println(typeof(promote(var1,var2)))
+#     println(typeof(var3))
+#     println(var3)
+# end
+
+# doStuff()

@@ -1,1 +1,831 @@
-var_0 =  4750
+var_0 =  31567 - 18892im
+var_1 = var_0
+var_2 = var_1
+var_3 = (-var_1)
+var_4 = var_0
+var_5 =  61721
+var_6 = (~ -26767)
+var_7 = (((( 7545942688156000004^((-(( Float16(0.1875) + Float16(0.3154)im<<(var_0+var_0))<var_4))>(var_4⊻( 0.2021113953422604-(-( 46249\(var_6%var_4)))))))<<var_1)*( 215304347378861218962521603231051440976!=(var_5%(var_6\ 4281923468))))/(var_2⊻(var_1| 1)))
+var_8 =  2.0
+var_9 = var_5
+var_10 = ( 0.119954137776211<= π)
+var_11 = var_5
+var_12 = var_4
+if ( -2032665971805460463>=(var_4< 0.5075251))true 
+	var_0 = var_0
+	var_1 = var_7
+	var_2 =  0.45643723
+	var_3 =  0.8935728
+	var_4 = ((var_5>( π<<var_0))>var_12)
+end
+var_13 =  π
+var_14 = (var_0>var_4)
+var_15 = ((var_8\( 26748% false))+ -24862)
+var_16 = (- false)
+if  truetrue 
+	var_0 =  -128642063
+	var_1 = ( 19556 + 3435im==var_8)
+	var_2 =  1602877500
+	if  truetrue 
+		if ( 5781546394622184464>=(+var_0))true 
+			var_0 = ( 1.0%(var_5÷ 23//119))
+			var_1 = var_15
+			var_2 = var_6
+			var_3 = var_8
+			var_4 =  -753689591
+			var_5 = (+(var_3|var_13))
+			var_6 =  2
+			var_7 = var_15
+			var_8 = ((var_5==( false>=var_5))+ 6088)
+			if (- true)true 
+				var_0 =  true
+				if  truetrue 
+					if (+(var_2<( true/var_0)))true 
+					end
+					var_0 =  732195531232598093
+					var_1 = var_10
+					var_2 = var_0
+					var_3 = var_2
+					var_4 =  true
+					var_5 =  311349847019873866895632825749682567937
+					var_6 = (var_10& -11791)
+					var_7 =  0.836
+					var_8 = var_1
+					var_9 =  62
+					var_10 = var_6
+					var_11 =  4
+					var_12 =  5.0
+					var_13 = var_0
+					var_14 = (-(+var_3))
+					var_15 =  11445
+				end
+				var_1 = ( Float16(0.0957) + Float16(0.499)im÷ -2196335724589729678140845962664494664)
+				var_2 =  0.13375115
+				var_3 =  38718
+				var_4 = var_0
+				var_5 = var_2
+				var_6 = (-(-(var_10|var_13)))
+				var_7 = ((( Float16(0.5537) + Float16(0.6865)im÷(var_3* 8379297201794666157))*(-((+var_1)+(-((( 15967!=var_1)>= -32651)\ 7//44)))))+ 40805221445507409104990171179915672545)
+				var_8 =  false
+				var_9 = (var_14^var_8)
+				var_10 =  43308
+			end
+			var_9 =  146
+			if  truetrue 
+				var_0 = var_0
+				var_1 =  Float16(0.1289) + Float16(0.717)im
+				if (( 4.0& 0.5293)>( true<=(var_1÷(var_6== false))))true 
+					var_0 = (- 0.9666716)
+					var_1 = var_15
+					var_2 = (var_0<=var_6)
+					var_3 = var_0
+					var_4 =  -14665
+					var_5 =  false
+					var_6 =  16059 + 8311im
+					var_7 = ( true>>var_3)
+					var_8 =  false
+					var_9 = (- 149)
+					var_10 =  0.48875426544870204
+					var_11 =  17
+					var_12 = (!var_6)
+					var_13 =  -25550 - 8138im
+					var_14 = var_6
+					var_15 = (+ -11787 - 32579im)
+				end
+				var_2 =  0.59
+				var_3 =  true
+				var_4 =  374873535
+				if ( 92>var_5)true 
+					var_0 = ((((var_16/((var_13+(var_5< Float16(0.923) + Float16(0.3633)im))% π))>=var_3)& 0.1807)< 13912957526171094582)
+					var_1 = var_4
+					var_2 =  0.56118906
+					var_3 =  445582174
+					var_4 = ((var_1%var_8)⊻(var_12==var_10))
+					var_5 =  16//117
+					var_6 =  false
+					var_7 = var_4
+					var_8 =  3562150557232545971
+					var_9 = var_7
+					var_10 = var_8
+					var_11 = (var_0^var_6)
+					var_12 = var_5
+					var_13 = (-var_1)
+					var_14 = (var_1%var_5)
+					var_15 =  0.9992336
+					var_16 = var_2
+					var_17 = var_10
+					var_18 = var_3
+					if var_12true 
+					end
+					var_19 = var_12
+					var_20 =  true
+					var_21 = ( 4838530617519272310==var_6)
+					var_22 = var_16
+					var_23 = (+((~var_9)%( 16594811043860884188*( 155<= 3.0))))
+					var_24 = var_14
+					var_25 =  15408537
+					var_26 = var_3
+					var_27 = (var_23÷(~(var_0<(var_25/((-var_10)>((var_20\var_6)% 3.0))))))
+					var_28 =  4.0
+					var_29 = var_5
+					var_30 =  773186547412412630
+					var_31 = var_2
+					if (var_21!=var_9)true 
+					end
+					var_32 =  9994
+					var_33 = ( 0.430442980368142^(!var_13))
+					var_34 = var_33
+					if var_32true 
+					end
+					var_35 =  false
+					var_36 = var_22
+					var_37 =  true
+					var_38 = ( 68391055202591616>=(~var_0))
+					if ((var_5|((var_11*var_29)>> -907 + 12304im))== 3631043682060580733)true 
+					end
+					var_39 =  38747407600147150289838598124402215036
+					var_40 = (( 17482760728971388==var_0)<var_17)
+					var_41 = (var_7+(var_40+ 0.1748))
+					var_42 = ((var_2>>>var_19)*var_5)
+					var_43 = var_9
+					var_44 = (- 165178983873325748605597140878001086125)
+					var_45 = (( 215>>> 10)*var_15)
+					var_46 = var_9
+					if (+(( true% true)<<var_33))true 
+					end
+				end
+				var_5 = var_5
+				var_6 = var_1
+				var_7 =  0.4491820628589829
+				if var_11true 
+					var_0 = var_7
+					var_1 = (( 0.9714431003744848/var_3)<=var_1)
+					var_2 = (var_7⊻var_6)
+					var_3 = var_10
+					if  falsetrue 
+					end
+					var_4 = var_15
+					var_5 = ((((( -4070114567868853885- Float16(0.632) + Float16(0.62)im)>=( 5.0- true))<=( 0.252703084931317<<((+(((var_9/(-var_3))>((- 0.374)/ false))+ 43//46))÷ π)))% -4568797716019045827)- π)
+				end
+			end
+			var_10 =  -59937909159029432
+			var_11 = var_10
+			var_12 = var_2
+			var_13 =  19871
+			var_14 = (var_4/( Float16(0.5293) + Float16(0.576)im!=( 0.9385078218103642| 11839517597471569495)))
+			var_15 = var_8
+			if  truetrue 
+				var_0 =  -11725 - 21851im
+				var_1 =  3
+			end
+			var_16 =  0.7170929667537822
+			if var_1true 
+			end
+		end
+		var_0 = var_3
+		var_1 = var_6
+	end
+	var_3 =  56907
+	var_4 = ((var_1!= 193893373986765300713069949732376429128)<var_4)
+	var_5 = (( false\ 0.15180314)* π)
+	var_6 = (-((-var_4)>>>((+var_6)%((var_5/ 288887248841208762957237953684627695923)==var_4))))
+	var_7 = var_6
+	if  falsetrue 
+		var_0 =  10427225002881088635
+		var_1 =  47599481786204285888461152381059327731
+		var_2 =  -37
+		var_3 =  -256779626
+		var_4 = var_5
+		var_5 = (~(- true))
+		if  falsetrue 
+			var_0 =  49323012964538196894480232755164387987
+			var_1 = var_6
+			var_2 = (- Float16(0.0166) + Float16(0.2246)im)
+			var_3 = var_1
+		end
+		var_6 =  2.0
+		var_7 = (~(+var_4))
+		var_8 = (var_6+ 0.4851330643292038)
+		var_9 = ( 62348/var_2)
+		var_10 = var_6
+		var_11 = var_15
+		var_12 = ((var_6÷ 147)^((+ 19//34)!= 41))
+		var_13 =  true
+		var_14 =  13806812099183900577595696566796539055
+		var_15 =  3.0
+		var_16 =  6.0
+		var_17 =  3.0
+		var_18 =  -167619351
+		var_19 =  -83
+		var_20 = var_12
+		var_21 = var_19
+		var_22 = (((var_16/var_15)% 2588200569)< -898791549)
+		var_23 = var_14
+		var_24 = var_8
+		var_25 =  4
+		var_26 = var_2
+		var_27 =  Float16(0.668) + Float16(0.7754)im
+		if var_2true 
+			var_0 = ( -3190865730559051000/( 31183< false))
+			var_1 = (var_16|( true/ 190))
+			var_2 = var_3
+			var_3 =  0.4229
+			var_4 =  π
+			var_5 =  168
+			var_6 = var_1
+			var_7 = ( -3667898784809592093566276774133365805-( 12453/var_26))
+			var_8 = ( 2580792227159667741+ 112)
+			var_9 = var_27
+			var_10 =  true
+			var_11 = ( 0.9933939+(var_9%(( π÷ false)⊻ -1151205885036075753)))
+			var_12 =  0.63110983
+		end
+		var_28 =  -82629270827318832896682684296209532298
+		var_29 = ((~(var_13+(var_5>> 236539334352880876498522111682619576568)))%var_5)
+		var_30 = var_23
+		var_31 =  true
+		var_32 = var_1
+		var_33 =  62217071571738483546501602856398898718
+		var_34 =  252391138468593021838783606383901903861
+		var_35 = ( 16141÷var_12)
+		if (var_2/ true)true 
+			var_0 = (var_5>= 146)
+			var_1 = var_1
+		end
+		if  falsetrue 
+			var_0 = ( Float16(0.3418) + Float16(0.3389)im>=( π+ Float16(0.1006) + Float16(0.0654)im))
+			var_1 = var_13
+			var_2 = ((+ -86819896616873051474724063176183819157)>>var_11)
+			var_3 =  32//75
+			var_4 =  184750723265515700824029107320011612076
+			var_5 = var_16
+			var_6 =  323732761360036810276588758861844572661
+			var_7 =  π
+			var_8 = (-var_7)
+			var_9 = var_22
+			var_10 =  155304789827369602328564546824501142572
+			var_11 = (var_2>>var_3)
+			var_12 = (- -91193111594599733660202760303188908162)
+		end
+		var_36 = var_8
+		var_37 =  Float16(0.8164) + Float16(0.5195)im
+		var_38 = ((var_11%var_10)÷var_12)
+		var_39 = var_10
+		if var_7true 
+			var_0 = var_3
+			if var_21true 
+				var_0 = var_12
+				var_1 = ((var_26>= 255)|(( -161865256079860222540459291330567697535>>var_24)>=((var_26<var_2)/ true)))
+				var_2 = (var_33> 13//32)
+				var_3 = (+var_31)
+				var_4 = ((var_6>=(-var_30))/var_13)
+				if  truetrue 
+					if var_2true 
+					end
+					var_0 = ( true+var_2)
+					var_1 = (( 9435622827521460383^( 0.5027608057612782<= 34//57))^var_37)
+					var_2 =  0.4688
+					var_3 = (((- -4950 - 16683im)==( 51956& 0.6758974839809315))÷var_20)
+					var_4 = ((var_2-var_22)+var_36)
+					var_5 = var_35
+				end
+				var_5 =  0.995
+				var_6 = (var_0>>(+ 3))
+				if var_3true 
+					if var_16true 
+					end
+					var_0 = var_6
+					if var_37true 
+					end
+					var_1 =  8
+					var_2 = (var_1<((var_2%(( π< false)\var_10))÷var_29))
+					var_3 =  Float16(0.3975) + Float16(0.4463)im
+					var_4 = var_1
+					if  falsetrue 
+					end
+					var_5 = var_4
+					var_6 = ((+(var_0<< 32548))& -840313415)
+					var_7 = var_15
+					var_8 = var_0
+					var_9 = var_0
+					var_10 =  -2890369456020565096
+					var_11 = var_2
+					var_12 =  0.924
+					var_13 = ( -11< 2)
+					var_14 = (-( false*((var_21<= -1727 - 20246im)==( true÷(var_2>((var_0!=(+(var_2/var_6)))* 169))))))
+					var_15 = var_2
+					var_16 =  -160996891125644677395159057753627649089
+					var_17 = ( 3>= -143400432096194098327036355668689999078)
+					var_18 = ((var_3+var_25)+ 29444)
+					var_19 = var_0
+					var_20 = (+( Float16(0.2354) + Float16(0.5312)im<var_2))
+					var_21 =  89
+					var_22 =  2636076539
+					var_23 =  5279005214201231810
+					var_24 = var_1
+					var_25 = ( -28662÷ 619546818)
+					var_26 = (var_12<< 13616713557062452350)
+					var_27 = ( false>>> 78045623920878184675293098793321925988)
+					var_28 = (var_1-var_2)
+					var_29 =  -96
+					var_30 = var_3
+					var_31 = var_7
+					var_32 = (var_31| Float16(0.66) + Float16(0.5264)im)
+					var_33 = (var_0*( Float16(0.2246) + Float16(0.9697)im/(var_14^var_21)))
+					if var_8true 
+					end
+					var_34 =  false
+					var_35 = var_35
+					var_36 = ((var_11>>>(- 674526869))!=var_21)
+					var_37 =  4087926281
+					var_38 = var_38
+					var_39 = var_35
+					var_40 = (( false* -90307583018139771164312428364475717963)^var_20)
+					var_41 = var_5
+					var_42 = var_20
+					var_43 = ( false*var_13)
+					var_44 =  -8796573385774191021
+					var_45 =  -2245 - 13496im
+					var_46 = (var_10<=var_4)
+					var_47 =  3712437107785208306
+					var_48 = var_38
+					var_49 = var_2
+					var_50 =  0.19979846
+					if  truetrue 
+					end
+					var_51 = ( Float16(0.06152) + Float16(0.1641)im-(- 3309))
+					if var_47true 
+					end
+					var_52 =  π
+					var_53 = var_27
+					if  truetrue 
+					end
+					var_54 =  -49
+					var_55 = ( 54>= 0.0075138807)
+					var_56 = var_9
+					var_57 = var_23
+					var_58 = (var_3>> true)
+					var_59 =  75
+					var_60 = var_4
+					var_61 = var_27
+					var_62 = (var_36>((-var_40)⊻var_1))
+					var_63 =  8226866036664321143
+					var_64 =  -3789
+					var_65 =  35703
+					var_66 = (+var_12)
+					if (- true)true 
+					end
+					var_67 = (-( 12239017331218243132/var_27))
+					var_68 = (-var_49)
+					var_69 =  0.9143678
+					var_70 = var_35
+					var_71 =  π
+					var_72 = (! false)
+					var_73 =  286601818749452573077178342606673764260
+					var_74 =  19132
+					var_75 = var_9
+					var_76 = var_10
+					var_77 = (( 3303066070>(+(var_54* Float16(0.669) + Float16(0.5215)im)))÷ 4230 + 15733im)
+					var_78 = var_5
+					var_79 = var_70
+					var_80 = (var_4\(!(!(var_74/var_5))))
+					var_81 =  false
+					var_82 = (( 694099036+ 56//123)|var_0)
+					var_83 = var_14
+				end
+				var_7 = var_3
+				var_8 = (( Float16(0.3965) + Float16(0.7275)im/ 1974099308)>var_1)
+				var_9 = (+ 62821387179061686238751920979228245895)
+				var_10 = var_29
+				var_11 = (((~var_2)!=(var_12-var_4))%var_35)
+				var_12 = var_29
+				var_13 =  -120
+				var_14 = var_16
+				var_15 = ( -839304320\var_14)
+				var_16 = ((var_14/ -33)^(( -10351<=(~var_15))== -149602633748025150769521144636022829061))
+				if  falsetrue 
+					var_0 = var_4
+					var_1 =  0.7256651890348014
+					var_2 =  82
+					if (var_2>>>var_0)true 
+					end
+					var_3 = var_19
+					var_4 = ( -9119 - 31033im⊻ false)
+					var_5 =  28576 + 1042im
+					var_6 =  0.7256
+					var_7 =  44464
+					var_8 = var_8
+					var_9 =  true
+					var_10 = ( 88240851484715040256319930646470385528%(var_14!= true))
+					var_11 = var_39
+					var_12 =  32516
+					var_13 =  94
+					var_14 = var_5
+					var_15 = (var_3÷ Float16(0.1699) + Float16(0.5215)im)
+					var_16 = (((!var_11)^(var_13*var_1))+ 6503305273110968990)
+					var_17 = var_5
+					var_18 = ( 26//43<<( 4.0>=var_34))
+				end
+				var_17 = (+var_20)
+				var_18 = var_34
+				var_19 = var_29
+				var_20 = ((var_26\var_8)== π)
+				var_21 = ( 28738%(var_4/( 9÷((+var_0)%(var_34÷var_38)))))
+				var_22 = (var_4*(- 221))
+				var_23 = var_34
+				if  falsetrue 
+					if  falsetrue 
+					end
+				end
+				var_24 = ( true*var_4)
+				var_25 = ((+var_24)% 16658996149515815286)
+				if ((var_28- true)\((var_19!= -30270 - 8188im)|(+var_17)))true 
+					var_0 = (! false)
+					var_1 = ((( 25272995596180715676271094439377297165/var_18)<<var_3)\(var_16%var_16))
+					var_2 = var_16
+					var_3 = ((var_26>>>var_12)*var_22)
+					if  truetrue 
+					end
+					var_4 = var_4
+					var_5 =  false
+					var_6 =  1.0
+					var_7 = (-var_34)
+					var_8 = ((! false)>=var_14)
+					var_9 = var_6
+					var_10 = var_16
+					var_11 =  6
+					if (-var_5)true 
+					end
+					var_12 = var_13
+					if  falsetrue 
+					end
+				end
+				var_26 = ( -133378165258857746930787049594882635001⊻var_11)
+			end
+			var_1 = (((+var_7)\var_6)*var_24)
+			var_2 = var_9
+			var_3 = var_35
+			var_4 = ( π> Float16(0.2158) + Float16(0.74)im)
+		end
+		var_40 = var_0
+		var_41 = ( 51|var_3)
+		if var_7true 
+			var_0 = var_12
+			var_1 = var_10
+			var_2 =  3032960386
+			var_3 = var_4
+			var_4 = var_13
+			var_5 = (var_15!=( 16011^var_3))
+			if (( false÷ false)-var_41)true 
+			end
+			var_6 =  222
+			var_7 = var_7
+			var_8 =  1558153125
+			var_9 =  3459761793
+			var_10 = var_13
+			var_11 = ( 1⊻ 0.915)
+		else 			var_12 = var_22
+			var_13 = (+var_14)
+			var_14 =  true
+			var_15 =  1
+			var_16 = var_12
+			var_17 = var_40
+			var_18 =  10556
+			var_19 = var_14
+			var_20 =  23//61
+			var_21 = ((-(((- Float16(0.5547) + Float16(0.674)im)== 34255)&(var_16÷var_4)))-var_10)
+			var_22 = var_14
+		end
+		var_42 = (((+var_25)÷(-var_11))-var_7)
+		var_43 = var_22
+		var_44 =  11256 + 26731im
+		var_45 = ( 1338589446\ 0.963)
+		var_46 = var_6
+		var_47 = var_4
+		var_48 =  -1623509772
+		var_49 = (-(-(var_6!=( false== 0.44167083158530684))))
+		var_50 = var_7
+		var_51 =  0.14801578788957648
+		var_52 =  -122095471708186018031000983112007294379
+		var_53 = var_42
+		var_54 =  π
+		if  falsetrue 
+			var_0 = var_2
+			var_1 = var_4
+			var_2 =  1170230484
+			var_3 = var_1
+			var_4 = ( 0.8027-( 116554379711362296434415981521255361262==(var_12+((- 5493767260253547246)<=(var_32\var_32)))))
+			if  falsetrue 
+				var_0 = ((- 12369)!=var_3)
+				var_1 = (+(+ 160))
+			end
+			var_5 = var_17
+			var_6 = var_31
+			var_7 = (var_6-var_10)
+			var_8 = var_5
+			var_9 =  6
+			var_10 = var_5
+			var_11 = ( -108\var_4)
+			var_12 =  π
+			var_13 = (( 0.6659968788505721& 27808)* 55007)
+		elseif  truetrue 
+		end
+		var_55 = (( -134759838998370772275967944270228349398| 17088418664449149288)>= -8935507049951446518)
+		var_56 = var_13
+		var_57 = (-(var_13⊻(( 31660*var_35)^( 0.4689175<< 0.3302182))))
+		var_58 = var_5
+		var_59 = ( -59075967064831749385299067160279650928< 0.2578)
+		var_60 = ((var_6<= -115)/(- 10599519043349375687))
+		var_61 = var_44
+		var_62 =  0.6504
+		var_63 =  true
+		var_64 = (( 23088 + 11428im÷( 6//23<=((var_63&var_11)\ 0.9775)))>var_3)
+		var_65 = (( 2503482342142797779+(var_64⊻ 368963171))-( 519513912283347402>>( true< 93118995161395831470059158720379063896)))
+		var_66 =  π
+		var_67 = (+ 41)
+		var_68 =  -118
+		var_69 =  3317523087
+		var_70 = var_15
+		var_71 = var_8
+		var_72 =  0.693032
+		var_73 = var_19
+	end
+	var_8 =  0.13107598
+	var_9 = ((var_11+(var_3÷var_7))*(var_11*var_5))
+	var_10 = (var_3< -5640)
+	var_11 = var_7
+	var_12 = var_2
+	var_13 =  -19711
+	var_14 = var_7
+	var_15 = var_8
+	var_16 = (((var_8+ 4.0)%(var_8>( -98560474569775233377686659963443928569*var_14)))/(( -15645 - 9274im÷( -42578107508684702991297243899153033713>>>(+ false)))>var_9))
+	var_17 = var_9
+	var_18 =  0.1953
+end
+var_17 =  9990449050947320621
+var_18 = (var_17+var_9)
+var_19 = ( 0.43053997- 5.0)
+var_20 = var_7
+var_21 = (var_13+ -24)
+var_22 = (((var_2% Float16(0.4941) + Float16(0.591)im)%(var_20- 22611 + 24801im))* 1.0)
+var_23 = (( 6.0>var_7)-(~var_6))
+if ( true/(var_6==( Float16(0.843) + Float16(0.8945)im\var_22)))true 
+	var_0 = (var_14>>var_1)
+	var_1 =  -29222
+	var_2 =  1518666309
+	if var_23true 
+		var_0 = var_13
+		var_1 =  45//202
+		var_2 = var_19
+		var_3 =  -1914 - 30448im
+		var_4 =  0.6943
+		var_5 = var_2
+		var_6 = (var_18*( 3326074803< -19808 + 3611im))
+		var_7 =  1889
+		if var_11true 
+			if ( false&var_23)true 
+				var_0 =  1837503139
+				var_1 =  34
+				var_2 =  0.07749112566359084
+				var_3 = (var_2/var_0)
+				if var_15true 
+					var_0 = (((-( false==var_10))%(var_9^ 23995))|(( 144726346365948962197881386713644757207÷var_10)<< 71995408850288239237888868009822799425))
+					var_1 = var_9
+					var_2 = (var_1>= 0.587)
+					var_3 = (var_0\(+ 33434))
+					if  truetrue 
+					end
+					var_4 = (var_3\var_3)
+					var_5 =  Float16(0.3232) + Float16(0.631)im
+					if ( true>var_2)true 
+					end
+					var_6 = var_2
+					if ( 0.5557== 2)true 
+					end
+					var_7 = var_5
+					var_8 = var_2
+					var_9 = var_12
+				end
+				var_4 = var_0
+				var_5 = var_3
+				var_6 = ( 16490317690836297018*var_8)
+				var_7 =  22332
+			end
+			var_0 = (var_13<=var_6)
+			var_1 =  4283474931
+			var_2 = var_17
+			var_3 =  3
+			var_4 = (( -4>>>var_1)*var_18)
+			var_5 =  Float16(0.253) + Float16(0.701)im
+			var_6 =  Float16(0.457) + Float16(0.99)im
+			var_7 =  15//22
+			var_8 = (var_1*( 961702902*var_6))
+			var_9 = var_0
+			var_10 = var_18
+			var_11 = (-(( -17110288514989572420627082090305614456> 1.0)>= false))
+			var_12 = var_8
+			var_13 =  8623067527834130665
+			var_14 = ( 25//38/ 5)
+			var_15 = var_3
+			var_16 = (+var_6)
+			var_17 =  49503519826439409413260876334649098191
+			var_18 = var_1
+			var_19 =  13569133659389170666
+			var_20 =  -91
+			var_21 =  true
+			var_22 = var_3
+			var_23 =  -11022
+			var_24 = var_16
+			var_25 = var_1
+			var_26 =  191
+			var_27 = var_21
+			var_28 =  -4560040981598463305
+			var_29 = ((- -1147066482022030842)<< 109274574823175674471178385374970224150)
+			var_30 =  0.0879
+			var_31 = var_17
+			var_32 =  0.90642786
+			var_33 = var_16
+			var_34 = ( 17494665385158249172<=(var_4>=(var_5%(( 63//79<=( -164701801363867432261705129012559860454\ 2277279219))\var_5))))
+			var_35 = var_31
+			var_36 =  9798957695269088538
+			var_37 =  5
+			var_38 =  -20474 - 6285im
+			var_39 =  -97540527708313615289067937344819324623
+			var_40 = (-var_20)
+			var_41 = (var_12+ false)
+			var_42 = var_11
+			var_43 = var_4
+			var_44 = var_7
+			var_45 =  0.7919525
+			var_46 = var_40
+			var_47 = var_44
+			var_48 =  108
+			var_49 = ((( -28%(( 2372160842!=( π÷ 30064))\ false))%(var_22& 4209460509105857800))>>>var_10)
+			var_50 = ((var_29+(var_20\((var_1\var_1)<<(var_4⊻ 79309211630850442777997057975248162058))))+ π)
+			var_51 = var_6
+			var_52 =  0.08264146275596462
+			var_53 = ((var_2|(-var_16))%(( Float16(0.2354) + Float16(0.0332)im-var_18)% 4))
+			var_54 = var_42
+			if var_14true 
+				var_0 = var_41
+				var_1 = ((((( 3.0% 0.8034403361782991)+ true)==(((( 2676674840>>>var_21)|var_16)>= 0.6454595723820311)>>(var_6-var_3)))>>> 0.9616134)/(- 36//59))
+				var_2 = (var_44>=(var_22% 2582779249798641811))
+				var_3 = var_3
+				var_4 =  0.26890091427991614
+				var_5 =  356459609
+				var_6 = (var_29>=((( Float16(0.2012) + Float16(0.4834)im<<var_42)>var_37)%var_24))
+				var_7 =  -1300274420
+				var_8 =  7114319952051106262
+				if var_41true 
+					var_0 =  14//15
+					var_1 = ((var_8== -6677133781050889958)!= 231374137427768533128180811684907708424)
+				end
+				var_9 = ( true<=(var_28⊻(var_0-var_9)))
+				var_10 =  30091
+				var_11 = var_19
+				var_12 = var_19
+				var_13 =  0.0703
+				var_14 =  23//109
+			end
+			var_55 =  false
+			var_56 =  0.2978637903363319
+			var_57 = var_49
+			var_58 =  3
+			var_59 = (var_32- 6)
+			if  falsetrue 
+				var_0 = ( -6877÷ 23358 - 18836im)
+				var_1 = ( 17195<(+ 38//45))
+				var_2 = var_10
+				var_3 = (-var_21)
+				var_4 = var_2
+				var_5 = var_18
+				var_6 =  false
+				if var_23true 
+					var_0 = var_18
+					var_1 = (-var_0)
+					if (var_23-((( 230812607558513160839507881891630869104>= 1597189027)==( π>= -31773 - 23999im))\ true))true 
+					end
+					var_2 = ( 3802529786*(var_0-var_57))
+					var_3 = (var_1*(( 141425775314745292288547220549765368389*var_32)*var_19))
+					var_4 = var_51
+					var_5 = var_15
+					var_6 = (var_36/ 2.0)
+					var_7 = var_21
+					var_8 =  5
+					var_9 = var_17
+					if ( false+( -26170>=(var_18<var_1)))true 
+					end
+					var_10 = var_23
+					var_11 = (var_24-var_7)
+					var_12 = var_16
+					var_13 = ( true-var_37)
+					var_14 = var_59
+					var_15 = var_12
+					var_16 = (var_11>=var_6)
+				end
+				var_7 = (var_9/var_5)
+				var_8 =  -156109954978180942542201863074093446754
+				var_9 =  78
+				var_10 = var_17
+				var_11 =  0.795
+			end
+			var_60 = var_50
+			if  falsetrue 
+				var_0 =  false
+				if  falsetrue 
+					var_0 = (var_11*var_40)
+					var_1 =  552464953
+					var_2 =  Float16(0.01758) + Float16(0.02441)im
+					var_3 = (-( 198% 98))
+					var_4 = ( 4==var_32)
+					var_5 =  -195666611
+					var_6 = var_52
+					if  truetrue 
+					end
+					var_7 =  false
+					var_8 = ((var_15< true)>>((-var_19)>=var_25))
+					var_9 = (var_2==var_6)
+					if ((var_53& 15)<var_40)true 
+					end
+					var_10 = var_7
+					var_11 =  true
+					var_12 =  52//67
+					var_13 = var_7
+					var_14 = (var_45& 0.1006)
+					var_15 = ( 104629759<=var_3)
+					if var_10true 
+					end
+					var_16 =  5866555646470221590
+					var_17 = var_9
+					var_18 = (( 54*( 5.0÷ 0.9689479399437744))>>>(-(var_8>>var_39)))
+				end
+				var_1 = var_11
+				var_2 = ( true%var_4)
+			end
+			var_61 = ((var_1^ 23//59)>> -79)
+		end
+		var_8 = (+(var_0>= 58540426973125156053199759217250599295))
+		var_9 = var_18
+		var_10 = (var_5⊻var_17)
+		var_11 = ((-(var_10<<var_15))& -14756)
+		var_12 = (- 31507572)
+		var_13 = ( π>= false)
+		var_14 = var_8
+		var_15 = var_1
+		var_16 =  true
+		var_17 =  232
+		var_18 =  18//31
+		var_19 =  -89241593382448207806336242433922221162
+	else 		var_20 = var_6
+		var_21 = (var_9-var_4)
+		var_22 = var_0
+		var_23 = var_14
+		var_24 =  25765 - 5316im
+		var_25 = ((+var_2)÷ 0.5447378922750457)
+		var_26 =  Float16(0.7764) + Float16(0.4697)im
+		var_27 =  false
+		var_28 = (var_21-var_7)
+		var_29 = var_17
+	end
+	var_3 = ((var_3+var_22)^(- 27//151))
+	var_4 = var_5
+	var_5 = var_5
+	var_6 =  135153282376355957487340357404686484661
+	if (var_20\var_22)true 
+		var_0 =  true
+		var_1 = (var_17>=(var_10-var_2))
+		var_2 = var_7
+		var_3 = var_8
+		var_4 =  -1785556961
+		var_5 = (( 1090218554>var_3)*var_14)
+		var_6 = var_14
+		var_7 = ((var_16%(- π))*(var_0==(var_1/var_3)))
+		var_8 = (var_5\ 3.0)
+		var_9 = var_4
+		var_10 = (var_2<( 47543003679075479179010657402656163327* 6.0))
+		var_11 = (var_3* 26//55)
+		var_12 = var_10
+		var_13 = ( 0.1436\var_1)
+		var_14 = var_7
+		var_15 = ( -114!=var_7)
+		var_16 =  0.7215641032562266
+	end
+	var_7 =  -27734
+	var_8 =  3
+	var_9 =  6//7
+	var_10 =  Float16(0.1865) + Float16(0.463)im
+	var_11 = ( 0.1164071359736123/ true)
+	var_12 = (var_23÷((var_3/(var_1>>var_15))^( 0.127&(var_1>= 12885568232388939793))))
+	var_13 = ((var_4!=(+(var_0÷var_11)))== 36//83)
+	var_14 =  -5059038751817228204
+end
+var_24 = var_3
+var_25 = (var_8& 0.04703021)
+var_26 =  45//94
+var_27 =  1288916844
+var_28 =  Float16(0.951) + Float16(0.578)im
+var_29 =  59308
+var_30 =  false
+var_31 =  228389659388299210755459769415994550423
+var_32 = (var_31÷((+var_10)%(( 6539297222776593050!=var_24)== 122814899584519529805393485320318294300)))
+var_33 = var_30

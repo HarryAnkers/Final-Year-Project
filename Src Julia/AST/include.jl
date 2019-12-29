@@ -1,5 +1,6 @@
 include("./node.jl")
 include("./State_struct.jl")
+include("./Types.jl")
 
 include("./Statements/Statement_Lists.jl")
 include("./Statements/Statement.jl")

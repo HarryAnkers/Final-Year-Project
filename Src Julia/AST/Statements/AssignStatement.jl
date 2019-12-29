@@ -8,14 +8,13 @@ end
 
 function init(self::AssignStatement)
     self.indent = self.state.scope
-    self.expr = Expression(self.state)
+    self.expr = Expression(self.state, "Number")
     init(self.expr)
-    self.variable = Variable(self.state,true)
+    self.variable = Variable(self.state,"Number",true)
     init(self.variable)
 end
 
 function create_text(self::AssignStatement)
-    
     write_pretty(self.indent, self.state, "")
     create_text(self.variable)
     write(self.state.file, " = ")
