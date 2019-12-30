@@ -15,6 +15,12 @@ function init(self::DualOp)
     init(self.op2)
 end
 
+function eval_type(self::DualOp)
+    type1 = eval_type(self.op1)
+    type2 = eval_type(self.op2)
+    return compare_type(type1,type2,false)[1]
+end
+
 function create_text(self::DualOp)
     write(self.state.file, "(")
     create_text(self.op1)
@@ -35,6 +41,9 @@ end
 function init(self::UnaryOp)
     self.op = Expression(self.state, self.operand_type)
     init(self.op)
+end
+function eval_type(self::DualOp)
+    return eval_type(self.op)
 end
 
 function create_text(self::UnaryOp)

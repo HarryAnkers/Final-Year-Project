@@ -1,17 +1,20 @@
 JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
-FILES_N=3
+FILES_N=10
 let error_counter=0
 
-echo $($JULIA "topLevel.jl" $FILES_N)
+rm -rfv ./test_files/*
+
+$JULIA "topLevel.jl" $FILES_N
 for ((i=1; i<=FILES_N; i++)); do
     echo $i
-    $JULIA "--optimize=0" "./test_files/FILE_$i.txt" 2>/dev/null
+    echo $($JULIA "--optimize=0" "./test_files/FILE_$i.jl")
+    $JULIA "--optimize=0" "./test_files/FILE_$i.jl" 2>/dev/null
     let o0_return=$?
-    $JULIA "--optimize=1" "./test_files/FILE_$i.txt" 2>/dev/null
+    $JULIA "--optimize=1" "./test_files/FILE_$i.jl" 2>/dev/null
     let o1_return=$?
-    $JULIA "--optimize=2" "./test_files/FILE_$i.txt" 2>/dev/null
+    $JULIA "--optimize=2" "./test_files/FILE_$i.jl" 2>/dev/null
     let o2_return=$?
-    $JULIA "--optimize=3" "./test_files/FILE_$i.txt" 2>/dev/null
+    $JULIA "--optimize=3" "./test_files/FILE_$i.jl" 2>/dev/null
     let o3_return=$?
     if [ $o0_return != 0 ]
     then

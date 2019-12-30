@@ -13,19 +13,15 @@ function write_pretty(indent::Int, in_state::State, in_string::String)
     write(in_state.file, in_string)
 end
 
-function var_dict_size(state_in::State)
-    var_size = 0
+function var_possibilities(state_in::State, type::String)
+    possible_tuples::Array{Tuple{Int,Int}} = []
     for key in keys(state_in.variables)
-        var_size += size(state_in.variables[key])[1]
-    end
-    return var_size
-end
-
-function get_var(state_in::State, i::Int)
-    for key in keys(state_in.variables)
-        if i <= size(state_in.variables[key])[1]
-            return state_in.variables[key][i]
+        for i in 1:size(state_in.variables[key])[1]
+            var = state_in.variables[key][i]
+            if (compare_type(var[2],type,true)[2])
+                push!(possible_tuples, (key,i))
+            end
         end
-        i -= size(state_in.variables[key])[1]
     end
+    return possible_tuples
 end

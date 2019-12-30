@@ -24,9 +24,11 @@ function init(self::IfStatement)
         rand_n = 101
     end
     if rand_n < 20
+        pop!(self.state.variables,self.state.scope,0)
         self.else_if_statement = IfStatement(self.state,true)
         init(self.else_if_statement)
     elseif rand_n < 40
+        pop!(self.state.variables,self.state.scope,0)
         self.else_statement = Statement_Lists(self.state)
         init(self.else_statement)
     end
@@ -41,10 +43,10 @@ function create_text(self::IfStatement)
         write(self.state.file, "if ")
     end
     create_text(self.expr)
-    write(self.state.file, "true \n")
+    write(self.state.file, "\n")
     create_text(self.statement)
     if self.else_statement !== nothing
-        write_pretty(self.indent, self.state, "else ")
+        write_pretty(self.indent, self.state, "else\n")
         create_text(self.else_statement)
     elseif self.else_if_statement !== nothing
         write_pretty(self.indent, self.state, "else")

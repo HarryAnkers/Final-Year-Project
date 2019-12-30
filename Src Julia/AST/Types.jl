@@ -25,7 +25,7 @@ function type_to_random(return_type)
         tmp = 350
     elseif return_type == "Rational"
         tmp = 375
-    elseif return_type == "Irrational"
+    elseif return_type == "Irrational{:π}"
         tmp = 400
     elseif return_type == "Float16"
         tmp = 425
@@ -110,6 +110,52 @@ function type_to_var(return_type)
     elseif rand_n <= 550
         tmp20::Complex = rand(Complex{Float16})
         return tmp20
+    end
+end
+
+function compare_type(type1::String, type2::String, smaller)
+    conversion = Dict("Bool" => 0,
+            "Int8" => 1,
+            "UInt8" => 2,
+            "Int16" => 3,
+            "UInt16" => 4,
+            "Int32" => 5,
+            "UInt32" => 6,
+            "Int64" => 7,
+            "UInt64" => 8,
+            "Int128" => 9,
+            "UInt128" => 10,
+            "BigInt" => 11,
+            "Rational{Int8}" => 12,
+            "Rational{Int16}" => 13,
+            "Rational{Int32}" => 14,
+            "Rational{Int64}" => 15,
+            "Rational{Int128}" => 16,
+            "Irrational{:π}" => 17,
+            "Float16" => 18,
+            "Float32" => 19,
+            "Float64" => 20,
+            "BigFloat" => 21,
+            "Complex{Int8}" => 22,
+            "Complex{Int16}" => 23,
+            "Complex{Int32}" => 24,
+            "Complex{Int64}" => 25,
+            "Complex{Float16}" => 26,
+            "Complex{Float32}" => 27,
+            "Complex{Float64}" => 28,
+            "Number" => 29)
+    if smaller
+        if(get(conversion, type1,"")<get(conversion, type2,""))
+            return (type1, true)
+        else
+            return (type2, false)
+        end
+    else
+        if(get(conversion, type1,"")>get(conversion, type2,""))
+            return (type1, false)
+        else
+            return (type2, true)
+        end
     end
 end
 
