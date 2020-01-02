@@ -46,7 +46,7 @@ function init(self::Constant)
 end
 
 function eval_type(self::Constant)
-    return typeof(self.num)
+    return string(typeof(self.num))
 end
 
 function create_text(self::Constant)

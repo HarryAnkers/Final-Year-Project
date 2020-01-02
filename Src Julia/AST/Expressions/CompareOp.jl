@@ -5,7 +5,7 @@ mutable struct CompareOp <: Node
 end
 
 function init(self::CompareOp)
-    rand_n = rand(0:89)
+    rand_n = rand(0:99)
     if rand_n < 12
         self.expr = DualOp(self.state,"==","Bool","BigFloat")
     elseif rand_n < 24

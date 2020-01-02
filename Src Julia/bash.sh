@@ -1,5 +1,5 @@
 JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
-FILES_N=10
+FILES_N=50
 let error_counter=0
 
 rm -rfv ./test_files/*

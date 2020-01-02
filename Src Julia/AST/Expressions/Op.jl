@@ -18,7 +18,11 @@ end
 function eval_type(self::DualOp)
     type1 = eval_type(self.op1)
     type2 = eval_type(self.op2)
-    return compare_type(type1,type2,false)[1]
+    compare_t = compare_type(type1,type2,false)[1]
+    if (self.operator == "\\") || (self.operator == "/")
+        return compare_type("Float16",compare_t,false)[1]
+    end
+    return compare_t
 end
 
 function create_text(self::DualOp)
@@ -42,7 +46,8 @@ function init(self::UnaryOp)
     self.op = Expression(self.state, self.operand_type)
     init(self.op)
 end
-function eval_type(self::DualOp)
+
+function eval_type(self::UnaryOp)
     return eval_type(self.op)
 end
 

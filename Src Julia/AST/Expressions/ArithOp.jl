@@ -15,23 +15,23 @@ function init(self::ArithOp)
         elseif rand_n < 30
             self.expr = DualOp(self.state,"*",self.return_type,self.return_type)
         elseif rand_n < 40
-            if compare_type("Float64",self.return_type,true)[2]
-                self.expr = DualOp(self.state,"/",self.return_type,self.return_type)
+            if compare_type("Float16",self.return_type,false)[2]
+                self.expr = DualOp(self.state,"/",self.return_type,"BigFloat")
             else
                 self.expr = Expression(self.state,self.return_type)
             end
         elseif rand_n < 50
-            self.expr = DualOp(self.state,"÷",self.return_type,self.return_type)
+            self.expr = DualOp(self.state,"÷",self.return_type,"BigFloat")
         elseif rand_n < 60
-            if compare_type("Float64",self.return_type,true)[2]
-                self.expr = DualOp(self.state,"\\",self.return_type,self.return_type)
+            if compare_type("Float16",self.return_type,false)[2]
+                self.expr = DualOp(self.state,"\\",self.return_type,"BigFloat")
             else
                 self.expr = Expression(self.state,self.return_type)
             end
         elseif rand_n < 66
-            self.expr = DualOp(self.state,"^",self.return_type,self.return_type)
+            self.expr = DualOp(self.state,"^",self.return_type,"BigFloat")
         elseif rand_n < 76
-            self.expr = DualOp(self.state,"%",self.return_type,self.return_type)
+            self.expr = DualOp(self.state,"%",self.return_type,"BigFloat")
         elseif rand_n < 86
             self.expr = UnaryOp(self.state,"+",self.return_type,self.return_type)
         elseif rand_n < 100

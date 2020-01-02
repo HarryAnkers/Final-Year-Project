@@ -10,7 +10,7 @@ function init(self::AssignStatement)
     self.indent = self.state.scope
     self.expr = Expression(self.state, "Number")
     init(self.expr)
-    self.variable = Variable(self.state,"Number",true)
+    self.variable = Variable(self.state,eval_type(self.expr),true)
     init(self.variable)
 end
 

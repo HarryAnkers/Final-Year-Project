@@ -23,8 +23,12 @@ function type_to_random(return_type)
         tmp = 325
     elseif return_type == "BigInt"
         tmp = 350
-    elseif return_type == "Rational"
+    elseif return_type == "Rational{Int16}"
         tmp = 375
+    elseif return_type == "Rational{Int32}"
+        tmp = 385
+    elseif return_type == "Rational{Int64}"
+        tmp = 395
     elseif return_type == "Irrational{:π}"
         tmp = 400
     elseif return_type == "Float16"
@@ -35,9 +39,9 @@ function type_to_random(return_type)
         tmp = 475
     elseif return_type == "BigFloat"
         tmp = 500
-    elseif return_type == "ComplexF"
+    elseif return_type == "Complex{Float16}"
         tmp = 525
-    elseif return_type == "ComplexI" || return_type == "Number"
+    elseif return_type == "Complex{Int16}" || return_type == "Number"
         tmp = 550
     else 
         println(string("wrong_type = ", return_type))
@@ -145,13 +149,13 @@ function compare_type(type1::String, type2::String, smaller)
             "Complex{Float64}" => 28,
             "Number" => 29)
     if smaller
-        if(get(conversion, type1,"")<get(conversion, type2,""))
+        if(get(conversion, type1,"")<=get(conversion, type2,""))
             return (type1, true)
         else
             return (type2, false)
         end
     else
-        if(get(conversion, type1,"")>get(conversion, type2,""))
+        if(get(conversion, type1,"")>=get(conversion, type2,""))
             return (type1, false)
         else
             return (type2, true)
