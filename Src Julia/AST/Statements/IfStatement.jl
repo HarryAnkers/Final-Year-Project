@@ -13,11 +13,7 @@ end
 function init(self::IfStatement)
     self.indent = self.state.scope
     self.state.scope += 1
-<<<<<<< HEAD
-    self.expr = Expression(self.state)
-=======
     self.expr = Expression(self.state, "Bool")
->>>>>>> 75f33fb46f8223a9cac9f8b05977e995444e46f4
     init(self.expr)
     
     self.statement = Statement_Lists(self.state)
@@ -28,17 +24,11 @@ function init(self::IfStatement)
         rand_n = 101
     end
     if rand_n < 20
-<<<<<<< HEAD
-        self.else_if_statement = IfStatement(self.state,true)
-        init(self.else_if_statement)
-    elseif rand_n < 40
-=======
         pop!(self.state.variables,self.state.scope,0)
         self.else_if_statement = IfStatement(self.state,true)
         init(self.else_if_statement)
     elseif rand_n < 40
         pop!(self.state.variables,self.state.scope,0)
->>>>>>> 75f33fb46f8223a9cac9f8b05977e995444e46f4
         self.else_statement = Statement_Lists(self.state)
         init(self.else_statement)
     end
@@ -56,11 +46,7 @@ function create_text(self::IfStatement)
     write(self.state.file, "\n")
     create_text(self.statement)
     if self.else_statement !== nothing
-<<<<<<< HEAD
-        write_pretty(self.indent, self.state, "else ")
-=======
         write_pretty(self.indent, self.state, "else\n")
->>>>>>> 75f33fb46f8223a9cac9f8b05977e995444e46f4
         create_text(self.else_statement)
     elseif self.else_if_statement !== nothing
         write_pretty(self.indent, self.state, "else")

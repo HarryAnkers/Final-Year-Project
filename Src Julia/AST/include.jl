@@ -1,9 +1,6 @@
 include("./node.jl")
 include("./State_struct.jl")
-<<<<<<< HEAD
-=======
 include("./Types.jl")
->>>>>>> 75f33fb46f8223a9cac9f8b05977e995444e46f4
 
 include("./Statements/Statement_Lists.jl")
 include("./Statements/Statement.jl")
