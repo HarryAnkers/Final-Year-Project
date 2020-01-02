@@ -3,14 +3,22 @@ mutable struct DualOp <: Node
     op1
     operator :: String
     op2
-    DualOp(state_in, operator) = new(state_in,nothing,operator,nothing)
+    return_type :: String
+    operand_type :: String
+    DualOp(state_in, operator, return_type, operand_type) = new(state_in,nothing,operator,nothing, return_type, operand_type)
 end
 
 function init(self::DualOp)
-    self.op1 = Expression(self.state)
+    self.op1 = Expression(self.state, self.operand_type)
     init(self.op1)
-    self.op2 = Expression(self.state)
+    self.op2 = Expression(self.state, self.operand_type)
     init(self.op2)
+end
+
+function eval_type(self::DualOp)
+    type1 = eval_type(self.op1)
+    type2 = eval_type(self.op2)
+    return compare_type(type1,type2,false)[1]
 end
 
 function create_text(self::DualOp)
@@ -25,12 +33,17 @@ mutable struct UnaryOp <: Node
     state :: State
     operator :: String
     op
-    UnaryOp(state_in, operator) = new(state_in,operator,nothing)
+    return_type :: String
+    operand_type :: String
+    UnaryOp(state_in, operator, return_type, operand_type) = new(state_in,operator,nothing, return_type, operand_type)
 end
 
 function init(self::UnaryOp)
-    self.op = Expression(self.state)
+    self.op = Expression(self.state, self.operand_type)
     init(self.op)
+end
+function eval_type(self::DualOp)
+    return eval_type(self.op)
 end
 
 function create_text(self::UnaryOp)

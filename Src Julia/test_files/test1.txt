@@ -1,5 +1,0 @@
-var_0 = var_0
-var_1 = var_1
-var_2 = ((var_0+((!var_1)-9073))>var_2)
-var_3 = -7878
-var_4 = var_3
