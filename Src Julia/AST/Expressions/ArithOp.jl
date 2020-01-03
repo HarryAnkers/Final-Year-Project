@@ -6,8 +6,8 @@ mutable struct ArithOp <: Node
 end
 
 function init(self::ArithOp)
-    if self.return_type != "Bool"
-        rand_n = rand(0:99)
+    rand_n = rand(0:99)
+    if (self.return_type != "Bool") && ((rand_n<20)||(40<=rand_n<60)||(76<rand_n))
         if rand_n < 10
             self.expr = DualOp(self.state,"+",self.return_type,self.return_type)
         elseif rand_n < 20
@@ -16,22 +16,22 @@ function init(self::ArithOp)
             self.expr = DualOp(self.state,"*",self.return_type,self.return_type)
         elseif rand_n < 40
             if compare_type("Float16",self.return_type,false)[2]
-                self.expr = DualOp(self.state,"/",self.return_type,"BigFloat")
+                self.expr = DualOp(self.state,"/",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
             else
                 self.expr = Expression(self.state,self.return_type)
             end
         elseif rand_n < 50
-            self.expr = DualOp(self.state,"÷",self.return_type,"BigFloat")
+            self.expr = DualOp(self.state,"÷",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
         elseif rand_n < 60
             if compare_type("Float16",self.return_type,false)[2]
-                self.expr = DualOp(self.state,"\\",self.return_type,"BigFloat")
+                self.expr = DualOp(self.state,"\\",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
             else
                 self.expr = Expression(self.state,self.return_type)
             end
         elseif rand_n < 66
-            self.expr = DualOp(self.state,"^",self.return_type,"BigFloat")
+            self.expr = DualOp(self.state,"^",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
         elseif rand_n < 76
-            self.expr = DualOp(self.state,"%",self.return_type,"BigFloat")
+            self.expr = DualOp(self.state,"%",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
         elseif rand_n < 86
             self.expr = UnaryOp(self.state,"+",self.return_type,self.return_type)
         elseif rand_n < 100

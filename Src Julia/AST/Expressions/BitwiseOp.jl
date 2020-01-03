@@ -9,9 +9,7 @@ function init(self::BitwiseOp)
     rand_n = rand(0:99)
     self.return_type = compare_type(self.return_type, "BigInt", true)[1]
     if rand_n < 100
-        println("----------")
         self.expr = DualOp(self.state,"&",self.return_type,self.return_type)
-        println()
     elseif rand_n < 30
         self.expr = DualOp(self.state,"|",self.return_type,self.return_type)
     elseif rand_n < 45
