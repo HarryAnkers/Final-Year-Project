@@ -1,1 +1,4 @@
 - uint to int
+var_31 = ((false)>>(true))
+int div 0 (not planning on doing yet)
+overflow (not planning on doing yet)

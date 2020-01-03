@@ -17,7 +17,7 @@ function init(self::Expression)
         possibilities = var_possibilities(self.state, self.return_type)
         size_p = size(possibilities)[1]
         if size_p > 0
-            self.expr = Variable(self.state, self.return_type, false, possibilities)
+            self.expr = Variable(self.state, self.return_type, 1, possibilities)
         else
             self.expr = Expression(self.state, self.return_type)
         end
