@@ -19,8 +19,10 @@ function eval_type(self::DualOp)
     type1 = eval_type(self.op1)
     type2 = eval_type(self.op2)
     compare_t = compare_type(type1,type2,false)[1]
-    if (self.operator == "\\") || (self.operator == "/")
+    if self.operator in ["\\","/"]
         return compare_type("Float16",compare_t,false)[1]
+    elseif self.operator in ["+","-","÷"]
+        return compare_type("Int8",compare_t,false)[1]
     end
     return compare_t
 end
@@ -48,6 +50,9 @@ function init(self::UnaryOp)
 end
 
 function eval_type(self::UnaryOp)
+    if self.operator in ["+","-"]
+        return compare_type("Int8",eval_type(self.op),false)[1]
+    end
     return eval_type(self.op)
 end
 

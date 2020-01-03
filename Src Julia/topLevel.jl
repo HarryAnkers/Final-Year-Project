@@ -4,10 +4,10 @@ files_n = parse(UInt8, ARGS[1])
 println(string("n = ", files_n))
 
 for i in 1:files_n
-    println(string("file - ", i))
+    println(string("creating file - ", i))
     open(string("./test_files/FILE_",i,".jl"), "w") do f
         state = State(f)
-        top_node = CompareOp(state)
+        top_node = Statement_Lists(state)
         init(top_node)
         create_text(top_node)
         close(top_node.state.file)

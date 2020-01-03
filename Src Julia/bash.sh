@@ -1,8 +1,9 @@
 JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
 FILES_N=50
 let error_counter=0
+let bug_counter=0
 
-rm -rfv ./test_files/*
+rm -rfv ./test_files/*.jl
 
 $JULIA "topLevel.jl" $FILES_N
 for ((i=1; i<=FILES_N; i++)); do
@@ -22,19 +23,26 @@ for ((i=1; i<=FILES_N; i++)); do
     fi
     if [ $o0_return != $o1_return ]
     then
+        bug_counter=$((bug_counter+1))
         echo "bug found in File $i o0 code different to o1"
         echo "code ($o0_return != $o1_return)"
+        mv ./test_files/FILE_$i.jl ./test_files/bug_files/ 
     elif [ $o1_return != $o2_return ]
     then
+        bug_counter=$((bug_counter+1))
         echo "bug found in File $i o1 code different to o2"
         echo "code ($o0_return != $o1_return)"
+        mv ./test_files/FILE_$i.jl ./test_files/bug_files/ 
     elif [ $o2_return != $o3_return ]
     then
+        bug_counter=$((bug_counter+1))
         echo "bug found in File $i o2 code different to o3"
         echo "code ($o0_return != $o1_return)"
+        mv ./test_files/FILE_$i.jl ./test_files/bug_files/ 
     else
         echo "Passed"
     fi
     echo "----"
 done
 echo "done with $error_counter file(s) throwing errors"
+echo "$bug_counter bug(s) found"

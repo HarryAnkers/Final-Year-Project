@@ -11,15 +11,15 @@ end
 function init(self::Variable)
     arr_size = 0
     if self.new
+        for dict_row in self.state.variables
+            arr_size += size(dict_row[2])[1]
+        end
         if self.state.scope in keys(self.state.variables)
-            arr_size = size(self.state.variables[self.state.scope])[1]
-            self.return_type = string(typeof(type_to_var(self.return_type)))
             push!(self.state.variables[self.state.scope], (string("var_",arr_size),self.return_type))
             self.id = string("var_",arr_size)
         else
-            self.return_type = string(typeof(type_to_var(self.return_type)))
-            self.state.variables[self.state.scope] = [("var_0",self.return_type)]
-            self.id = "var_0"
+            self.state.variables[self.state.scope] = [(string("var_",arr_size),self.return_type)]
+            self.id = string("var_",arr_size)
         end
     else
         possibilities = var_possibilities(self.state, self.return_type)
@@ -28,6 +28,10 @@ function init(self::Variable)
         (key, index) = possibilities[rand_n]
         (self.id, self.return_type) = self.state.variables[key][index]
     end
+end
+
+function eval_type(self::Variable)
+    return self.return_type
 end
 
 function create_text(self::Variable)
