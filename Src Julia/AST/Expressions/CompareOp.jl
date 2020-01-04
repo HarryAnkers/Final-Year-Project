@@ -4,6 +4,7 @@ mutable struct CompareOp <: Node
     CompareOp(state_in) = new(state_in,nothing)
 end
 
+# all compare ops return a Bool and all can't have complex arguments
 function init(self::CompareOp)
     rand_n = rand(0:99)
     if rand_n < 12
@@ -31,12 +32,14 @@ function init(self::CompareOp)
             self.expr = DualOp(self.state,"≥","Bool","BigFloat")
         end
     elseif rand_n < 100
+        # the not operator must only have a boolean argument
         self.expr = UnaryOp(self.state,"!","Bool","Bool")
     end
     init(self.expr)
 end
 
 function eval_type(self::CompareOp)
+    # always returns a Bool
     return "Bool"
 end
 

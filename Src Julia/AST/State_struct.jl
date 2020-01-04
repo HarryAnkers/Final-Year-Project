@@ -1,4 +1,3 @@
-# INIT STATE TYPE
 mutable struct State
     file::IOStream
     variables::Dict{Int, Array{Tuple{String,String}}}
@@ -6,6 +5,7 @@ mutable struct State
     State(file) = new(file,Dict{Int, Array{Tuple{String,String}}}(),0)
 end
 
+# Used to perform indenting for printing to files.
 function write_pretty(indent::Int, in_state::State, in_string::String)
     for i = 1:indent
         write(in_state.file, "\t")
@@ -13,6 +13,7 @@ function write_pretty(indent::Int, in_state::State, in_string::String)
     write(in_state.file, in_string)
 end
 
+# Gets all type compatable variables 
 function var_possibilities(state_in::State, type::String)
     possible_tuples::Array{Tuple{Int,Int}} = []
     for key in keys(state_in.variables)

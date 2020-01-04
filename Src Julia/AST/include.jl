@@ -1,3 +1,4 @@
+# This file is to merge all the files before being used in the topLevel file
 include("./node.jl")
 include("./State_struct.jl")
 include("./Types.jl")

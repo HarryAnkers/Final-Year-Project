@@ -1,13 +1,19 @@
 JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
+# Declares how many files are wanted
 FILES_N=50
+# Counters for files that threw an exception and those that exposed bugs
 let error_counter=0
 let bug_counter=0
 
+# Removes all old test files
 rm -rfv ./test_files/*.jl
 
+# Creates the files
 $JULIA "topLevel.jl" $FILES_N
+# Loop to test the files
 for ((i=1; i<=FILES_N; i++)); do
     echo $i
+    # Ran at each opt. level results are stored in variables e.g. o0_return
     echo $($JULIA "--optimize=0" "./test_files/FILE_$i.jl")
     $JULIA "--optimize=0" "./test_files/FILE_$i.jl" 2>/dev/null
     let o0_return=$?
@@ -17,10 +23,13 @@ for ((i=1; i<=FILES_N; i++)); do
     let o2_return=$?
     $JULIA "--optimize=3" "./test_files/FILE_$i.jl" 2>/dev/null
     let o3_return=$?
+    # Checks if file threw an error and if it did inc. the count
     if [ $o0_return != 0 ]
     then
         error_counter=$((error_counter+1))
     fi
+    # All checks to see if opt. returned different things.
+    # If they did inc. count and moves the file
     if [ $o0_return != $o1_return ]
     then
         bug_counter=$((bug_counter+1))

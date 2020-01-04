@@ -7,6 +7,7 @@ end
 
 function init(self::BitwiseOp)
     rand_n = rand(0:99)
+    #type can max be BigInt so it limits it at that
     self.return_type = compare_type(self.return_type, "BigInt", true)[1]
     if rand_n < 15
         self.expr = DualOp(self.state,"&",self.return_type,self.return_type)
@@ -15,18 +16,21 @@ function init(self::BitwiseOp)
     elseif rand_n < 45
         self.expr = DualOp(self.state,"⊻",self.return_type,self.return_type)
     elseif rand_n < 60
+        #shift can't have bool arguments. If bool skips it
         if self.return_type == "Bool"
             self.expr = Expression(self.state, self.return_type) 
         else
             self.expr = DualOp(self.state,">>>",self.return_type,self.return_type)
         end
     elseif rand_n < 75
+        #shift can't have bool arguments. If bool skips it
         if self.return_type == "Bool"
             self.expr = Expression(self.state, self.return_type) 
         else
             self.expr = DualOp(self.state,">>",self.return_type,self.return_type)
         end
     elseif rand_n < 90
+        #shift can't have bool arguments. If bool skips it
         if self.return_type == "Bool"
             self.expr = Expression(self.state, self.return_type) 
         else

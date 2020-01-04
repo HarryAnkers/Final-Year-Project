@@ -1,3 +1,4 @@
+# Converts all types to a number in order of sig.
 function type_to_random(return_type)
     if return_type == "Bool"
         tmp = 75
@@ -49,6 +50,7 @@ function type_to_random(return_type)
     return tmp
 end
 
+# Creates a random constant less than the required type
 function type_to_var(return_type)
     num = type_to_random(return_type)
     rand_n = rand(0:num)
@@ -117,6 +119,8 @@ function type_to_var(return_type)
     end
 end
 
+# Converts all types to a number to compare magnitude
+# Returns the (less/more) argument along side a Bool if they were in the correct order.
 function compare_type(type1::String, type2::String, smaller)
     conversion = Dict("Bool" => 0,
             "Int8" => 1,

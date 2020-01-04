@@ -14,6 +14,7 @@ function init(self::Expression)
     elseif rand_n < 32
         self.expr = CompareOp(self.state)
     elseif rand_n < 66
+        # all type comparable possibbilities are counted if non zero it uses variable. If count is 0 it skips it.
         possibilities = var_possibilities(self.state, self.return_type)
         size_p = size(possibilities)[1]
         if size_p > 0
@@ -24,9 +25,7 @@ function init(self::Expression)
     elseif rand_n < 100
         self.expr = Constant(self.state, self.return_type)
     end
-    if self.expr !== nothing
-        init(self.expr)
-    end
+    init(self.expr)
 end
 
 function eval_type(self::Expression)
@@ -34,7 +33,5 @@ function eval_type(self::Expression)
 end
 
 function create_text(self::Expression)
-    if self.expr !== nothing
-        create_text(self.expr)
-    end
+    create_text(self.expr)
 end
