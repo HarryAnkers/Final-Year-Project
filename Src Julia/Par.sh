@@ -5,6 +5,7 @@ let pro_N=0
 # let error_counter=0
 # let bug_counter=0
 let file_counter=0
+let noPrint=0
 
 while [ -n "$1" ]; do # while loop starts
 
@@ -85,7 +86,7 @@ do
     elif [ $error -eq 1 ]; then
         cp ./test_files/Process_$pro_N/FILE.jl ./test_files/error_files/test_$(date +%S:%M:%H-%F).jl
     fi
-    if [ $noPrint -eq 1 ]; then
+    if [ $noPrint -ne 1 ]; then
         file_counter=$((file_counter+1))
         echo -en "done file number - $file_counter \r"
     fi
