@@ -4,6 +4,7 @@ let pro_N=$1
 # Counters for files that threw an exception and those that exposed bugs
 # let error_counter=0
 # let bug_counter=0
+let file_counter=0
 
 # Removes all old test files
 if [[ ! -d "./test_files/Process_$pro_N" ]]
@@ -60,8 +61,10 @@ do
     
     if [ $bug -eq 1 ]; then
         echo "Bug found!"
-        cp ./test_files/Process_$pro_N/FILE.jl ./test_files/bug_files/$date
+        cp ./test_files/Process_$pro_N/FILE.jl ./test_files/bug_files/test_$(date +%S:%M:%H-%F).jl
     elif [ $error -eq 1 ]; then
-        cp ./test_files/Process_$pro_N/FILE.jl ./test_files/error_files/$date
+        cp ./test_files/Process_$pro_N/FILE.jl ./test_files/error_files/test_$(date +%S:%M:%H-%F).jl
     fi
+    file_counter=$((file_counter+1))
+    echo -en "done file number - $file_counter \r"
 done

@@ -35,7 +35,7 @@ end
 function create_text(self::ForStatement)
     write_pretty(self.indent, self.state, "for ")
     create_text(self.var)
-    if rand(-10,10) <= 0
+    if rand(-10:10) <= 0
         write(self.state.file, string(" = 1:",self.num,"\n"))
     else
         write(self.state.file, string(" = x:",self.num,"\n"))
