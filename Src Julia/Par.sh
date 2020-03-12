@@ -1,10 +1,30 @@
 JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
 # Declares how many processes are wanted
-let pro_N=$1
+let pro_N=0
 # Counters for files that threw an exception and those that exposed bugs
 # let error_counter=0
 # let bug_counter=0
 let file_counter=0
+
+while [ -n "$1" ]; do # while loop starts
+
+	case "$1" in
+
+	-v0) let noPrint=1 ;; # No printing done
+    
+    -p)
+		pro_N="$2"
+
+		shift
+		;;
+
+	*) echo "Option $1 not recognized" ;;
+
+	esac
+
+	shift
+
+done
 
 # Removes all old test files
 if [[ ! -d "./test_files/Process_$pro_N" ]]
@@ -65,6 +85,8 @@ do
     elif [ $error -eq 1 ]; then
         cp ./test_files/Process_$pro_N/FILE.jl ./test_files/error_files/test_$(date +%S:%M:%H-%F).jl
     fi
-    file_counter=$((file_counter+1))
-    echo -en "done file number - $file_counter \r"
+    if [ $noPrint -eq 1 ]; then
+        file_counter=$((file_counter+1))
+        echo -en "done file number - $file_counter \r"
+    fi
 done
