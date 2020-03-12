@@ -5,8 +5,8 @@ include("./Types.jl")
 
 include("./Statements/Statement_Lists.jl")
 include("./Statements/Statement.jl")
-
 include("./Statements/IfStatement.jl")
+include("./Statements/ForStatement.jl")
 include("./Statements/AssignStatement.jl")
 
 include("./Expressions/Expression.jl")
@@ -15,3 +15,7 @@ include("./Expressions/ArithOp.jl")
 include("./Expressions/CompareOp.jl")
 include("./Expressions/BitwiseOp.jl")
 include("./Expressions/Primatives.jl")
+include("./Expressions/SpecialValueCheck.jl")
+include("./Expressions/MathsOp.jl")
+
+include("./Functions/Function_use.jl")

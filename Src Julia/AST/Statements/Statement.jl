@@ -8,12 +8,15 @@ function init(self::Statement)
     rand_n = rand(0:99)
     # Sets max scope depth of 5
     # A better future solution would be adjust probability of new scopes the deeper they go
-    if self.state.scope > 5
+    if self.state.scope > 10
         rand_n = 101
     end
     # note this must be less than 1/E(lines in a body) (=5%) to avoid endless recursion. Caps to stop this also exist
-    if rand_n < 4
+    if rand_n < 3
         self.sub_statement = IfStatement(self.state)
+        init(self.sub_statement)
+    elseif rand_n < 5
+        self.sub_statement = ForStatement(self.state)
         init(self.sub_statement)
     elseif rand_n < 100
         self.sub_statement = AssignStatement(self.state)

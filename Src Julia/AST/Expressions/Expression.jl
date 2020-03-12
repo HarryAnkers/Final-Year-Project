@@ -7,13 +7,13 @@ end
 
 function init(self::Expression)
     rand_n = rand(0:99)
-    if rand_n < 20
+    if rand_n < 14
         self.expr = ArithOp(self.state, self.return_type)
-    elseif rand_n < 25
+    elseif rand_n < 28
         self.expr = BitwiseOp(self.state, self.return_type)
-    elseif rand_n < 32
+    elseif rand_n < 42
         self.expr = CompareOp(self.state)
-    elseif rand_n < 66
+    elseif rand_n < 60
         # all type comparable possibbilities are counted if non zero it uses variable. If count is 0 it skips it.
         possibilities = var_possibilities(self.state, self.return_type)
         size_p = size(possibilities)[1]
@@ -22,6 +22,8 @@ function init(self::Expression)
         else
             self.expr = Expression(self.state, self.return_type)
         end
+    # elseif rand_n < 68
+    #     self.expr = SpecialValueCheck(self.state)
     elseif rand_n < 100
         self.expr = Constant(self.state, self.return_type)
     end

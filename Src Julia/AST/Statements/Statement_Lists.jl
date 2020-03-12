@@ -8,7 +8,7 @@ end
 function init(self::Statement_Lists)
     rand_n = rand(0:99)
     # Average body contains 20 lines
-    if rand_n < 95
+    if rand_n < 94
         self.statement = Statement(self.state)
         init(self.statement)
 

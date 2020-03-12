@@ -9,13 +9,13 @@ function init(self::ArithOp)
     rand_n = rand(0:99)
     #checks that the return type isn't limited to bool if the arith will convert to a int. if it is skips over it
     if (self.return_type != "Bool") && ((rand_n<20)||(40<=rand_n<60)||(76<rand_n))
-        if rand_n < 10
+        if rand_n < 12
             self.expr = DualOp(self.state,"+",self.return_type,self.return_type)
-        elseif rand_n < 20
+        elseif rand_n < 26
             self.expr = DualOp(self.state,"-",self.return_type,self.return_type)
-        elseif rand_n < 30
+        elseif rand_n < 38
             self.expr = DualOp(self.state,"*",self.return_type,self.return_type)
-        elseif rand_n < 40
+        elseif rand_n < 50
             #checks the return type isn't forced to be less than a float as divide can make it a float. if it is skips over it.
             if compare_type("Float16",self.return_type,false)[2]
                 #arguments to / can't be complex
@@ -23,10 +23,10 @@ function init(self::ArithOp)
             else
                 self.expr = Expression(self.state,self.return_type)
             end
-        elseif rand_n < 50
+        elseif rand_n < 56
             #arguments can't be complex
             self.expr = DualOp(self.state,"÷",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
-        elseif rand_n < 60
+        elseif rand_n < 62
             #checks the return type isn't forced to be less than a float as divide can make it a float. if it is skips over it.
             if compare_type("Float16",self.return_type,false)[2]
 
@@ -36,11 +36,9 @@ function init(self::ArithOp)
                 self.expr = Expression(self.state,self.return_type)
             end
         elseif rand_n < 66
-
             #arguments can't be complex
             self.expr = DualOp(self.state,"^",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
         elseif rand_n < 76
-
             #arguments can't be complex
             self.expr = DualOp(self.state,"%",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
         elseif rand_n < 86

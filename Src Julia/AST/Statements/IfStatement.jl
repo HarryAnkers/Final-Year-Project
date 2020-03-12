@@ -24,7 +24,7 @@ function init(self::IfStatement)
 
     rand_n = rand(0:99)
     # Limits scope depth to stop endless recurssion
-    if self.state.scope > 3
+    if self.state.scope > 4
         rand_n = 101
     end
     # Creates an else if statement

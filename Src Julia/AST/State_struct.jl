@@ -13,7 +13,7 @@ function write_pretty(indent::Int, in_state::State, in_string::String)
     write(in_state.file, in_string)
 end
 
-# Gets all type compatable variables 
+# Gets all type compatable variables
 function var_possibilities(state_in::State, type::String)
     possible_tuples::Array{Tuple{Int,Int}} = []
     for key in keys(state_in.variables)
