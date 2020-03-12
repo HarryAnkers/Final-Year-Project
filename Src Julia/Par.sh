@@ -10,8 +10,6 @@ if [[ ! -d "./test_files/Process_$pro_N" ]]
 then
     mkdir "./test_files/Process_$pro_N"
     mkdir "./test_files/Process_$pro_N/log_files"
-    mkdir "./test_files/Process_$pro_N/bug_files"
-    mkdir "./test_files/Process_$pro_N/error_files" 
 fi
 
 echo "process $i started"
