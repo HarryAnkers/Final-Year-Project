@@ -23,13 +23,13 @@ do
     # Creates the files
     $JULIA "topLevel.jl" "./test_files/Process_$pro_N/"
     # Ran at each opt. level results are stored in variables e.g. o0_return
-    $JULIA "--optimize=0" "./test_files/Process_$pro_N/File.jl" 0 2>/dev/null
+    $JULIA "--optimize=0" "./test_files/Process_$pro_N/File.jl" 1 0 2>/dev/null
     let o0_return=$?
-    $JULIA "--optimize=1" "./test_files/Process_$pro_N/FILE.jl" 1 2>/dev/null
+    $JULIA "--optimize=1" "./test_files/Process_$pro_N/FILE.jl" 1 1 2>/dev/null
     let o1_return=$?
-    $JULIA "--optimize=2" "./test_files/Process_$pro_N/FILE.jl" 2 2>/dev/null
+    $JULIA "--optimize=2" "./test_files/Process_$pro_N/FILE.jl" 1 2 2>/dev/null
     let o2_return=$?
-    $JULIA "--optimize=3" "./test_files/Process_$pro_N/FILE.jl" 3 2>/dev/null
+    $JULIA "--optimize=3" "./test_files/Process_$pro_N/FILE.jl" 1 3 2>/dev/null
     let o3_return=$?
 
     # Checks if file threw an error and if it did inc. the count

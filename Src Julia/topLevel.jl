@@ -6,7 +6,7 @@ file_loc = ARGS[1]
 function add_vars(self::State)
     write(self.file, "\n")
     if haskey(self.variables, 0)
-        write(self.file, string("tmpLog = open(string(\"",file_loc,"log_files/log\",(ARGS[1]),\".txt\"), \"w\")\n"))
+        write(self.file, string("tmpLog = open(string(\"",file_loc,"log_files/log\",(ARGS[2]),\".txt\"), \"w\")\n"))
         write(self.file, "write(tmpLog, string(") 
 
         for i in self.variables[0]
@@ -21,11 +21,14 @@ function add_vars(self::State)
 end
 
 open(string(file_loc,"FILE.jl"), "w") do f
+    state = State(f)
     # Creates the whole tree
-    top_node = Statement_Lists(State(f))
+    top_node = Statement_Lists(state)
     # Init. all nodes
     init(top_node)
+
     # Creates text to be put in the file stream
+    write(state.file, "x = ARGS[1]\n") 
     create_text(top_node)
     add_vars(top_node.state)
 

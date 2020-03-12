@@ -2,7 +2,7 @@ mutable struct ForStatement <: Node
     state :: State
     indent
     var
-    # expr
+    use_Arg
     num
     statement
     ForStatement(state_in) = new(state_in,0,0,nothing)
@@ -35,7 +35,11 @@ end
 function create_text(self::ForStatement)
     write_pretty(self.indent, self.state, "for ")
     create_text(self.var)
-    write(self.state.file, string(" = 1:",self.num,"\n"))
+    if rand(-10,10) <= 0
+        write(self.state.file, string(" = 1:",self.num,"\n"))
+    else
+        write(self.state.file, string(" = x:",self.num,"\n"))
+    end
     create_text(self.statement)
     write_pretty(self.indent, self.state, "end\n")
 end
