@@ -1,1 +1,5 @@
-Src\ Julia/test_files/error_files*
+Src/test_files/error_files/*
+
+Src/test_files/*
+!Src/test_files/error_files
+!Src/test_files/bug_files/*
