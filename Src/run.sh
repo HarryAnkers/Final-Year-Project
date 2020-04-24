@@ -10,6 +10,7 @@ let pro_N=0
 let file_counter=0
 let noPrint=0
 let noError=0
+let mathsCheck=0
 
 # status flags
 while [ -n "$1" ]; do # while loop starts
@@ -17,14 +18,13 @@ while [ -n "$1" ]; do # while loop starts
 	case "$1" in
 
 	-v0) let noPrint=1 ;; # No printing done
-    
     -p)
 		pro_N="$2"
 
 		shift
 		;;
-
 	-e) let noError=1 ;; # No error
+	-m) let mathsCheck=1 ;; # Maths checks
 
 	*) echo "Option $1 not recognized" ;;
 
@@ -60,6 +60,12 @@ do
     let o2_return=$?
     $JULIA "--optimize=3" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 3 2>/dev/null
     let o3_return=$?
+    if [ "$mathsCheck" -eq 1 ]; then
+        $JULIA "--optimize=3 --math-mode=ieee" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 4 2>/dev/null
+        let o4_return=$?
+        $JULIA "--optimize=3 --math-mode=fast" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 5 2>/dev/null
+        let o5_return=$?
+    fi
 
     # Checks if file threw an error and if it did inc. the count
     if [ $o0_return -ne 0 ]; then
@@ -73,6 +79,10 @@ do
         echo "error diff in File $i o1 / o2 ($o1_return-$o2_return)"
     elif [ $o2_return -ne $o3_return ]; then
         echo "error diff in File $i o2 / o3 ($o2_return-$o3_return)"
+    elif [ "$mathsCheck" -eq 1 ] && [ $o3_return -ne $o4_return ]; then
+        echo "error diff in File $i o3 / o4 ($o3_return-$o4_return)"
+    elif [ "$mathsCheck" -eq 1 ] && [ $o4_return -ne $o5_return ]; then
+        echo "error diff in File $i o4 / o5 ($o4_return-$o5_return)"
     elif [ $o0_return -eq 0 ]; then
         if ! cmp -s "$DIR/test_files/Process_$pro_N/log_files/log0.txt" "$DIR/test_files/Process_$pro_N/log_files/log1.txt"; then
             echo "log diff in File $i o0 / o1"
@@ -80,6 +90,10 @@ do
             echo "log diff in File $i o1 / o2"
         elif ! cmp -s "$DIR/test_files/Process_$pro_N/log_files/log2.txt" "$DIR/test_files/Process_$pro_N/log_files/log3.txt"; then
             echo "log diff in File $i o2 / o3"
+        elif [ "$mathsCheck" -eq 1 ] && ! cmp -s "$DIR/test_files/Process_$pro_N/log_files/log3.txt" "$DIR/test_files/Process_$pro_N/log_files/log4.txt"; then
+            echo "log diff in File $i o3 / o4"
+        elif [ "$mathsCheck" -eq 1 ] && ! cmp -s "$DIR/test_files/Process_$pro_N/log_files/log4.txt" "$DIR/test_files/Process_$pro_N/log_files/log5.txt"; then
+            echo "log diff in File $i o4 / o5"
         else
             bug=0
         fi
