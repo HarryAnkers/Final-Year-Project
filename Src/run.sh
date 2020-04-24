@@ -2,11 +2,8 @@ echo "=== BEGINING JULIA FUZZER ==="
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
-# Declares how many processes are wanted
+# Declares how many process number
 let pro_N=0
-# Counters for files that threw an exception and those that exposed bugs
-# let error_counter=0
-# let bug_counter=0
 let file_counter=0
 let noPrint=0
 let noError=0
@@ -25,7 +22,6 @@ while [ -n "$1" ]; do # while loop starts
 		;;
 	-e) let noError=1 ;; # No error
 	-m) let mathsCheck=1 ;; # Maths checks
-
 	*) echo "Option $1 not recognized" ;;
 
 	esac
@@ -61,9 +57,9 @@ do
     $JULIA "--optimize=3" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 3 2>/dev/null
     let o3_return=$?
     if [ "$mathsCheck" -eq 1 ]; then
-        $JULIA "--optimize=3 --math-mode=ieee" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 4 2>/dev/null
+        $JULIA "--optimize=3" "--math-mode=ieee" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 4 2>/dev/null
         let o4_return=$?
-        $JULIA "--optimize=3 --math-mode=fast" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 5 2>/dev/null
+        $JULIA "--optimize=3" "--math-mode=fast" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 5 2>/dev/null
         let o5_return=$?
     fi
 
