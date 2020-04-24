@@ -6,7 +6,9 @@ let pro_N=0
 # let bug_counter=0
 let file_counter=0
 let noPrint=0
+let noError=0
 
+# status flags
 while [ -n "$1" ]; do # while loop starts
 
 	case "$1" in
@@ -18,6 +20,8 @@ while [ -n "$1" ]; do # while loop starts
 
 		shift
 		;;
+
+	-e) let noError=1 ;; # No error
 
 	*) echo "Option $1 not recognized" ;;
 
@@ -84,7 +88,9 @@ do
         echo "Bug found!"
         cp ./test_files/Process_$pro_N/FILE.jl ./test_files/bug_files/test_$(date +%S:%M:%H-%F).jl
     elif [ $error -eq 1 ]; then
-        cp ./test_files/Process_$pro_N/FILE.jl ./test_files/error_files/test_$(date +%S:%M:%H-%F).jl
+        if [ $noPrint -eq 1 ]; then
+            cp ./test_files/Process_$pro_N/FILE.jl ./test_files/error_files/test_$(date +%S:%M:%H-%F).jl
+        fi
     fi
     if [ $noPrint -ne 1 ]; then
         file_counter=$((file_counter+1))
