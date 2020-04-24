@@ -46,7 +46,11 @@ do
     rm -rfv ./test_files/log_files/*.txt 2>/dev/null
 
     # Creates the files
-    $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/"
+    if [ "$noPrint" -eq 1 ]; then
+        $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 2>/dev/null
+    else 
+        $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 
+    fi
     # Ran at each opt. level results are stored in variables e.g. o0_return
     $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0 2>/dev/null
     let o0_return=$?
