@@ -5,7 +5,8 @@ JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
 # Declares how many process number
 let pro_N=0
 let file_counter=0
-let noPrint=0
+let v0=0
+let v1=0
 let noError=0
 let mathsCheck=0
 
@@ -14,7 +15,9 @@ while [ -n "$1" ]; do # while loop starts
 
 	case "$1" in
 
-	-v0) let noPrint=1 ;; # No printing done
+	-v0) let v0=1 
+        let v1=1  ;; # Verbose0
+	-v1) let v1=1 ;; # Verbose1
     -p)
 		pro_N="$2"
 
@@ -46,14 +49,19 @@ do
     rm -rfv ./test_files/log_files/*.txt 2>/dev/null
 
     # Creates the files
-    if [ "$noPrint" -eq 1 ]; then
+    if [ "$v0" -eq 1 ]; then
         $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 2>/dev/null
     else 
         $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 
     fi
     # Ran at each opt. level results are stored in variables e.g. o0_return
-    $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0 2>/dev/null
-    let o0_return=$?
+    if [ "$v1" -eq 1 ]; then
+        $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0 2>/dev/null
+        let o0_return=$?
+    else
+        $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0
+        let o0_return=$?
+    fi
     $JULIA "--optimize=1" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 1 2>/dev/null
     let o1_return=$?
     $JULIA "--optimize=2" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 2 2>/dev/null
@@ -111,7 +119,7 @@ do
     fi
 
     let end=$(gdate +%s)
-    if [ $noPrint -ne 1 ]; then
+    if [ $v0 -ne 1 ]; then
         file_counter=$((file_counter+1))
         echo -en "done file number - $file_counter [$(bc <<< "scale=2 ; ($end - $start) / $file_counter") per file]\r"
     fi

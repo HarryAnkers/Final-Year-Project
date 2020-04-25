@@ -22,24 +22,26 @@ function init(self::IfStatement)
     self.statement = Statement_Lists(self.state)
     init(self.statement)
 
-    rand_n = rand(0:99)
-    # Limits scope depth to stop endless recurssion
-    if self.state.scope > 4
-        rand_n = 101
-    end
+    probs = [35,15,50]
+    probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
+    rand_n = rand(1:last(probs))
+
     # Creates an else if statement
-    if rand_n < 20
-        pop!(self.state.variables,self.state.scope,0)
+    if rand_n <= probs[1]
+        pop!(self.state.variables, self.state.scope, 0)
         self.else_if_statement = IfStatement(self.state,true)
         init(self.else_if_statement)
     # Creates an else statement
-    elseif rand_n < 40
-        pop!(self.state.variables,self.state.scope,0)
+    elseif rand_n <= probs[2]
+        pop!(self.state.variables, self.state.scope, 0)
         self.else_statement = Statement_Lists(self.state)
         init(self.else_statement)
+    # Throws error if out of bounds of all
+    elseif rand_n > last(probs)
+        throw(ErrorException("If-Statement rand_n bounds error with - $rand_n. prob = $probs"))
     end
     # Pops remove all scope variables
-    pop!(self.state.variables,self.state.scope,0)
+    pop!(self.state.variables, self.state.scope, 0)
     self.state.scope -= 1
 end
 

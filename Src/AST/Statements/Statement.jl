@@ -5,22 +5,23 @@ mutable struct Statement <: Node
 end
 
 function init(self::Statement)
-    rand_n = rand(0:99)
-    # Sets max scope depth of 5
-    # A better future solution would be adjust probability of new scopes the deeper they go
-    if self.state.scope > 10
-        rand_n = 101
-    end
+    probs = [2,1,7]
+    probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
+    rand_n = rand(1:last(probs))
+
     # note this must be less than 1/E(lines in a body) (=5%) to avoid endless recursion. Caps to stop this also exist
-    if rand_n < 3
+    if rand_n <= probs[1]
         self.sub_statement = IfStatement(self.state)
         init(self.sub_statement)
-    elseif rand_n < 5
+    elseif rand_n <= probs[2]
         self.sub_statement = ForStatement(self.state)
         init(self.sub_statement)
-    elseif rand_n < 100
+    elseif rand_n <= probs[3]
         self.sub_statement = AssignStatement(self.state)
         init(self.sub_statement)
+    # Throws error if out of bounds of all
+    elseif rand_n > last(probs)
+        throw(ErrorException("Statement rand_n bounds error with - $rand_n. prob = $probs"))
     end
 end
 

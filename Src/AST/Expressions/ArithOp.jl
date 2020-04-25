@@ -1,3 +1,5 @@
+DIV = false
+
 mutable struct ArithOp <: Node
     state :: State
     return_type :: String
@@ -6,48 +8,59 @@ mutable struct ArithOp <: Node
 end
 
 function init(self::ArithOp)
-    rand_n = rand(0:99)
-    #checks that the return type isn't limited to bool if the arith will convert to a int. if it is skips over it
-    if (self.return_type != "Bool") && ((rand_n<20)||(40<=rand_n<60)||(76<rand_n))
-        if rand_n < 12
-            self.expr = DualOp(self.state,"+",self.return_type,self.return_type)
-        elseif rand_n < 26
-            self.expr = DualOp(self.state,"-",self.return_type,self.return_type)
-        elseif rand_n < 38
-            self.expr = DualOp(self.state,"*",self.return_type,self.return_type)
-        elseif rand_n < 50
-            #checks the return type isn't forced to be less than a float as divide can make it a float. if it is skips over it.
-            if compare_type("Float16",self.return_type,false)[2]
-                #arguments to / can't be complex
-                self.expr = DualOp(self.state,"/",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
-            else
-                self.expr = Expression(self.state,self.return_type)
-            end
-        elseif rand_n < 56
-            #arguments can't be complex
-            self.expr = DualOp(self.state,"÷",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
-        elseif rand_n < 62
-            #checks the return type isn't forced to be less than a float as divide can make it a float. if it is skips over it.
-            if compare_type("Float16",self.return_type,false)[2]
+    probs = [2,2,2,2,1,1,1,1,1,1]
+    if self.return_type == "Bool"
+        probs[1]=0
+        probs[2]=0
+        probs[4]=0
+        probs[6]=0
+        probs[9]=0
+        probs[10]=0
+    elseif (compare_type("Float16",self.return_type,false)[2])
+        probs[4]=0
+        probs[6]=0
+        probs[7]=0
+    end
+    if !DIV
+        probs[4]=0
+        probs[5]=0
+        probs[6]=0
+        probs[8]=0
+    end
+    if sum(probs)==0
+        throw(ErrorException("Arith Op no rand_n possible"))
+    end
 
-            #arguments can't be complex
-                self.expr = DualOp(self.state,"\\",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
-            else
-                self.expr = Expression(self.state,self.return_type)
-            end
-        elseif rand_n < 66
-            #arguments can't be complex
-            self.expr = DualOp(self.state,"^",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
-        elseif rand_n < 76
-            #arguments can't be complex
-            self.expr = DualOp(self.state,"%",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
-        elseif rand_n < 86
-            self.expr = UnaryOp(self.state,"+",self.return_type,self.return_type)
-        elseif rand_n < 100
-            self.expr = UnaryOp(self.state,"-",self.return_type,self.return_type)
-        end
-    else
-        self.expr = Expression(self.state,self.return_type)
+    probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
+    rand_n = rand(1:last(probs))
+    if rand_n <= probs[1]
+        self.expr = DualOp(self.state,"+",self.return_type,self.return_type)
+    elseif rand_n <= probs[2]
+        self.expr = DualOp(self.state,"-",self.return_type,self.return_type)
+    elseif rand_n <= probs[3]
+        self.expr = DualOp(self.state,"*",self.return_type,self.return_type)
+    elseif rand_n <= probs[4]
+        #arguments can't be complex
+        self.expr = DualOp(self.state,"/",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+    elseif rand_n <= probs[5]
+        #arguments can't be complex
+        self.expr = DualOp(self.state,"÷",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+    elseif rand_n <= probs[6]
+        #arguments can't be complex
+        self.expr = DualOp(self.state,"//",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+    elseif rand_n <= probs[7]
+        #arguments can't be complex
+        self.expr = DualOp(self.state,"^",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+    elseif rand_n <= probs[8]
+        #arguments can't be complex
+        self.expr = DualOp(self.state,"%",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+    elseif rand_n <= probs[9]
+        self.expr = UnaryOp(self.state,"+",self.return_type,self.return_type)
+    elseif rand_n <= probs[10]
+        self.expr = UnaryOp(self.state,"-",self.return_type,self.return_type)
+    # Throws error if out of bounds of all
+    elseif rand_n > last(probs)
+        throw(ErrorException("Arith Op rand_n bounds error with - $rand_n. prob = $probs"))
     end
     init(self.expr)
 end

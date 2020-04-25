@@ -22,11 +22,6 @@ function init(self::ForStatement)
     self.statement = Statement_Lists(self.state)
     init(self.statement)
 
-    # Limits scope depth to stop endless recurssion
-    if self.state.scope > 4
-        self.statement = AssignStatement(self.state)
-        init(self.statement)
-    end
     # Pops remove all scope variables
     pop!(self.state.variables,self.state.scope,0)
     self.state.scope -= 1
@@ -35,10 +30,18 @@ end
 function create_text(self::ForStatement)
     write_pretty(self.indent, self.state, "for ")
     create_text(self.var)
-    if rand(-10:10) <= 0
+
+    probs = [1,1]
+    probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
+    rand_n = rand(1:last(probs))
+
+    if rand_n <= probs[1]
         write(self.state.file, string(" = 1:",self.num,"\n"))
-    else
+    elseif rand_n <= probs[2]
         write(self.state.file, string(" = x:",self.num,"\n"))
+    # Throws error if out of bounds of all
+    elseif rand_n > last(probs)
+        throw(ErrorException("For-Statement rand_n bounds error with - $rand_n. prob = $probs"))
     end
     create_text(self.statement)
     write_pretty(self.indent, self.state, "end\n")

@@ -28,7 +28,7 @@ open(string(file_loc,"FILE.jl"), "w") do f
     init(top_node)
 
     # Creates text to be put in the file stream
-    write(state.file, "x = ARGS[1]\n") 
+    write(state.file, "x = parse(Int64, ARGS[1])\n") 
     create_text(top_node)
     add_vars(top_node.state)
 

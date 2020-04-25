@@ -6,38 +6,36 @@ mutable struct BitwiseOp <: Node
 end
 
 function init(self::BitwiseOp)
-    rand_n = rand(0:99)
+    # Check below
     #type can max be BigInt so it limits it at that
     self.return_type = compare_type(self.return_type, "BigInt", true)[1]
-    if rand_n < 15
+    
+    probs = [1,1,1,1,1,1,1]
+    if self.return_type == "Bool"
+        probs[4]=0
+        probs[5]=0
+        probs[6]=0
+    end
+
+    probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
+    rand_n = rand(1:last(probs))
+    if rand_n <= probs[1]
         self.expr = DualOp(self.state,"&",self.return_type,self.return_type)
-    elseif rand_n < 30
+    elseif rand_n <= probs[2]
         self.expr = DualOp(self.state,"|",self.return_type,self.return_type)
-    elseif rand_n < 45
+    elseif rand_n <= probs[3]
         self.expr = DualOp(self.state,"⊻",self.return_type,self.return_type)
-    elseif rand_n < 60
-        #shift can't have bool arguments. If bool skips it
-        if self.return_type == "Bool"
-            self.expr = Expression(self.state, self.return_type) 
-        else
-            self.expr = DualOp(self.state,">>>",self.return_type,self.return_type)
-        end
-    elseif rand_n < 75
-        #shift can't have bool arguments. If bool skips it
-        if self.return_type == "Bool"
-            self.expr = Expression(self.state, self.return_type) 
-        else
-            self.expr = DualOp(self.state,">>",self.return_type,self.return_type)
-        end
-    elseif rand_n < 90
-        #shift can't have bool arguments. If bool skips it
-        if self.return_type == "Bool"
-            self.expr = Expression(self.state, self.return_type) 
-        else
-            self.expr = DualOp(self.state,"<<",self.return_type,self.return_type)
-        end
-    elseif rand_n < 100
+    elseif rand_n <= probs[4]
+        self.expr = DualOp(self.state,">>>",self.return_type,self.return_type)
+    elseif rand_n <= probs[5]
+        self.expr = DualOp(self.state,">>",self.return_type,self.return_type)
+    elseif rand_n <= probs[6]
+        self.expr = DualOp(self.state,"<<",self.return_type,self.return_type)
+    elseif rand_n <= probs[7]
         self.expr = UnaryOp(self.state,"~",self.return_type,self.return_type)
+    # Throws error if out of bounds of all
+    elseif rand_n > last(probs)
+        throw(ErrorException("Bitwise Op rand_n bounds error with - $rand_n. prob = $probs"))
     end
     init(self.expr)
 end

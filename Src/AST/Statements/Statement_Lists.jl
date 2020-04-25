@@ -6,23 +6,19 @@ mutable struct Statement_Lists <: Node
 end
 
 function init(self::Statement_Lists)
-    println("-----")
-    println(self.state.scope+1)
-    probs = [round.(Int, 95/(self.state.scope+1)^(0.6)),100-round.(Int, 95/(self.state.scope+1)^(0.6))]
-    println(probs)
-    probs = round.(Int, 1000*(probs/sum(probs)))
-    println(probs)
+    probs = [round.(Int, 96/(self.state.scope+1)^(0.3)),100-round.(Int, 96/(self.state.scope+1)^(0.3))]
+    probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
 
-    rand_n = rand(0:(sum(probs)))
+    rand_n = rand(0:last(probs))
     if rand_n <= probs[1]
         self.statement = Statement(self.state)
         init(self.statement)
 
         self.next_sl = Statement_Lists(self.state)
         init(self.next_sl)
-    # if doesn't match then it finishes list
-    # else
-        # throw(ErrorException("In Statement Lists nothing was used and rand_n = $rand_n. prob = $probs"))
+    # Throws error if out of bounds of all
+    elseif rand_n > last(probs)
+        throw(ErrorException("Statement List rand_n bounds error with - $rand_n. prob = $probs"))
     end
 end
 
