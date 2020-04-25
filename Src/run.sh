@@ -47,7 +47,6 @@ do
     let error=0
 
     rm -rfv ./test_files/log_files/*.txt 2>/dev/null
-
     # Creates the files
     if [ "$v0" -eq 1 ]; then
         $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 2>/dev/null
@@ -74,7 +73,6 @@ do
         $JULIA "--optimize=3" "--math-mode=fast" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 5 2>/dev/null
         let o5_return=$?
     fi
-
     # Checks if file threw an error and if it did inc. the count
     if [ $o0_return -ne 0 ]; then
         error=1
@@ -108,7 +106,8 @@ do
     else
         bug=0
     fi
-    
+
+
     if [ $bug -eq 1 ]; then
         echo "Bug found!"
         cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/bug_files/test_$(date +%S:%M:%H-%F).jl"
