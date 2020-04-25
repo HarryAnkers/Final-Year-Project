@@ -5,6 +5,7 @@ JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
 # Declares how many process number
 let pro_N=0
 let file_counter=0
+let error_counter=0
 let v0=0
 let v1=0
 let noError=0
@@ -112,6 +113,7 @@ do
         echo "Bug found!"
         cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/bug_files/test_$(date +%S:%M:%H-%F).jl"
     elif [ $error -eq 1 ]; then
+        error_counter=$((error_counter+1))
         if [ $noError -ne 1 ]; then
             cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/error_files/test_$(date +%S:%M:%H-%F).jl"
         fi
@@ -120,6 +122,6 @@ do
     let end=$(gdate +%s)
     if [ $v0 -ne 1 ]; then
         file_counter=$((file_counter+1))
-        echo -en "done file number - $file_counter [$(bc <<< "scale=2 ; ($end - $start) / $file_counter") per file]\r"
+        echo -en "done file number - $file_counter [$(bc <<< "scale=2 ; ($end - $start) / $file_counter") per file][$error_counter files errored]\r"
     fi
 done

@@ -1,5 +1,2 @@
+Src/test_files/Process_0/log_files/*.txt
 Src/test_files/error_files/*
-
-Src/test_files/*
-!./Src/test_files/error_files
-!./Src/test_files/bug_files/*
