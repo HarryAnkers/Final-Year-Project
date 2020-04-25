@@ -22,17 +22,17 @@ function init(self::BitwiseOp)
     if rand_n <= probs[1]
         self.expr = DualOp(self.state,"&",self.return_type,self.return_type)
     elseif rand_n <= probs[2]
-        self.expr = DualOp(self.state,"|",self.return_type,"Rational{Int16}")
+        self.expr = DualOp(self.state,"|",self.return_type,compare_type("Rational{Int16}", self.return_type, true)[1])
     elseif rand_n <= probs[3]
         self.expr = DualOp(self.state,"⊻",self.return_type,self.return_type)
     elseif rand_n <= probs[4]
-        self.expr = DualOp(self.state,">>>",self.return_type,self.return_type)
+        self.expr = DualOp(self.state,">>>",self.return_type,compare_type("Float16", self.return_type, true)[1])
     elseif rand_n <= probs[5]
         self.expr = DualOp(self.state,">>",self.return_type,self.return_type)
     elseif rand_n <= probs[6]
         self.expr = DualOp(self.state,"<<",self.return_type,self.return_type)
     elseif rand_n <= probs[7]
-        self.expr = UnaryOp(self.state,"~",self.return_type,"Float16")
+        self.expr = UnaryOp(self.state,"~",self.return_type,compare_type("Float16", self.return_type, true)[1])
     # Throws error if out of bounds of all
     elseif rand_n > last(probs)
         throw(ErrorException("Bitwise Op rand_n bounds error with - $rand_n. prob = $probs"))
