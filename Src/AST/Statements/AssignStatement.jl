@@ -14,7 +14,7 @@ function init(self::AssignStatement)
     self.expr = Expression(self.state, "Number")
     init(self.expr)
     e_type = eval_type(self.expr)
-    possibilities = var_possibilities(self.state, eval_type(self.expr))
+    possibilities = get_possibilities(self.state.variables, eval_type(self.expr))
 
     probs = [2,1]
     if size(possibilities)[1] == 0
