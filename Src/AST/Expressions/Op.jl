@@ -18,14 +18,7 @@ end
 function eval_type(self::DualOp)
     type1 = eval_type(self.op1)
     type2 = eval_type(self.op2)
-    compare_t = compare_type(type1,type2,false)[1]
-    # if a divide operator it can convert to a float. Thus, it finds whatever is bigger type argument or float16
-    if self.operator in ["\\","/"]
-        return compare_type("Float16",compare_t,false)[1]
-    # Some arith operators convert bool to int. Thus, it finds whatever is bigger type argument or int8
-    elseif self.operator in ["+","-","÷"]
-        return compare_type("Int8",compare_t,false)[1]
-    end
+    compare_t = is_less_than(type1,type2,false)[3]
     return compare_t
 end
 
@@ -52,10 +45,6 @@ function init(self::UnaryOp)
 end
 
 function eval_type(self::UnaryOp)
-    # Some arith operators convert bool to int. Thus, it finds whatever is bigger type argument or int8
-    if self.operator in ["+","-"]
-        return compare_type("Int8",eval_type(self.op),false)[1]
-    end
     return eval_type(self.op)
 end
 

@@ -14,9 +14,11 @@ function init(self::ArithOp)
         probs[2]=0
         probs[4]=0
         probs[6]=0
+        probs[7]=0
         probs[9]=0
         probs[10]=0
-    elseif (compare_type("Float16",self.return_type,false)[2])
+    end
+    if is_less_than(self.return_type,"Float16",false)[2]
         probs[4]=0
         probs[6]=0
         probs[7]=0
@@ -41,19 +43,19 @@ function init(self::ArithOp)
         self.expr = DualOp(self.state,"*",self.return_type,self.return_type)
     elseif rand_n <= probs[4]
         #arguments can't be complex
-        self.expr = DualOp(self.state,"/",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+        self.expr = DualOp(self.state,"/",self.return_type,is_less_than(self.return_type, "BigFloat", true)[1])
     elseif rand_n <= probs[5]
         #arguments can't be complex
-        self.expr = DualOp(self.state,"÷",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+        self.expr = DualOp(self.state,"÷",self.return_type,is_less_than(self.return_type, "BigFloat", true)[1])
     elseif rand_n <= probs[6]
         #arguments can't be complex
-        self.expr = DualOp(self.state,"//",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+        self.expr = DualOp(self.state,"//",self.return_type,is_less_than(self.return_type, "BigFloat", true)[1])
     elseif rand_n <= probs[7]
         #arguments can't be complex
-        self.expr = DualOp(self.state,"^",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+        self.expr = DualOp(self.state,"^",self.return_type,self.return_type)
     elseif rand_n <= probs[8]
         #arguments can't be complex
-        self.expr = DualOp(self.state,"%",self.return_type,compare_type(self.return_type, "BigFloat", true)[1])
+        self.expr = DualOp(self.state,"%",self.return_type,is_less_than(self.return_type, "BigFloat", true)[1])
     elseif rand_n <= probs[9]
         self.expr = UnaryOp(self.state,"+",self.return_type,self.return_type)
     elseif rand_n <= probs[10]

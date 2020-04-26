@@ -19,7 +19,7 @@ function var_possibilities(state_in::State, type::String)
     for key in keys(state_in.variables)
         for i in 1:size(state_in.variables[key])[1]
             var = state_in.variables[key][i]
-            if (compare_type(var[2],type,true)[2])
+            if (is_less_than(var[2],type,true)[2])
                 push!(possible_tuples, (key,i))
             end
         end

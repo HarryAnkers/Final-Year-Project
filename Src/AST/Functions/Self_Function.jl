@@ -21,7 +21,7 @@
 # function eval_type(self::Function)
 #     # Some arith operators convert bool to int. Thus, it finds whatever is bigger type argument or int8
 #     if self.operator in ["+","-"]
-#         return compare_type("Int8",eval_type(self.op),false)[1]
+#         return is_less_than("Int8",eval_type(self.op),false)[1]
 #     end
 #     return eval_type(self.op)
 # end

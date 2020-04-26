@@ -17,6 +17,10 @@ function add_vars(self::State)
         write(self.file, "close(tmpLog)\n")
     else
         write(self.file, "#no variables \n")
+
+        write(self.file, string("tmpLog = open(string(\"",file_loc,"log_files/log\",(ARGS[2]),\".txt\"), \"w\")\n"))
+        write(self.file, "write(tmpLog, \"no Vars\", string(x))\n")
+        write(self.file, "close(tmpLog)\n")
     end
 end
 

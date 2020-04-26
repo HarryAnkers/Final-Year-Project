@@ -30,7 +30,7 @@ function type_to_random(return_type)
         tmp = 385
     elseif return_type == "Rational{Int64}"
         tmp = 395
-    elseif return_type == "Irrational{:π}"
+    elseif return_type == "Irrational"
         tmp = 400
     elseif return_type == "Float16"
         tmp = 425
@@ -120,8 +120,8 @@ function type_to_var(return_type)
 end
 
 # Converts all types to a number to compare magnitude
-# Returns the (less/more) argument along side a Bool if they were in the correct order.
-function compare_type(type1::String, type2::String, smaller)
+# Returns the less argument along side a Bool if they were in the correct order.
+function is_less_than(type1::String, type2::String, orEqual)
     conversion = Dict("Bool" => 0,
             "Int8" => 1,
             "UInt8" => 2,
@@ -139,6 +139,7 @@ function compare_type(type1::String, type2::String, smaller)
             "Rational{Int32}" => 14,
             "Rational{Int64}" => 15,
             "Rational{Int128}" => 16,
+            "Irrational" => 17,
             "Irrational{:π}" => 17,
             "Float16" => 18,
             "Float32" => 19,
@@ -152,17 +153,18 @@ function compare_type(type1::String, type2::String, smaller)
             "Complex{Float32}" => 27,
             "Complex{Float64}" => 28,
             "Number" => 29)
-    if smaller
+
+    if orEqual
         if(get(conversion, type1,"")<=get(conversion, type2,""))
-            return (type1, true)
+            return (type1, true, type2)
         else
-            return (type2, false)
+            return (type2, false, type1)
         end
     else
-        if(get(conversion, type1,"")>=get(conversion, type2,""))
-            return (type1, false)
+        if(get(conversion, type1,"")<get(conversion, type2,""))
+            return (type1, true, type2)
         else
-            return (type2, true)
+            return (type2, false, type1)
         end
     end
 end
