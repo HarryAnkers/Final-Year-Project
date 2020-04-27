@@ -20,7 +20,6 @@ function init(self::Statement)
         self.sub_statement = AssignStatement(self.state)
         init(self.sub_statement)
     elseif rand_n <= probs[4]
-        println("hit")
         self.sub_statement = Function_use(self.state,0)
         init(self.sub_statement)
     # Throws error if out of bounds of all
