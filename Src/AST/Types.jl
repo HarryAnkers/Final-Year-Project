@@ -42,8 +42,10 @@ function type_to_random(return_type)
         tmp = 500
     elseif return_type == "Complex{Float16}"
         tmp = 525
-    elseif return_type == "Complex{Int16}" || return_type == "Number"
+    elseif return_type == "Complex{Int16}"
         tmp = 550
+    elseif return_type == "Number"
+        tmp = 600
     else 
         println(string("wrong_type = ", return_type))
     end
@@ -116,6 +118,9 @@ function type_to_var(return_type)
     elseif rand_n <= 550
         tmp20::Complex = rand(Complex{Float16})
         return tmp20
+    elseif rand_n <= 600
+        tmp21::Complex = rand()
+        return tmp21
     end
 end
 
@@ -154,14 +159,18 @@ function is_less_than(type1::String, type2::String, orEqual)
             "Complex{Float64}" => 28,
             "Number" => 29)
 
+    conv1 = get(conversion, type1, "")
+    conv2 = get(conversion, type2, "")
+    if conv1 == "" throw(ErrorException("Type 1 was tried and failed with type \"$type1\"")) end
+    if conv2 == "" throw(ErrorException("Type 2 was tried and failed with type \"$type2\"")) end
     if orEqual
-        if(get(conversion, type1,"")<=get(conversion, type2,""))
+        if conv1 <= conv2
             return (type1, true, type2)
         else
             return (type2, false, type1)
         end
     else
-        if(get(conversion, type1,"")<get(conversion, type2,""))
+        if conv1 < conv2
             return (type1, true, type2)
         else
             return (type2, false, type1)

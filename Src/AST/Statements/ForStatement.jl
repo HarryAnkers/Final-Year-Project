@@ -23,7 +23,8 @@ function init(self::ForStatement)
     init(self.statement)
 
     # Pops remove all scope variables
-    pop!(self.state.variables,self.state.scope,0)
+    pop!(self.state.variables, self.state.scope,0)
+    pop!(self.state.functions, self.state.scope, 0)
     self.state.scope -= 1
 end
 

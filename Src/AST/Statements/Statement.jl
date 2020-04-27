@@ -5,7 +5,7 @@ mutable struct Statement <: Node
 end
 
 function init(self::Statement)
-    probs = [2,1,7]
+    probs = [20,10,90,6]
     probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
     rand_n = rand(1:last(probs))
 
@@ -18,6 +18,10 @@ function init(self::Statement)
         init(self.sub_statement)
     elseif rand_n <= probs[3]
         self.sub_statement = AssignStatement(self.state)
+        init(self.sub_statement)
+    elseif rand_n <= probs[4]
+        println("hit")
+        self.sub_statement = Function_use(self.state,0)
         init(self.sub_statement)
     # Throws error if out of bounds of all
     elseif rand_n > last(probs)

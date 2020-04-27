@@ -5,7 +5,7 @@ mutable struct State
     functions::Dict{Int, Array{Tuple{String,String,Array{String}}}}
     func_count::Int
     scope::Int
-    State(file) = new(file,Dict{Int, Array{Tuple{String,String}}}(),0)
+    State(file) = new(file, Dict{Int, Array{Tuple{String,String}}}(), 0, Dict{Int, Array{Tuple{String,String,Array{String}}}}(), 0, 0)
 end
 
 # Used to perform indenting for printing to files.
@@ -17,7 +17,7 @@ function write_pretty(indent::Int, in_state::State, in_string::String)
 end
 
 # Gets all type compatable variables/functions
-function get_possibilities(state_in_dict::Dict{Int, Array{}}, type::String)
+function get_possibilities(state_in_dict, type::String)
     possible_tuples::Array{Tuple{Int,Int}} = []
     for key in keys(state_in_dict)
         for i in 1:size(state_in_dict[key])[1]

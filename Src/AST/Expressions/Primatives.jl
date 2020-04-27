@@ -11,7 +11,7 @@ end
 function init(self::Variable)
     # Use type 0 is for the creation of a new variable
     if self.use_type == 0
-        arr_size = self.var_count
+        arr_size = self.state.var_count
         # Each scope has it's own usable variables. If it exists it appends to that dict key
         if self.state.scope in keys(self.state.variables)
             push!(self.state.variables[self.state.scope], (string("var_",arr_size),self.return_type))
@@ -21,7 +21,7 @@ function init(self::Variable)
             self.state.variables[self.state.scope] = [(string("var_",arr_size),self.return_type)]
             self.id = string("var_",arr_size)
         end
-        self.var_count = self.var_count+1
+        self.state.var_count = self.state.var_count+1
     # Use type 1 is for the use of an random type compatable existing variable in expressions
     elseif self.use_type == 1
         rand_n = rand(1:size(self.possibilities)[1])
