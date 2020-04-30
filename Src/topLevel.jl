@@ -25,17 +25,16 @@ function add_vars(self::State)
 end
 
 open(string(file_loc,"FILE.jl"), "w") do f
-    state = State(f)
     # Creates the whole tree
-    top_node = Statement_Lists(state)
+    top_node = Statement_Lists(State(f))
     # Init. all nodes
     init(top_node)
 
     # Creates text to be put in the file stream
-    write(state.file, "x = parse(Int64, ARGS[1])\n") 
+    write(f, "x = parse(Int64, ARGS[1])\n") 
     create_text(top_node)
     add_vars(top_node.state)
 
     # Close file
-    close(top_node.state.file)
+    close(f)
 end

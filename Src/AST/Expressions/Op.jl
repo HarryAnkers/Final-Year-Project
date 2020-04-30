@@ -18,8 +18,7 @@ end
 function eval_type(self::DualOp)
     type1 = eval_type(self.op1)
     type2 = eval_type(self.op2)
-    compare_t = is_less_than(type1,type2,false)[3]
-    return compare_t
+    return is_less_than(type1,type2,false)[3]
 end
 
 function create_text(self::DualOp)

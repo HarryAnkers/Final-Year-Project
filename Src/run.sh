@@ -61,6 +61,9 @@ do
     else
         $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0
         let o0_return=$?
+        if [ "$o0_return" -ne 0 ]; then
+            echo -e "---"
+        fi
     fi
     $JULIA "--optimize=1" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 1 2>/dev/null
     let o1_return=$?

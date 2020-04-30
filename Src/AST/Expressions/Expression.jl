@@ -6,15 +6,20 @@ mutable struct Expression <: Node
 end
 
 function init(self::Expression)
-    probs = [20,20,20,20,80,5]
+    probs = [20,20,20,20,100,10,5]
     # all type comparable possibilities are counted if non zero it uses variable. If count is 0 it skips it.
     var_possibilities = get_possibilities(self.state.variables, self.return_type)
     if size(var_possibilities)[1] == 0
         probs[4]=0
     end
-    func_possibilities = get_possibilities(self.state.functions, self.return_type)
-    if size(func_possibilities)[1] == 0
+    
+    func_possibilities1 = get_possibilities(delete!(copy(self.state.functions),-1), self.return_type)
+    func_possibilities2 = get_possibilities(Dict(-1=>get!(copy(self.state.functions),-1,"Err")), self.return_type)
+    if size(func_possibilities1)[1] == 0
         probs[6]=0
+    end
+    if size(func_possibilities2)[1] == 0
+        probs[7]=0
     end
     
     probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
@@ -36,7 +41,10 @@ function init(self::Expression)
         self.expr = Constant(self.state, self.return_type)
     # Function use
     elseif rand_n <= probs[6]
-        self.expr = Function_use(self.state, self.return_type, 1, func_possibilities)
+        self.expr = Function_use(self.state, self.return_type, 1, func_possibilities1)
+    # Preexisting Function use
+    elseif rand_n <= probs[7]
+        self.expr = Function_use(self.state, self.return_type, 1, func_possibilities2)
     # Throws error if out of bounds of all
     elseif rand_n > last(probs)
         throw(ErrorException("Expr rand_n bounds error with - $rand_n. prob = $probs"))

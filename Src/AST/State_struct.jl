@@ -5,7 +5,7 @@ mutable struct State
     functions::Dict{Int, Array{Tuple{String,String,Array{String}}}}
     func_count::Int
     scope::Int
-    State(file) = new(file, Dict{Int, Array{Tuple{String,String}}}(), 0, Dict{Int, Array{Tuple{String,String,Array{String}}}}(), 0, 0)
+    State(file) = new(file, Dict{Int, Array{Tuple{String,String}}}(), 0, init_funcs(), 0, 0)
 end
 
 # Used to perform indenting for printing to files.
@@ -28,4 +28,33 @@ function get_possibilities(state_in_dict, type::String)
         end
     end
     return possible_tuples
+end
+
+# add functions
+function init_funcs()
+    finalDict = Dict{Int, Array{Tuple{String,String,Array{String}}}}()
+    finalDict[-1] = []
+
+    funcs = [("sin","Number",["Number"]),
+            ("sin","BigFloat",["BigFloat"]),
+            ("cos","BigFloat",["BigFloat"]),
+            ("cos","Number",["Number"]),
+            ("tan","BigFloat",["BigFloat"]),
+            ("tan","Number",["Number"]),
+
+            ("sind","Number",["Number"]),
+            ("sind","BigFloat",["BigFloat"]),
+            ("cosd","BigFloat",["BigFloat"]),
+            ("cosd","Number",["Number"]),
+            ("tand","BigFloat",["BigFloat"]),
+            ("tand","Number",["Number"]),
+
+            ("abs","BigFloat",["Number"]),
+            
+            ("fma","BigFloat",["BigFloat"]),
+            ]
+    for func in funcs
+        push!(finalDict[-1], func)
+    end
+    return finalDict
 end

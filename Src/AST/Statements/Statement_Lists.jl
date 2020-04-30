@@ -10,6 +10,7 @@ function init(self::Statement_Lists)
     probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
 
     rand_n = rand(0:last(probs))
+    # println("($(self.state.scope), $(probs[1]), $rand_n) = s,p,r)")
     if rand_n <= probs[1]
         self.statement = Statement(self.state)
         init(self.statement)

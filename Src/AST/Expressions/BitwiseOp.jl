@@ -41,6 +41,7 @@ function init(self::BitwiseOp)
 end
 
 function eval_type(self::BitwiseOp)
+    if (eval_type(self.expr) == "Bool") && (self.expr.operator in [">>>",">>","<<"]) return "BigInt" end
     return eval_type(self.expr)
 end
 

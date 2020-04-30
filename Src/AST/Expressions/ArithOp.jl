@@ -14,14 +14,12 @@ function init(self::ArithOp)
         probs[2]=0
         probs[4]=0
         probs[6]=0
-        probs[7]=0
         probs[9]=0
         probs[10]=0
     end
     if is_less_than(self.return_type,"Float16",false)[2]
         probs[4]=0
         probs[6]=0
-        probs[7]=0
     end
     if !DIV
         probs[4]=0
@@ -68,6 +66,11 @@ function init(self::ArithOp)
 end
 
 function eval_type(self::ArithOp)
+    if (eval_type(self.expr) == "Bool") && (self.expr.operator in ["+","-"]) return "BigInt" end
+    if (eval_type(self.expr) == "Bool") && (self.expr.operator in ["/","//","^"]) return "Float64" end
+    if (is_less_than(eval_type(self.expr),"Float16",false)[2]) && (self.expr.operator == "/") return "Float64" end
+    if (is_less_than(eval_type(self.expr),"Rational{Bool}",false)[2]) && (self.expr.operator == "//") return "Rational{Int64}" end
+
     return eval_type(self.expr)
 end
 

@@ -5,7 +5,7 @@ mutable struct Statement <: Node
 end
 
 function init(self::Statement)
-    probs = [20,10,90,6]
+    probs = [20,0,90,6]
     probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
     rand_n = rand(1:last(probs))
 

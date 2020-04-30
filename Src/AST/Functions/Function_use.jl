@@ -7,7 +7,7 @@ mutable struct Function_use <: Node
     possibilities :: Array{Tuple{Int64,Int64}}
     args
     body
-    Function_use(state_in, use_type_in) = new(state_in, "", -1, string(typeof(type_to_random("Number"))), use_type_in, [], [], Statement_Lists(state_in))
+    Function_use(state_in, use_type_in) = new(state_in, "", -1, string(typeof(type_to_random("Number"))), use_type_in, [], [], nothing)
     Function_use(state_in, return_type_in, use_type_in, possibilities) = new(state_in, "", -1, return_type_in, use_type_in, possibilities, [], nothing)
 end
 
@@ -32,6 +32,7 @@ function init(self::Function_use)
         end
 
         # Init the function body
+        self.body = Statement_Lists(self.state)
         init(self.body)
         # Pops off the scope
         pop!(self.state.variables, self.state.scope, 0)

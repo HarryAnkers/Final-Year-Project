@@ -24,6 +24,8 @@ function type_to_random(return_type)
         tmp = 325
     elseif return_type == "BigInt"
         tmp = 350
+    elseif return_type == "Rational{Bool}"
+        tmp = 370
     elseif return_type == "Rational{Int16}"
         tmp = 375
     elseif return_type == "Rational{Int32}"
@@ -139,25 +141,26 @@ function is_less_than(type1::String, type2::String, orEqual)
             "Int128" => 9,
             "UInt128" => 10,
             "BigInt" => 11,
-            "Rational{Int8}" => 12,
-            "Rational{Int16}" => 13,
-            "Rational{Int32}" => 14,
-            "Rational{Int64}" => 15,
-            "Rational{Int128}" => 16,
-            "Irrational" => 17,
-            "Irrational{:π}" => 17,
-            "Float16" => 18,
-            "Float32" => 19,
-            "Float64" => 20,
-            "BigFloat" => 21,
-            "Complex{Int8}" => 22,
-            "Complex{Int16}" => 23,
-            "Complex{Int32}" => 24,
-            "Complex{Int64}" => 25,
-            "Complex{Float16}" => 26,
-            "Complex{Float32}" => 27,
-            "Complex{Float64}" => 28,
-            "Number" => 29)
+            "Rational{Bool}" => 12,
+            "Rational{Int8}" => 13,
+            "Rational{Int16}" => 14,
+            "Rational{Int32}" => 15,
+            "Rational{Int64}" => 16,
+            "Rational{Int128}" => 17,
+            "Irrational" => 18,
+            "Irrational{:π}" => 19,
+            "Float16" => 20,
+            "Float32" => 21,
+            "Float64" => 22,
+            "BigFloat" => 23,
+            "Complex{Int8}" => 24,
+            "Complex{Int16}" => 25,
+            "Complex{Int32}" => 26,
+            "Complex{Int64}" => 27,
+            "Complex{Float16}" => 28,
+            "Complex{Float32}" => 29,
+            "Complex{Float64}" => 30,
+            "Number" => 31)
 
     conv1 = get(conversion, type1, "")
     conv2 = get(conversion, type2, "")

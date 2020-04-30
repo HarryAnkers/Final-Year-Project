@@ -22,7 +22,7 @@ function init(self::IfStatement)
     self.statement = Statement_Lists(self.state)
     init(self.statement)
 
-    probs = [35,15,50]
+    probs = [35,15,100]
     probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
     rand_n = rand(1:last(probs))
 
