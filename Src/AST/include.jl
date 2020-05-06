@@ -8,6 +8,7 @@ include("./Statements/Statement.jl")
 include("./Statements/IfStatement.jl")
 include("./Statements/ForStatement.jl")
 include("./Statements/AssignStatement.jl")
+include("./Statements/ReturnStatement.jl")
 
 include("./Expressions/Expression.jl")
 include("./Expressions/Op.jl")

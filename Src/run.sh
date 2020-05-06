@@ -50,13 +50,13 @@ do
     rm -rfv ./test_files/log_files/*.txt 2>/dev/null
     # Creates the files
     if [ "$v0" -eq 1 ]; then
-        $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 2>/dev/null
+        $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 2>"$DIR/test_files/Process_$pro_N/log_files/errlog.txt"
     else 
         $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 
     fi
     # Ran at each opt. level results are stored in variables e.g. o0_return
     if [ "$v1" -eq 1 ]; then
-        $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0 2>/dev/null
+        $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0 2>>"$DIR/test_files/Process_$pro_N/log_files/errlog.txt"
         let o0_return=$?
     else
         $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0
@@ -84,26 +84,26 @@ do
     # All checks to see if opt. returned different things.
     # If they did inc. count and moves the file
     if [ $o0_return -ne $o1_return ]; then
-        echo "error diff in File $i o0 / o1 ($o0_return-$o1_return)"
+        echo -e "\nerror diff in File $i o0 / o1 ($o0_return-$o1_return)"
     elif [ $o1_return -ne $o2_return ]; then
-        echo "error diff in File $i o1 / o2 ($o1_return-$o2_return)"
+        echo -e "\nerror diff in File $i o1 / o2 ($o1_return-$o2_return)"
     elif [ $o2_return -ne $o3_return ]; then
-        echo "error diff in File $i o2 / o3 ($o2_return-$o3_return)"
+        echo -e "\nerror diff in File $i o2 / o3 ($o2_return-$o3_return)"
     elif [ "$mathsCheck" -eq 1 ] && [ $o3_return -ne $o4_return ]; then
-        echo "error diff in File $i o3 / o4 ($o3_return-$o4_return)"
+        echo -e "\nerror diff in File $i o3 / o4 ($o3_return-$o4_return)"
     elif [ "$mathsCheck" -eq 1 ] && [ $o4_return -ne $o5_return ]; then
-        echo "error diff in File $i o4 / o5 ($o4_return-$o5_return)"
+        echo -e "\nerror diff in File $i o4 / o5 ($o4_return-$o5_return)"
     elif [ $o0_return -eq 0 ]; then
         if ! cmp -s "$DIR/test_files/Process_$pro_N/log_files/log0.txt" "$DIR/test_files/Process_$pro_N/log_files/log1.txt"; then
-            echo "log diff in File $i o0 / o1"
+            echo -e "\nlog diff in File $i o0 / o1"
         elif ! cmp -s "$DIR/test_files/Process_$pro_N/log_files/log1.txt" "$DIR/test_files/Process_$pro_N/log_files/log2.txt"; then
-            echo "log diff in File $i o1 / o2"
+            echo -e "\nlog diff in File $i o1 / o2"
         elif ! cmp -s "$DIR/test_files/Process_$pro_N/log_files/log2.txt" "$DIR/test_files/Process_$pro_N/log_files/log3.txt"; then
-            echo "log diff in File $i o2 / o3"
+            echo -e "\nlog diff in File $i o2 / o3"
         elif [ "$mathsCheck" -eq 1 ] && ! cmp -s "$DIR/test_files/Process_$pro_N/log_files/log3.txt" "$DIR/test_files/Process_$pro_N/log_files/log4.txt"; then
-            echo "log diff in File $i o3 / o4"
+            echo -e "\nlog diff in File $i o3 / o4"
         elif [ "$mathsCheck" -eq 1 ] && ! cmp -s "$DIR/test_files/Process_$pro_N/log_files/log4.txt" "$DIR/test_files/Process_$pro_N/log_files/log5.txt"; then
-            echo "log diff in File $i o4 / o5"
+            echo -e "\nlog diff in File $i o4 / o5"
         else
             bug=0
         fi

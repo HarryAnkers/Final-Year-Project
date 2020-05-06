@@ -4,8 +4,9 @@ mutable struct State
     var_count::Int
     functions::Dict{Int, Array{Tuple{String,String,Array{String}}}}
     func_count::Int
+    return_type::String
     scope::Int
-    State(file) = new(file, Dict{Int, Array{Tuple{String,String}}}(), 0, init_funcs(), 0, 0)
+    State(file) = new(file, Dict{Int, Array{Tuple{String,String}}}(), 0, init_funcs(), 0, "", 0)
 end
 
 # Used to perform indenting for printing to files.
@@ -48,6 +49,8 @@ function init_funcs()
             ("cosd","Number",["Number"]),
             ("tand","BigFloat",["BigFloat"]),
             ("tand","Number",["Number"]),
+
+            ("round","Number",["Number"]),
 
             ("abs","BigFloat",["Number"]),
             

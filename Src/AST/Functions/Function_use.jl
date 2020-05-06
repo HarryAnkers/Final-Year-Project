@@ -32,8 +32,13 @@ function init(self::Function_use)
         end
 
         # Init the function body
+        tmp = self.state.return_type
+        # println(tmp)
+        self.state.return_type = self.return_type
         self.body = Statement_Lists(self.state)
         init(self.body)
+        self.state.return_type = tmp
+
         # Pops off the scope
         pop!(self.state.variables, self.state.scope, 0)
         pop!(self.state.functions, self.state.scope, 0)
@@ -53,6 +58,7 @@ function init(self::Function_use)
         # Get rand compatible function
         rand_n = rand(1:size(self.possibilities)[1])
         (key, index) = self.possibilities[rand_n]
+        
         (self.id, self.return_type, tmpArgs) = self.state.functions[key][index]
         # Adds random expression in each arg by type
         for argType in tmpArgs

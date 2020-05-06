@@ -6,13 +6,13 @@ mutable struct Expression <: Node
 end
 
 function init(self::Expression)
-    probs = [20,20,20,20,100,10,5]
+    probs = [20,20,20,20,200,10,5]
     # all type comparable possibilities are counted if non zero it uses variable. If count is 0 it skips it.
     var_possibilities = get_possibilities(self.state.variables, self.return_type)
     if size(var_possibilities)[1] == 0
         probs[4]=0
     end
-    
+
     func_possibilities1 = get_possibilities(delete!(copy(self.state.functions),-1), self.return_type)
     func_possibilities2 = get_possibilities(Dict(-1=>get!(copy(self.state.functions),-1,"Err")), self.return_type)
     if size(func_possibilities1)[1] == 0
