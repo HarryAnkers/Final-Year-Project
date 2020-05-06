@@ -129,7 +129,8 @@ end
 # Converts all types to a number to compare magnitude
 # Returns the less argument along side a Bool if they were in the correct order.
 function is_less_than(type1::String, type2::String, orEqual)
-    conversion = Dict("Bool" => 0,
+    conversion = Dict(
+            "Bool" => 0,
             "Int8" => 1,
             "UInt8" => 2,
             "Int16" => 3,

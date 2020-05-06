@@ -8834,3 +8834,2200 @@ Stacktrace:
  [5] exec_options(::Base.JLOptions) at ./client.jl:287
  [6] _start() at ./client.jl:460
 in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:551
+ERROR: LoadError: UndefVarError: var_62 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:282
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:163
+ERROR: LoadError: UndefVarError: var_5 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:123
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:123
+ERROR: LoadError: UndefVarError: var_105 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:220
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:220
+ERROR: LoadError: UndefVarError: var_44 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:231
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:231
+ERROR: LoadError: UndefVarError: var_124 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:337
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:337
+ERROR: LoadError: UndefVarError: func_0 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:82
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:81
+ERROR: LoadError: UndefVarError: var_9 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:50
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:50
+ERROR: LoadError: UndefVarError: var_363 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1484
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1484
+ERROR: LoadError: UndefVarError: var_282 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:851
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:851
+ERROR: LoadError: UndefVarError: var_199 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:735
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:30
+ERROR: LoadError: UndefVarError: var_63 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:128
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:62
+ERROR: LoadError: UndefVarError: var_39 not defined
+Stacktrace:
+ [1] func_1(::Bool, ::Int64, ::Int64, ::Int64, ::Int64, ::Int64, ::Bool) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:100
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:131
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:131
+ERROR: LoadError: UndefVarError: var_181 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:457
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:449
+ERROR: LoadError: UndefVarError: func_11 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:527
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:527
+ERROR: LoadError: UndefVarError: var_151 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:450
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:450
+ERROR: LoadError: OverflowError: 8422498971915432212 * 25 overflowed for type Int64
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int64, ::Int64) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] +(::Rational{Int64}, ::Rational{Int64}) at ./rational.jl:258
+ [4] +(::Rational{Int64}, ::Int64) at ./promotion.jl:311
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:89
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:89
+ERROR: LoadError: UndefVarError: var_1 not defined
+Stacktrace:
+ [1] func_2(::Int64, ::Int64, ::Bool, ::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:75
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:98
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:89
+ERROR: LoadError: MethodError: no method matching isless(::Int64, ::Complex{Float16})
+Closest candidates are:
+  isless(!Matched::Missing, ::Any) at missing.jl:87
+  isless(::Real, !Matched::AbstractFloat) at operators.jl:157
+  isless(::Real, !Matched::Real) at operators.jl:346
+  ...
+Stacktrace:
+ [1] <(::Int64, ::Complex{Float16}) at ./operators.jl:268
+ [2] >(::Complex{Float16}, ::Int64) at ./operators.jl:294
+ [3] func_0(::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:7
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:20
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:20
+ERROR: LoadError: UndefVarError: var_33 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:74
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:74
+ERROR: LoadError: DomainError with -34163028464429382882444112730870226865:
+Cannot raise an integer x to a negative power -34163028464429382882444112730870226865.
+Make x or -34163028464429382882444112730870226865 a float by adding a zero decimal (e.g., 2.0^-34163028464429382882444112730870226865 or 2^-3.4163028464429385e37 instead of 2^-34163028464429382882444112730870226865), or write 1/x^34163028464429382882444112730870226865, float(x)^-34163028464429382882444112730870226865, x^float(-34163028464429382882444112730870226865) or (x//1)^-34163028464429382882444112730870226865
+Stacktrace:
+ [1] throw_domerr_powbysq(::Int64, ::Int128) at ./intfuncs.jl:176
+ [2] power_by_squaring(::Int64, ::Int128) at ./intfuncs.jl:197
+ [3] ^(::Int64, ::Int128) at ./intfuncs.jl:222
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:25
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:21
+ERROR: LoadError: DomainError with -8835907600979015700:
+Cannot raise an integer x to a negative power -8835907600979015700.
+Make x or -8835907600979015700 a float by adding a zero decimal (e.g., 2.0^-8835907600979015700 or 2^-8.835907600979016e18 instead of 2^-8835907600979015700), or write 1/x^8835907600979015700, float(x)^-8835907600979015700, x^float(-8835907600979015700) or (x//1)^-8835907600979015700
+Stacktrace:
+ [1] throw_domerr_powbysq(::Int64, ::Int64) at ./intfuncs.jl:176
+ [2] power_by_squaring(::Int64, ::Int64) at ./intfuncs.jl:197
+ [3] ^(::Int64, ::Int64) at ./intfuncs.jl:221
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:80
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:69
+ERROR: LoadError: UndefVarError: var_2 not defined
+Stacktrace:
+ [1] func_0(::Bool) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:14
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:51
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:51
+ERROR: LoadError: UndefVarError: var_133 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:375
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:375
+ERROR: LoadError: UndefVarError: var_51 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:140
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:134
+ERROR: LoadError: UndefVarError: func_1 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:80
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:63
+ERROR: LoadError: UndefVarError: var_24 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:81
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:81
+ERROR: LoadError: UndefVarError: var_307 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:594
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:593
+ERROR: LoadError: UndefVarError: func_9 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:391
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:391
+ERROR: LoadError: UndefVarError: var_196 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:524
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:524
+ERROR: LoadError: UndefVarError: var_27 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:74
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:74
+ERROR: LoadError: UndefVarError: func_1 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:108
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:108
+ERROR: LoadError: UndefVarError: var_17 not defined
+Stacktrace:
+ [1] func_3(::Int64, ::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:140
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:227
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:77
+ERROR: LoadError: UndefVarError: var_86 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:259
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:259
+ERROR: LoadError: UndefVarError: func_2 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:215
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:215
+ERROR: LoadError: UndefVarError: var_62 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:231
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:231
+ERROR: LoadError: UndefVarError: var_21 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:93
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:93
+ERROR: LoadError: UndefVarError: var_109 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:257
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:257
+ERROR: LoadError: UndefVarError: var_81 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:209
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:205
+ERROR: LoadError: UndefVarError: func_4 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:210
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:210
+ERROR: LoadError: UndefVarError: var_136 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:387
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:282
+ERROR: LoadError: UndefVarError: func_14 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:594
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:520
+ERROR: LoadError: UndefVarError: var_166 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:379
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:46
+ERROR: LoadError: UndefVarError: var_86 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:149
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:149
+ERROR: LoadError: UndefVarError: func_4 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:207
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:206
+ERROR: LoadError: UndefVarError: var_55 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:75
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:75
+ERROR: LoadError: UndefVarError: var_99 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:212
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:212
+ERROR: LoadError: UndefVarError: var_76 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1035
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1035
+ERROR: LoadError: UndefVarError: var_151 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:326
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:326
+ERROR: LoadError: UndefVarError: func_7 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:333
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:333
+ERROR: LoadError: UndefVarError: var_35 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:92
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:92
+ERROR: LoadError: UndefVarError: func_8 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:517
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:517
+ERROR: LoadError: UndefVarError: var_290 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:677
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:677
+ERROR: LoadError: UndefVarError: var_1 not defined
+Stacktrace:
+ [1] func_0(::Int64, ::Int64, ::Bool, ::Bool, ::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:6
+ [2] func_7(::Bool) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:183
+ [3] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:195
+ [4] include at ./boot.jl:328 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:1105
+ [6] include(::Module, ::String) at ./Base.jl:31
+ [7] exec_options(::Base.JLOptions) at ./client.jl:287
+ [8] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:190
+ERROR: LoadError: UndefVarError: var_5 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:567
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:567
+ERROR: LoadError: UndefVarError: func_6 not defined
+Stacktrace:
+ [1] func_7(::Int64, ::Int64, ::Int64, ::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:167
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:171
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:170
+ERROR: LoadError: UndefVarError: var_48 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:140
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:140
+ERROR: LoadError: UndefVarError: var_17 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:34
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:11
+ERROR: LoadError: UndefVarError: var_44 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:151
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:151
+ERROR: LoadError: UndefVarError: var_82 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:179
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:179
+ERROR: LoadError: UndefVarError: func_1 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:188
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:188
+ERROR: LoadError: UndefVarError: var_21 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:75
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:74
+ERROR: LoadError: UndefVarError: var_460 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1038
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1038
+ERROR: LoadError: UndefVarError: var_791 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1555
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1551
+ERROR: LoadError: UndefVarError: var_24 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:143
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:143
+ERROR: LoadError: OverflowError: 4347792138496 * 4347792138496 overflowed for type Int64
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int64, ::Int64) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] *(::Rational{Int64}, ::Rational{Int64}) at ./rational.jl:266
+ [4] power_by_squaring(::Rational{Int64}, ::Int64) at ./intfuncs.jl:209
+ [5] macro expansion at ./rational.jl:432 [inlined]
+ [6] literal_pow(::typeof(^), ::Rational{Int64}, ::Val{-4120}) at ./none:0
+ [7] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:105
+ [8] include at ./boot.jl:328 [inlined]
+ [9] include_relative(::Module, ::String) at ./loading.jl:1105
+ [10] include(::Module, ::String) at ./Base.jl:31
+ [11] exec_options(::Base.JLOptions) at ./client.jl:287
+ [12] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:86
+ERROR: LoadError: OverflowError: 8697374630493339242 * 191 overflowed for type Int64
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int64, ::Int64) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] +(::Rational{Int64}, ::Rational{Int64}) at ./rational.jl:258
+ [4] +(::Rational{Int64}, ::Int64) at ./promotion.jl:311
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:279
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:279
+ERROR: LoadError: UndefVarError: var_59 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:108
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:108
+ERROR: LoadError: OverflowError: 768614336404564646 * 26 overflowed for type Int64
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int64, ::Int64) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] *(::Rational{Int64}, ::Rational{Int64}) at ./rational.jl:266
+ [4] *(::Int64, ::Rational{Int64}) at ./promotion.jl:312
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:963
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:963
+ERROR: LoadError: UndefVarError: var_29 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:290
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:290
+ERROR: LoadError: UndefVarError: var_123 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:416
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:416
+ERROR: LoadError: OverflowError: 41 * 4865330485044548843 overflowed for type Int64
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int64, ::Int64) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] *(::Rational{Int64}, ::Rational{Int64}) at ./rational.jl:266
+ [4] *(::Rational{Int64}, ::Int64) at ./promotion.jl:312
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:34
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:34
+ERROR: LoadError: UndefVarError: var_130 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:254
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:3
+ERROR: LoadError: UndefVarError: var_43 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:134
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:134
+ERROR: LoadError: UndefVarError: var_8 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:163
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:163
+ERROR: LoadError: UndefVarError: func_29 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:967
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:967
+ERROR: LoadError: UndefVarError: var_81 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:274
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:274
+ERROR: LoadError: DomainError with -3869594872:
+Cannot raise an integer x to a negative power -3869594872.
+Make x or -3869594872 a float by adding a zero decimal (e.g., 2.0^-3869594872 or 2^-3.869594872e9 instead of 2^-3869594872), or write 1/x^3869594872, float(x)^-3869594872, x^float(-3869594872) or (x//1)^-3869594872
+Stacktrace:
+ [1] throw_domerr_powbysq(::Bool, ::Int64) at ./intfuncs.jl:176
+ [2] power_by_squaring at ./intfuncs.jl:217 [inlined]
+ [3] ^(::Bool, ::Int64) at ./intfuncs.jl:222
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:23
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:17
+ERROR: LoadError: UndefVarError: func_2 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:178
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:130
+ERROR: LoadError: UndefVarError: var_217 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:445
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:418
+ERROR: LoadError: UndefVarError: var_50 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:119
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:109
+ERROR: LoadError: UndefVarError: var_1 not defined
+Stacktrace:
+ [1] func_0(::Int64, ::Int64, ::Bool, ::Bool, ::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:82
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:113
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:113
+ERROR: LoadError: UndefVarError: var_18 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:161
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:161
+ERROR: LoadError: UndefVarError: var_38 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:87
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:87
+ERROR: LoadError: UndefVarError: var_49 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:149
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:149
+ERROR: LoadError: OverflowError: 162530522573149976871848109748160129965 * 94 overflowed for type Int128
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int128, ::Int128) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] +(::Rational{Int128}, ::Rational{Int128}) at ./rational.jl:258
+ [4] fma at ./rational.jl:272 [inlined]
+ [5] fma(::Bool, ::Int128, ::Rational{Int64}) at ./promotion.jl:345
+ [6] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:237
+ [7] include at ./boot.jl:328 [inlined]
+ [8] include_relative(::Module, ::String) at ./loading.jl:1105
+ [9] include(::Module, ::String) at ./Base.jl:31
+ [10] exec_options(::Base.JLOptions) at ./client.jl:287
+ [11] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:237
+ERROR: LoadError: UndefVarError: var_6 not defined
+Stacktrace:
+ [1] func_0(::Int64, ::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:52
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:94
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:94
+ERROR: LoadError: UndefVarError: var_44 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:312
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:312
+ERROR: LoadError: UndefVarError: var_3 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:55
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:55
+ERROR: LoadError: UndefVarError: var_76 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:161
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:161
+ERROR: LoadError: UndefVarError: var_8 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:22
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:7
+ERROR: LoadError: UndefVarError: var_236 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:850
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:836
+ERROR: LoadError: UndefVarError: var_6 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:54
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:54
+ERROR: LoadError: UndefVarError: var_77 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:271
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:271
+ERROR: LoadError: UndefVarError: var_265 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:583
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:583
+ERROR: LoadError: UndefVarError: var_22 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:241
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:241
+ERROR: LoadError: OutOfMemoryError()
+Stacktrace:
+ [1] mul_2exp! at ./gmp.jl:167 [inlined]
+ [2] mul_2exp(::BigInt, ::UInt64) at ./gmp.jl:168
+ [3] << at ./gmp.jl:532 [inlined]
+ [4] >>>(::BigInt, ::Int64) at ./operators.jl:683
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:131
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:131
+ERROR: LoadError: UndefVarError: func_0 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:64
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:40
+ERROR: LoadError: UndefVarError: var_2 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:13
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:13
+ERROR: LoadError: UndefVarError: var_39 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:93
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:93
+ERROR: LoadError: UndefVarError: var_149 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:345
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:345
+ERROR: LoadError: OverflowError: 13927232876972122295629113378218564408 * 229 overflowed for type Int128
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int128, ::Int128) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] -(::Rational{Int128}, ::Rational{Int128}) at ./rational.jl:258
+ [4] -(::Int128, ::Rational{Int64}) at ./promotion.jl:313
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:233
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:233
+ERROR: LoadError: UndefVarError: var_236 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:476
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:476
+ERROR: LoadError: UndefVarError: var_347 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:989
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:989
+ERROR: LoadError: UndefVarError: var_129 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:424
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:424
+ERROR: LoadError: UndefVarError: var_104 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:204
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:204
+ERROR: LoadError: UndefVarError: func_5 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:372
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:372
+ERROR: LoadError: UndefVarError: var_143 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:310
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:310
+ERROR: LoadError: UndefVarError: var_32 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:388
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:388
+ERROR: LoadError: UndefVarError: var_313 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:668
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:668
+ERROR: LoadError: UndefVarError: func_4 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:141
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:141
+ERROR: LoadError: UndefVarError: var_28 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:92
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:92
+ERROR: LoadError: UndefVarError: var_29 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:266
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:266
+ERROR: LoadError: UndefVarError: var_66 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:200
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:196
+ERROR: LoadError: UndefVarError: var_313 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:680
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:679
+ERROR: LoadError: UndefVarError: var_305 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:643
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:643
+ERROR: LoadError: OverflowError: 254840104 * 161568625936 overflowed for type Int64
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int64, ::Int64) at ./checked.jl:154
+ [2] *(::Rational{Int64}, ::Rational{Int64}) at ./checked.jl:288
+ [3] power_by_squaring(::Rational{Int64}, ::Int128) at ./intfuncs.jl:211
+ [4] ^(::Rational{Int64}, ::Int128) at ./rational.jl:432
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:99
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:99
+ERROR: LoadError: TypeError: non-boolean (Int64) used in boolean context
+Stacktrace:
+ [1] func_0(::Int64, ::Int64, ::Int64, ::Int64, ::Int64, ::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:29
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:55
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:10
+ERROR: LoadError: UndefVarError: var_151 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:474
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:474
+ERROR: LoadError: UndefVarError: func_5 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:219
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:219
+ERROR: LoadError: UndefVarError: func_13 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:294
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:294
+ERROR: LoadError: MethodError: no method matching >>>(::Irrational{:π}, ::Int64)
+Closest candidates are:
+  >>>(!Matched::BitArray{1}, ::Int64) at bitarray.jl:1332
+  >>>(!Matched::Union{Int128, Int16, Int32, Int64, Int8, UInt128, UInt16, UInt32, UInt64, UInt8}, ::Int64) at int.jl:448
+  >>>(!Matched::Integer, ::Int64) at operators.jl:683
+  ...
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:245
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:245
+ERROR: LoadError: UndefVarError: func_3 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:210
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:210
+ERROR: LoadError: MethodError: no method matching isless(::Complex{Float64}, ::Float64)
+Closest candidates are:
+  isless(!Matched::Float64, ::Float64) at float.jl:465
+  isless(!Matched::Missing, ::Any) at missing.jl:87
+  isless(!Matched::AbstractFloat, ::AbstractFloat) at operators.jl:156
+  ...
+Stacktrace:
+ [1] <(::Complex{Float64}, ::Float64) at ./operators.jl:268
+ [2] func_1() at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:62
+ [3] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:215
+ [4] include at ./boot.jl:328 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:1105
+ [6] include(::Module, ::String) at ./Base.jl:31
+ [7] exec_options(::Base.JLOptions) at ./client.jl:287
+ [8] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:147
+ERROR: LoadError: DomainError with -73873748507522201538073848439550411930:
+Cannot raise an integer x to a negative power -73873748507522201538073848439550411930.
+Make x or -73873748507522201538073848439550411930 a float by adding a zero decimal (e.g., 2.0^-73873748507522201538073848439550411930 or 2^-7.38737485075222e37 instead of 2^-73873748507522201538073848439550411930), or write 1/x^73873748507522201538073848439550411930, float(x)^-73873748507522201538073848439550411930, x^float(-73873748507522201538073848439550411930) or (x//1)^-73873748507522201538073848439550411930
+Stacktrace:
+ [1] throw_domerr_powbysq(::Int64, ::Int128) at ./intfuncs.jl:176
+ [2] power_by_squaring(::Int64, ::Int128) at ./intfuncs.jl:197
+ [3] ^(::Int64, ::Int128) at ./intfuncs.jl:222
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:30
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:30
+ERROR: LoadError: UndefVarError: var_4 not defined
+Stacktrace:
+ [1] func_2(::Bool, ::Bool) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:57
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:74
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:9
+ERROR: LoadError: UndefVarError: var_151 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:427
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:427
+ERROR: LoadError: UndefVarError: var_98 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:200
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:200
+ERROR: LoadError: UndefVarError: var_46 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:169
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:169
+ERROR: LoadError: UndefVarError: var_85 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:182
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:182
+ERROR: LoadError: UndefVarError: var_5 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:139
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:139
+ERROR: LoadError: OverflowError: -97524560173310895249059744638459891741 * 117 overflowed for type Int128
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int128, ::Int128) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] +(::Rational{Int128}, ::Rational{Int128}) at ./rational.jl:258
+ [4] +(::Rational{Int64}, ::Int128) at ./promotion.jl:311
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:8
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:8
+ERROR: LoadError: UndefVarError: func_5 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:256
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:256
+ERROR: LoadError: UndefVarError: var_101 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:207
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:14
+ERROR: LoadError: OverflowError: exponent 200634921360181880882752280237444447684 is too large and computation will overflow
+Stacktrace:
+ [1] (::Base.GMP.var"#throw1#3")(::BigInt) at ./gmp.jl:565
+ [2] bigint_pow(::BigInt, ::BigInt) at ./gmp.jl:580
+ [3] ^(::Int64, ::BigInt) at ./gmp.jl:588
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:72
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:5
+ERROR: LoadError: UndefVarError: var_713 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1607
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1607
+ERROR: LoadError: UndefVarError: var_17 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:240
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:240
+ERROR: LoadError: UndefVarError: var_166 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:308
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:308
+ERROR: LoadError: UndefVarError: var_38 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:207
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:207
+ERROR: LoadError: UndefVarError: var_4 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:11
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:11
+ERROR: LoadError: OverflowError: exponent 248536358770776793752321476388425703632 is too large and computation will overflow
+Stacktrace:
+ [1] (::Base.GMP.var"#throw1#3")(::BigInt) at ./gmp.jl:565
+ [2] bigint_pow(::BigInt, ::BigInt) at ./gmp.jl:580
+ [3] ^(::Int64, ::BigInt) at ./gmp.jl:588
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:348
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:125
+ERROR: LoadError: UndefVarError: var_500 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1021
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1021
+ERROR: LoadError: UndefVarError: var_57 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:255
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:255
+ERROR: LoadError: UndefVarError: var_17 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:83
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:83
+ERROR: LoadError: UndefVarError: var_179 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:564
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:564
+ERROR: LoadError: UndefVarError: var_199 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:491
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:491
+ERROR: LoadError: UndefVarError: var_558 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1798
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1797
+ERROR: LoadError: UndefVarError: var_66 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:317
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:317
+ERROR: LoadError: UndefVarError: func_0 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:317
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:317
+ERROR: LoadError: UndefVarError: var_46 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:168
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:168
+ERROR: LoadError: UndefVarError: var_82 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:154
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:154
+ERROR: LoadError: UndefVarError: var_22 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:36
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:10
+ERROR: LoadError: UndefVarError: var_22 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:64
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:64
+ERROR: LoadError: UndefVarError: var_5 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:17
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:2
+ERROR: LoadError: UndefVarError: var_26 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:60
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:60
+ERROR: LoadError: UndefVarError: var_32 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:168
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:21
+ERROR: LoadError: UndefVarError: var_56 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:240
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:240
+ERROR: LoadError: UndefVarError: func_5 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:146
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:108
+ERROR: LoadError: UndefVarError: var_172 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:339
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:339
+ERROR: LoadError: UndefVarError: var_69 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:186
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:186
+ERROR: LoadError: UndefVarError: var_7 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:20
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:20
+ERROR: LoadError: UndefVarError: var_33 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:76
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:76
+ERROR: LoadError: UndefVarError: var_25 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:71
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:71
+ERROR: LoadError: OverflowError: 14278906370967574141854487831988216483 * 29 overflowed for type Int128
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int128, ::Int128) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] *(::Rational{Int128}, ::Rational{Int128}) at ./rational.jl:266
+ [4] *(::Int128, ::Rational{Int64}) at ./promotion.jl:312
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:38
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:37
+ERROR: LoadError: DomainError with -1.3933147665447303e38:
+Exponentiation yielding a complex result requires a complex argument.
+Replace x^y with (x+0im)^y, Complex(x)^y, or similar.
+Stacktrace:
+ [1] throw_exp_domainerror(::Float64) at ./math.jl:36
+ [2] ^(::Int128, ::Float64) at ./math.jl:849
+ [3] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:7
+ [4] include at ./boot.jl:328 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:1105
+ [6] include(::Module, ::String) at ./Base.jl:31
+ [7] exec_options(::Base.JLOptions) at ./client.jl:287
+ [8] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:7
+ERROR: LoadError: UndefVarError: var_197 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:508
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:508
+ERROR: LoadError: UndefVarError: func_10 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:287
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:25
+ERROR: LoadError: UndefVarError: var_0 not defined
+Stacktrace:
+ [1] func_7(::Int64, ::Bool, ::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:217
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:430
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:430
+ERROR: LoadError: UndefVarError: var_195 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:498
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:498
+ERROR: LoadError: UndefVarError: var_18 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:43
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:43
+ERROR: LoadError: UndefVarError: var_688 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1325
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1300
+ERROR: LoadError: UndefVarError: func_16 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:508
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:492
+ERROR: LoadError: DomainError with Inf:
+`x` cannot be infinite.
+Stacktrace:
+ [1] cosd(::Float64) at ./special/trig.jl:1050
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:50
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:45
+ERROR: LoadError: UndefVarError: func_16 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:408
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:408
+ERROR: LoadError: OutOfMemoryError()
+Stacktrace:
+ [1] mul_2exp! at ./gmp.jl:167 [inlined]
+ [2] mul_2exp(::BigInt, ::UInt64) at ./gmp.jl:168
+ [3] << at ./gmp.jl:532 [inlined]
+ [4] <<(::BigInt, ::Int64) at ./operators.jl:602
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:10
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:10
+ERROR: LoadError: UndefVarError: var_869 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1776
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1776
+ERROR: LoadError: UndefVarError: var_71 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:145
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:145
+ERROR: LoadError: UndefVarError: var_59 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:315
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:315
+ERROR: LoadError: UndefVarError: var_56 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:193
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:193
+ERROR: LoadError: UndefVarError: var_18 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:47
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:47
+ERROR: LoadError: UndefVarError: var_14 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:386
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:386
+ERROR: LoadError: TypeError: non-boolean (Int64) used in boolean context
+Stacktrace:
+ [1] func_4(::Int64, ::Int64) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:96
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:251
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:24
+ERROR: LoadError: UndefVarError: func_1 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:318
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:318
+ERROR: LoadError: UndefVarError: var_18 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:214
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:214
+ERROR: LoadError: UndefVarError: var_166 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:338
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:338
+ERROR: LoadError: UndefVarError: var_289 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:642
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:642
+ERROR: LoadError: UndefVarError: var_95 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:208
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:208
+ERROR: LoadError: DomainError with -19823054890165572655945496112686332616:
+Cannot raise an integer x to a negative power -19823054890165572655945496112686332616.
+Convert input to float.
+Stacktrace:
+ [1] throw_domerr_powbysq(::Complex{Int64}, ::Int128) at ./intfuncs.jl:173
+ [2] power_by_squaring(::Complex{Int64}, ::Int128) at ./intfuncs.jl:197
+ [3] ^(::Complex{Int64}, ::Int128) at ./complex.jl:789
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:66
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:66
+ERROR: LoadError: UndefVarError: var_21 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:141
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:141
+ERROR: LoadError: UndefVarError: var_122 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:283
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:283
+ERROR: LoadError: UndefVarError: var_13 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:52
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:52
+ERROR: LoadError: OverflowError: 34 * 5661546089518124977 overflowed for type Int64
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int64, ::Int64) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] *(::Rational{Int64}, ::Rational{Int64}) at ./rational.jl:266
+ [4] *(::Rational{Int64}, ::Int64) at ./promotion.jl:312
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:187
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:160
+ERROR: LoadError: UndefVarError: var_65 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:437
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:437
+ERROR: LoadError: UndefVarError: var_310 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:829
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:829
+ERROR: LoadError: UndefVarError: var_126 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:355
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:355
+ERROR: LoadError: UndefVarError: var_30 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:102
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:102
+ERROR: LoadError: UndefVarError: var_41 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:206
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:206
+ERROR: LoadError: UndefVarError: var_88 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:212
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:212
+ERROR: LoadError: DomainError with -5.89823058e8:
+Exponentiation yielding a complex result requires a complex argument.
+Replace x^y with (x+0im)^y, Complex(x)^y, or similar.
+Stacktrace:
+ [1] throw_exp_domainerror(::Float64) at ./math.jl:36
+ [2] ^ at ./math.jl:849 [inlined]
+ [3] ^(::Int64, ::Float64) at ./promotion.jl:343
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:5
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:5
+ERROR: LoadError: UndefVarError: var_0 not defined
+Stacktrace:
+ [1] func_1() at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:74
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:93
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:93
+ERROR: LoadError: UndefVarError: var_77 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:383
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:383
+ERROR: LoadError: UndefVarError: var_565 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1176
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1176
+ERROR: LoadError: TypeError: non-boolean (Irrational{:π}) used in boolean context
+Stacktrace:
+ [1] func_1(::Bool) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:12
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:244
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:244
+ERROR: LoadError: UndefVarError: var_234 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:491
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:11
+ERROR: LoadError: UndefVarError: var_36 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:307
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:307
+ERROR: LoadError: OverflowError: 112931982333396035220108831872248759763 * 11 overflowed for type Int128
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int128, ::Int128) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] +(::Rational{Int128}, ::Rational{Int128}) at ./rational.jl:258
+ [4] +(::Rational{Int64}, ::Int128) at ./promotion.jl:311
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:3
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:3
+ERROR: LoadError: UndefVarError: var_49 not defined
+Stacktrace:
+ [1] func_8() at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:137
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:157
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:157
+ERROR: LoadError: UndefVarError: var_185 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:393
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:393
+ERROR: LoadError: UndefVarError: var_48 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:102
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:50
+ERROR: LoadError: UndefVarError: var_108 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:460
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:93
+ERROR: LoadError: UndefVarError: var_6 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:28
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:28
+ERROR: LoadError: OverflowError: exponent 338564631580680253033739230170868032891 is too large and computation will overflow
+Stacktrace:
+ [1] (::Base.GMP.var"#throw1#3")(::BigInt) at ./gmp.jl:565
+ [2] bigint_pow(::BigInt, ::BigInt) at ./gmp.jl:580
+ [3] ^(::Int64, ::BigInt) at ./gmp.jl:588
+ [4] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:82
+ [5] include at ./boot.jl:328 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1105
+ [7] include(::Module, ::String) at ./Base.jl:31
+ [8] exec_options(::Base.JLOptions) at ./client.jl:287
+ [9] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:82
+ERROR: LoadError: UndefVarError: func_0 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:91
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:91
+ERROR: LoadError: UndefVarError: var_47 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:282
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:282
+ERROR: LoadError: UndefVarError: var_49 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:236
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:229
+ERROR: LoadError: UndefVarError: func_13 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:511
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:511
+ERROR: LoadError: UndefVarError: var_18 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:50
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:8
+ERROR: LoadError: UndefVarError: var_28 not defined
+Stacktrace:
+ [1] func_1(::Int64, ::Bool, ::Bool, ::Bool) at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:103
+ [2] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:133
+ [3] include at ./boot.jl:328 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1105
+ [5] include(::Module, ::String) at ./Base.jl:31
+ [6] exec_options(::Base.JLOptions) at ./client.jl:287
+ [7] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:82
+ERROR: LoadError: UndefVarError: var_77 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:141
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:141
+ERROR: LoadError: UndefVarError: var_159 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:539
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:539
+ERROR: LoadError: UndefVarError: var_160 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:658
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:658
+ERROR: LoadError: OverflowError: 6424456494859940471 * 28 overflowed for type Int64
+Stacktrace:
+ [1] throw_overflowerr_binaryop(::Symbol, ::Int64, ::Int64) at ./checked.jl:154
+ [2] checked_mul at ./checked.jl:288 [inlined]
+ [3] -(::Rational{Int64}, ::Rational{Int64}) at ./rational.jl:258
+ [4] -(::Int64, ::Rational{Int64}) at ./promotion.jl:313
+ [5] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:72
+ [6] include at ./boot.jl:328 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1105
+ [8] include(::Module, ::String) at ./Base.jl:31
+ [9] exec_options(::Base.JLOptions) at ./client.jl:287
+ [10] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:72
+ERROR: LoadError: UndefVarError: func_8 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1261
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:1261
+ERROR: LoadError: UndefVarError: var_139 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:350
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:350
+ERROR: LoadError: UndefVarError: var_289 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:714
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:714
+ERROR: LoadError: UndefVarError: var_221 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:421
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:421
+ERROR: LoadError: UndefVarError: var_13 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:380
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:380
+ERROR: LoadError: UndefVarError: var_36 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:83
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:83
+ERROR: LoadError: UndefVarError: var_3 not defined
+Stacktrace:
+ [1] top-level scope at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:37
+ [2] include at ./boot.jl:328 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1105
+ [4] include(::Module, ::String) at ./Base.jl:31
+ [5] exec_options(::Base.JLOptions) at ./client.jl:287
+ [6] _start() at ./client.jl:460
+in expression starting at /Users/harrisonankers/Documents/UNI/Year 4/FYP/Src/test_files/Process_1/File.jl:37

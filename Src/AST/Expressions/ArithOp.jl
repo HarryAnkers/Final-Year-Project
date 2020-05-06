@@ -20,6 +20,7 @@ function init(self::ArithOp)
     if is_less_than(self.return_type,"Float16",false)[2]
         probs[4]=0
         probs[6]=0
+        probs[7]=0
     end
     if !DIV
         probs[4]=0
@@ -28,6 +29,7 @@ function init(self::ArithOp)
         probs[8]=0
     end
     if sum(probs)==0
+        self.expr = Expression(self.state)
         throw(ErrorException("Arith Op no rand_n possible"))
     end
 

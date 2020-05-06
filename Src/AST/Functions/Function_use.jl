@@ -57,12 +57,21 @@ function init(self::Function_use)
     elseif self.use_type == 1
         # Get rand compatible function
         rand_n = rand(1:size(self.possibilities)[1])
+        @label another_func
         (key, index) = self.possibilities[rand_n]
         
-        (self.id, self.return_type, tmpArgs) = self.state.functions[key][index]
+        (self.id, tmp_type, tmpArgs) = self.state.functions[key][index]
+        if (tmp_type[1] != 'X')
+            self.state.return_type = tmp_type
+        end
+
         # Adds random expression in each arg by type
         for argType in tmpArgs
-            push!(self.args, Expression(self.state, argType))
+            if (argType[1] != 'X') 
+                push!(self.args, Expression(self.state, argType))
+            else
+                push!(self.args, Expression(self.state, is_less_than(self.return_type,argType[2:end],true)[1]))
+            end
             init(last(self.args))
         end
     end

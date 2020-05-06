@@ -114,11 +114,11 @@ do
 
     if [ $bug -eq 1 ]; then
         echo "Bug found!"
-        cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/bug_files/test_$(date +%S:%M:%H-%F).jl"
+        cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/bug_files/test_$(date +%H:%M:%S-%F).jl"
     elif [ $error -eq 1 ]; then
         error_counter=$((error_counter+1))
         if [ $noError -ne 1 ]; then
-            cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/error_files/test_$(date +%S:%M:%H-%F).jl"
+            cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/error_files/test_$(date +%H:%M:%S-%F).jl"
         fi
     fi
 

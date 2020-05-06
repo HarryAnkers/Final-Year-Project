@@ -22,8 +22,10 @@ function get_possibilities(state_in_dict, type::String)
     possible_tuples::Array{Tuple{Int,Int}} = []
     for key in keys(state_in_dict)
         for i in 1:size(state_in_dict[key])[1]
-            var = state_in_dict[key][i]
-            if (is_less_than(var[2],type,true)[2])
+            _, var = state_in_dict[key][i]
+            if (var[1]=='X') var = var[2:end]  end
+                
+            if is_less_than(var,type,true)[2]
                 push!(possible_tuples, (key,i))
             end
         end
@@ -50,11 +52,19 @@ function init_funcs()
             ("tand","BigFloat",["BigFloat"]),
             ("tand","Number",["Number"]),
 
-            ("round","Number",["Number"]),
+            ("round","XBool",["XBigFloat"]),
+            ("ceil","XBool",["XBigFloat"]),
+            ("ceil","XBool",["XBigFloat"]),
 
-            ("abs","BigFloat",["Number"]),
+            ("abs","XBool",["XNumber"]),
+            ("abs2","XNumber",["XNumber"]),
+
+            ("copysign","XInt8",["XBigFloat","XBigFloat"]),
+            ("signbit","XInt8",["XBigFloat"]),
+            ("flipsign","XInt8",["XBigFloat","XBigFloat"]),
             
-            ("fma","BigFloat",["BigFloat"]),
+            ("fma","BigFloat",["BigFloat","BigFloat","BigFloat"]),
+            ("muladd","BigFloat",["BigFloat","BigFloat","BigFloat"]),
             ]
     for func in funcs
         push!(finalDict[-1], func)
