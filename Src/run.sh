@@ -1,10 +1,12 @@
 echo "=== BEGINING JULIA FUZZER ==="
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+TIMEFORMAT=%R
 
 JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
 # Declares how many process number
 let pro_N=0
 let file_counter=0
+let timer=0
 let error_counter=0
 # all print
 let v2=1
@@ -31,6 +33,7 @@ while [ -n "$1" ]; do # while loop starts
 		;;
 	-e) let noError=1 ;; # No error
 	-m) let mathsCheck=1 ;; # Maths checks
+    -t) let timer=1 ;; #times
 	*) echo "Option $1 not recognized" ;;
 
 	esac
@@ -52,7 +55,7 @@ do
     let bug=1
     let error=0
 
-    rm -rfv ./test_files/log_files/*.txt 2>/dev/null
+    rm -rfv "$DIR/test_files/Process_$pro_N/*.txt" 2>/dev/null
     # Creates the files
     if [ $v2 -ne 1 ]; then
         $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 2>>"$DIR/test_files/Process_$pro_N/log_files/errlog.txt"
@@ -69,10 +72,24 @@ do
     fi
     $JULIA "--optimize=1" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 1 2>/dev/null
     let o1_return=$?
+
     $JULIA "--optimize=2" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 2 2>/dev/null
     let o2_return=$?
+
     $JULIA "--optimize=3" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 3 2>/dev/null
     let o3_return=$?
+
+    if [ $timer -eq 1 ]; then
+        { echo $o0_return ; } >>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
+        { time $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 0 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
+        { time $JULIA "--optimize=1" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 1 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
+        { time $JULIA "--optimize=2" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 2 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
+        { time $JULIA "--optimize=3" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 3 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
+        { time $JULIA "--optimize=3" "--math-mode=ieee" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 4 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
+        { time $JULIA "--optimize=3" "--math-mode=fast" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 5 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
+        { echo "-" ; } >>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
+    fi
+
     if [ "$mathsCheck" -eq 1 ]; then
         $JULIA "--optimize=3" "--math-mode=ieee" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 4 2>/dev/null
         let o4_return=$?
