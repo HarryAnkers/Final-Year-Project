@@ -1,2 +1,6 @@
 Src/test_files/Process_0/log_files/*.txt
 Src/test_files/error_files/*
+Src/test_files/Process_0/*
+Src/test_files/Process_1/*
+Src/test_files/Process_2/*
+Src/test_files/Process_3/*
