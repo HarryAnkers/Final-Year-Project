@@ -1,10 +1,11 @@
-x = parse(Int64, ARGS[1])
-var_0 = (53057)
-var_1 = var_0
-println(var_1)
-var_1 = var_1
-for var_8 = x:18
-	println(var_0)
-	println(var_1)
-	var_1 = ((true)⊻(var_1^(4)))
+
+x = 1
+for y = 1:1
+	# Case 1
+	# a = x
+	# Case 2
+	# x = 2
+	# Case 3
+	x = x
 end
+println(x)

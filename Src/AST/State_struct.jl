@@ -38,19 +38,19 @@ function init_funcs()
     finalDict = Dict{Int, Array{Tuple{String,String,Array{String}}}}()
     finalDict[-1] = []
 
-    funcs = [("sin","Number",["Number"]),
+    funcs = [("sin","Number",["BigFloat"]),
             ("sin","BigFloat",["BigFloat"]),
             ("cos","BigFloat",["BigFloat"]),
-            ("cos","Number",["Number"]),
+            ("cos","Number",["BigFloat"]),
             ("tan","BigFloat",["BigFloat"]),
-            ("tan","Number",["Number"]),
+            ("tan","Number",["BigFloat"]),
 
-            ("sind","Number",["Number"]),
+            ("sind","Number",["BigFloat"]),
             ("sind","BigFloat",["BigFloat"]),
             ("cosd","BigFloat",["BigFloat"]),
-            ("cosd","Number",["Number"]),
+            ("cosd","Number",["BigFloat"]),
             ("tand","BigFloat",["BigFloat"]),
-            ("tand","Number",["Number"]),
+            ("tand","Number",["BigFloat"]),
 
             ("round","XBool",["XBigFloat"]),
             ("ceil","XBool",["XBigFloat"]),

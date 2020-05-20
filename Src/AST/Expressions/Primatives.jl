@@ -3,10 +3,13 @@ mutable struct Variable <: Node
     id :: String
     return_type :: String
     use_type :: Int
+    global_var :: Bool
     possibilities :: Array{Tuple{Int64,Int64}}
-    Variable(state_in, return_type_in, use_type_in) = new(state_in, "", return_type_in, use_type_in, [])
-    Variable(state_in, return_type_in, use_type_in, possibilities) = new(state_in, "", return_type_in, use_type_in, possibilities)
+    Variable(state_in, return_type_in, use_type_in) = new(state_in, "", return_type_in, use_type_in, false, [])
+    Variable(state_in, return_type_in, use_type_in, possibilities) = new(state_in, "", return_type_in, use_type_in, false, possibilities)
 end
+
+# Variable(self.state,e_type,2,possibilities)
 
 function init(self::Variable)
     # Use type 0 is for the creation of a new variable
@@ -27,10 +30,13 @@ function init(self::Variable)
         rand_n = rand(1:size(self.possibilities)[1])
         (key, index) = self.possibilities[rand_n]
         (self.id, self.return_type) = self.state.variables[key][index]
-    # Use type 2 is for the reassignment of an exisiting variable in which the type in the state will need to be changed
+    # Use type 2 is for the reassignment of an existing variable in which the type in the state will need to be changed
     elseif self.use_type == 2
         rand_n = rand(1:size(self.possibilities)[1])
         (key, index) = self.possibilities[rand_n]
+        if key == 0
+            self.global_var = true
+        end
         (self.id, _) = self.state.variables[key][index]
         self.state.variables[key][index] = (self.id,self.return_type)
     end
@@ -41,8 +47,14 @@ function eval_type(self::Variable)
 end
 
 function create_text(self::Variable)
-    write(self.state.file, self.id)
+    if self.global_var
+        write(self.state.file, string("global ",self.id))
+    else
+        write(self.state.file, self.id)
+    end
 end
+
+# CONSTANT -----------
 
 mutable struct Constant <: Node
     state :: State

@@ -29,7 +29,7 @@ function init(self::IfStatement)
     
     # Pops remove all scope variables
     pop!(self.state.variables, self.state.scope,0)
-    pop!(self.state.functions, self.state.scope, 0)
+    pop!(self.state.functions, self.state.scope,0)
     self.state.scope -= 1
     # Creates an else if statement
     if rand_n <= probs[1]
@@ -37,8 +37,12 @@ function init(self::IfStatement)
         init(self.else_if_statement)
     # Creates an else statement
     elseif rand_n <= probs[2]
+        self.state.scope += 1
         self.else_statement = Statement_Lists(self.state)
         init(self.else_statement)
+        pop!(self.state.variables, self.state.scope,0)
+        pop!(self.state.functions, self.state.scope,0)
+        self.state.scope -= 1
     # Throws error if out of bounds of all
     elseif rand_n > last(probs)
         throw(ErrorException("If-Statement rand_n bounds error with - $rand_n. prob = $probs"))

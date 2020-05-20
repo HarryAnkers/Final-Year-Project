@@ -61,9 +61,6 @@ do
     else
         $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0
         let o0_return=$?
-        if [ "$o0_return" -ne 0 ]; then
-            echo -e "---"
-        fi
     fi
     $JULIA "--optimize=1" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 1 2>/dev/null
     let o1_return=$?
@@ -111,15 +108,25 @@ do
         bug=0
     fi
 
-
+    time_tmp=$(gdate +%H\:%M\:%S[%F])
     if [ $bug -eq 1 ]; then
         echo "Bug found!"
-        cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/bug_files/test_$(date +%H:%M:%S-%F).jl"
+        cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/bug_files/test_$time_tmp.jl"
+        if [ $v0 -ne 1 ]; then
+            echo "file \"$(time_tmp)\" moved to bugs"
+        fi
     elif [ $error -eq 1 ]; then
         error_counter=$((error_counter+1))
         if [ $noError -ne 1 ]; then
-            cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/error_files/test_$(date +%H:%M:%S-%F).jl"
+            cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/error_files/test_$time_tmp.jl"
+            if [ $v0 -ne 1 ]; then
+                echo "file \"$time_tmp\" moved to errors"
+            fi
         fi
+    fi
+
+    if [[ ($o0_return -ne 0) && ($v0 -ne 1) ]]; then
+        echo -e "---"
     fi
 
     let end=$(gdate +%s)
