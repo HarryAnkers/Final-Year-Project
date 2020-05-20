@@ -8,7 +8,7 @@ mutable struct ArithOp <: Node
 end
 
 function init(self::ArithOp)
-    probs = [2,2,2,2,1,1,1,1,1,1]
+    probs = [20,20,5,20,10,10,10,10,10,10]
     if self.return_type == "Bool"
         probs[1]=0
         probs[2]=0
@@ -29,7 +29,7 @@ function init(self::ArithOp)
         probs[8]=0
     end
     if sum(probs)==0
-        self.expr = Expression(self.state)
+        self.expr = Expression(self.state,self.return_type)
         throw(ErrorException("Arith Op no rand_n possible"))
     end
 

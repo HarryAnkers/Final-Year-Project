@@ -5,7 +5,7 @@ mutable struct Statement <: Node
 end
 
 function init(self::Statement)
-    probs = [20,0,90,6,5]
+    probs = [20,10,90,6,5]
     # removes returns
     if self.state.return_type == ""
         probs[5]=0

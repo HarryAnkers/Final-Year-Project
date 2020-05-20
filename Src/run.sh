@@ -6,8 +6,12 @@ JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
 let pro_N=0
 let file_counter=0
 let error_counter=0
-let v0=0
-let v1=0
+# all print
+let v2=1
+#v1 no error print
+let v1=1
+#v1 no print
+let v0=1
 let noError=0
 let mathsCheck=0
 
@@ -16,9 +20,10 @@ while [ -n "$1" ]; do # while loop starts
 
 	case "$1" in
 
-	-v0) let v0=1 
-        let v1=1  ;; # Verbose0
-	-v1) let v1=1 ;; # Verbose1
+    -v2) ;;
+	-v1) let v2=0 ;; # Verbose1
+	-v0) let v1=0
+        let v2=0 ;; # Verbose0
     -p)
 		pro_N="$2"
 
@@ -49,13 +54,13 @@ do
 
     rm -rfv ./test_files/log_files/*.txt 2>/dev/null
     # Creates the files
-    if [ "$v0" -eq 1 ]; then
-        $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 2>"$DIR/test_files/Process_$pro_N/log_files/errlog.txt"
+    if [ $v2 -ne 1 ]; then
+        $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 2>>"$DIR/test_files/Process_$pro_N/log_files/errlog.txt"
     else 
         $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 
     fi
     # Ran at each opt. level results are stored in variables e.g. o0_return
-    if [ "$v1" -eq 1 ]; then
+    if [ $v2 -ne 1 ]; then
         $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0 2>>"$DIR/test_files/Process_$pro_N/log_files/errlog.txt"
         let o0_return=$?
     else
@@ -112,25 +117,25 @@ do
     if [ $bug -eq 1 ]; then
         echo "Bug found!"
         cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/bug_files/test_$time_tmp.jl"
-        if [ $v0 -ne 1 ]; then
+        if [ $v0 -eq 1 ]; then
             echo "file \"$(time_tmp)\" moved to bugs"
         fi
     elif [ $error -eq 1 ]; then
         error_counter=$((error_counter+1))
         if [ $noError -ne 1 ]; then
             cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/error_files/test_$time_tmp.jl"
-            if [ $v0 -ne 1 ]; then
+            if [ $v1 -eq 1 ]; then
                 echo "file \"$time_tmp\" moved to errors"
             fi
         fi
     fi
 
-    if [[ ($o0_return -ne 0) && ($v0 -ne 1) ]]; then
+    if [[ ($o0_return -ne 0) && ($v2 -eq 1 ) ]]; then
         echo -e "---"
     fi
 
     let end=$(gdate +%s)
-    if [ $v0 -ne 1 ]; then
+    if [ $v1 -eq 1 ]; then
         file_counter=$((file_counter+1))
         echo -en "done file number - $file_counter [$(bc <<< "scale=2 ; ($end - $start) / $file_counter") per file][$error_counter files errored]\r"
     fi
