@@ -4,7 +4,6 @@ include("./AST/include.jl")
 file_loc = ARGS[1]
 
 function add_vars(self::State)
-    write(self.file, "throw(ErrorException(\"test\"))\n")
     write(self.file, "\n")
     if haskey(self.variables, 0)
         write(self.file, string("tmpLog = open(string(\"",file_loc,"log_files/log\",(ARGS[2]),\".txt\"), \"w\")\n"))
