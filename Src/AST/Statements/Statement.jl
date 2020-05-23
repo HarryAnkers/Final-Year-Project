@@ -12,9 +12,8 @@ function init(self::Statement)
     end
 
     probs = round.(Int, 1000*(cumsum(probs)/sum(probs)))
-    rand_n = rand(1:last(probs))
+    rand_n = rand(0:last(probs))
 
-    # note this must be less than 1/E(lines in a body) (=5%) to avoid endless recursion. Caps to stop this also exist
     if rand_n <= probs[1]
         self.sub_statement = IfStatement(self.state)
         init(self.sub_statement)

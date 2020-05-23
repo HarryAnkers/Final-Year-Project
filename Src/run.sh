@@ -7,6 +7,7 @@ JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
 let pro_N=0
 let file_counter=0
 let timer=0
+let lines=0
 let error_counter=0
 # all print
 let v2=1
@@ -34,6 +35,7 @@ while [ -n "$1" ]; do # while loop starts
 	-e) let noError=1 ;; # No error
 	-m) let mathsCheck=1 ;; # Maths checks
     -t) let timer=1 ;; #times
+    -l) let lines=1 ;; #lines
 	*) echo "Option $1 not recognized" ;;
 
 	esac
@@ -62,6 +64,11 @@ do
     else 
         $JULIA "$DIR/topLevel.jl" "$DIR/test_files/Process_$pro_N/" 
     fi
+
+    if [ $lines -eq 1 ]; then
+        wc -l "$DIR/test_files/Process_$pro_N/File.jl"  | awk '{ print $1 }' >>"$DIR/test_files/Process_$pro_N/log_files/lineslog.txt"
+    fi
+
     # Ran at each opt. level results are stored in variables e.g. o0_return
     if [ $v2 -ne 1 ]; then
         $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/File.jl" 1 0 2>>"$DIR/test_files/Process_$pro_N/log_files/errlog.txt"
