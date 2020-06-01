@@ -17,6 +17,5 @@ include("./Expressions/CompareOp.jl")
 include("./Expressions/BitwiseOp.jl")
 include("./Expressions/Primatives.jl")
 include("./Expressions/SpecialValueCheck.jl")
-include("./Expressions/MathsOp.jl")
 
 include("./Functions/Function_use.jl")

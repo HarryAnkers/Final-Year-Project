@@ -2,7 +2,7 @@ echo "=== BEGINING JULIA FUZZER ==="
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 TIMEFORMAT=%R
 
-JULIA=/Applications/Julia-1.3.app/Contents/Resources/julia/bin/julia
+JULIA=/Applications/Julia-1.4.app/Contents/Resources/julia/bin/julia
 # Declares how many process number
 let pro_N=0
 let file_counter=0
@@ -86,8 +86,16 @@ do
     $JULIA "--optimize=3" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 3 2>/dev/null
     let o3_return=$?
 
+    if [ "$mathsCheck" -eq 1 ]; then
+        $JULIA "--optimize=3" "--math-mode=ieee" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 4 2>/dev/null
+        let o4_return=$?
+        $JULIA "--optimize=3" "--math-mode=fast" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 5 2>/dev/null
+        let o5_return=$?
+    fi
+
     if [ $timer -eq 1 ]; then
-        { echo $o0_return ; } >>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
+        { echo $o0_return ; echo $o1_return ; echo $o2_return ;
+          echo $o3_return ; echo $o4_return ; echo $o5_return ; } >>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
         { time $JULIA "--optimize=0" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 0 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
         { time $JULIA "--optimize=1" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 1 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
         { time $JULIA "--optimize=2" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 2 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
@@ -96,13 +104,7 @@ do
         { time $JULIA "--optimize=3" "--math-mode=fast" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 5 ; } 2>>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
         { echo "-" ; } >>"$DIR/test_files/Process_$pro_N/log_files/timelog.txt"
     fi
-
-    if [ "$mathsCheck" -eq 1 ]; then
-        $JULIA "--optimize=3" "--math-mode=ieee" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 4 2>/dev/null
-        let o4_return=$?
-        $JULIA "--optimize=3" "--math-mode=fast" "$DIR/test_files/Process_$pro_N/FILE.jl" 1 5 2>/dev/null
-        let o5_return=$?
-    fi
+    
     # Checks if file threw an error and if it did inc. the count
     if [ $o0_return -ne 0 ]; then
         error=1
@@ -142,7 +144,7 @@ do
         echo "Bug found!"
         cp "$DIR/test_files/Process_$pro_N/FILE.jl" "$DIR/test_files/bug_files/test_$time_tmp.jl"
         if [ $v0 -eq 1 ]; then
-            echo "file \"$(time_tmp)\" moved to bugs"
+            echo "file \"$time_tmp\" moved to bugs"
         fi
     elif [ $error -eq 1 ]; then
         error_counter=$((error_counter+1))

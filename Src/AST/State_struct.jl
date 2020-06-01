@@ -38,19 +38,25 @@ function init_funcs()
     finalDict = Dict{Int, Array{Tuple{String,String,Array{String}}}}()
     finalDict[-1] = []
 
-    funcs = [("sin","Number",["BigFloat"]),
-            ("sin","BigFloat",["BigFloat"]),
+    funcs = [("sin","BigFloat",["BigFloat"]),
             ("cos","BigFloat",["BigFloat"]),
-            ("cos","Number",["BigFloat"]),
             ("tan","BigFloat",["BigFloat"]),
-            ("tan","Number",["BigFloat"]),
+            ("sinh","BigFloat",["BigFloat"]),
+            ("cosh","BigFloat",["BigFloat"]),
+            ("tanh","BigFloat",["BigFloat"]),
 
-            ("sind","Number",["BigFloat"]),
-            ("sind","BigFloat",["BigFloat"]),
-            ("cosd","BigFloat",["BigFloat"]),
-            ("cosd","Number",["BigFloat"]),
-            ("tand","BigFloat",["BigFloat"]),
-            ("tand","Number",["BigFloat"]),
+            ("cot","BigFloat",["BigFloat"]),
+            ("sec","BigFloat",["BigFloat"]),
+            ("csc","BigFloat",["BigFloat"]),
+            ("coth","BigFloat",["BigFloat"]),
+            ("sech","BigFloat",["BigFloat"]),
+            ("csch","BigFloat",["BigFloat"]),
+
+            ("sinpi","BigFloat",["BigFloat"]),
+            ("cospi","BigFloat",["BigFloat"]),
+
+            ("sinc","BigFloat",["BigFloat"]),
+            ("cosc","BigFloat",["BigFloat"]),
 
             ("round","XBool",["XBigFloat"]),
             ("ceil","XBool",["XBigFloat"]),
@@ -59,6 +65,7 @@ function init_funcs()
             ("abs","XBool",["XNumber"]),
             ("abs2","XNumber",["XNumber"]),
 
+            ("sign","Int32",["BigFloat"]),
             ("copysign","XInt8",["XBigFloat","XBigFloat"]),
             ("signbit","XInt8",["XBigFloat"]),
             ("flipsign","XInt8",["XBigFloat","XBigFloat"]),

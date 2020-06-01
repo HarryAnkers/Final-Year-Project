@@ -1,4 +1,4 @@
-DIV = false
+DIV = true
 
 mutable struct ArithOp <: Node
     state :: State
