@@ -1,4 +1,3 @@
-
 x = 1
 for y = 1:1
 	# Case 1
@@ -9,3 +8,4 @@ for y = 1:1
 	x = x
 end
 println(x)
+
